@@ -1,0 +1,12 @@
+.playwright-mcp/
+__pycache__/
+*.pyc
+*.pyo
+add_museum.py
+baidu_batch_check.sh
+check_all_baidu.py
+fetch_commons.py
+fetch_images.py
+fetch_last.py
+fetch_remain.py
+replace_kimi_images.py
