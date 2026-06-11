@@ -2,27 +2,11 @@
 """
 生成中国禁止出国（境）展览文物HTML页面（修正版）
 """
-import sys, io, os, json, glob, urllib.parse, re
+import sys, io, os, json
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 
 from relics_data import relics
 from relics_special import relics_special
-
-# 加载图片URL（优先 images.json，兼容旧格式）
-image_urls = {}
-if os.path.exists("images.json"):
-    with open("images.json", "r", encoding="utf-8") as fp:
-        image_urls = json.load(fp)
-else:
-    for f in glob.glob("images_batch_*.json"):
-        try:
-            with open(f, "r", encoding="utf-8") as fp:
-                data = json.load(fp)
-                image_urls.update(data)
-        except Exception as e:
-            print(f"Warning: cannot load {f}: {e}")
-
-print(f"Loaded {len(image_urls)} image URLs")
 
 # 中国传统色系背景（用于占位图）
 traditional_colors = [
@@ -33,119 +17,16 @@ traditional_colors = [
 ]
 
 # 百度百科页面名称覆盖（当文物名称与百度百科词条名称不一致时）
-# 百度百科页面名称覆盖
-# 百度百科页面名称覆盖
-BAIDU_OVERRIDES = {
-    "彩绘鹳鱼石斧图陶缸": "鹳鱼石斧图彩陶缸",
-    "凤冠（六龙三凤冠等）": "明孝端皇后九龙九凤冠",
-    "晋侯苏钟（一套16件）": "晋侯苏钟",
-    "淅川出土铜禁": "云纹铜禁",
-    "新郑出土莲鹤铜方壶": "春秋莲鹤方壶",
-    "良渚出土玉琮王": "玉琮王",
-    "河姆渡出土朱漆碗": "朱漆碗",
-    "河姆渡出土陶灶": "新石器时代陶灶",
-    "曾侯乙青铜尊盘": "曾侯乙尊盘",
-    "镂雕东王公西王母纹玉座屏": "东汉镂雕东王公西王母纹玉座屏",
-    "黑漆朱绘六博具": "西汉黑漆朱绘六博具",
-    "昭陵六骏石刻（什伐赤、白蹄乌、特勒骠、青骓4幅）": "昭陵六骏",
-    "石鼓（1组10只）": "石鼓",
-    "木雕真珠舍利宝幢（含木函）": "真珠舍利宝幢",
-    "马王堆一号墓T型帛画": "马王堆一号汉墓T型帛画",
-    "青花釉里红瓷仓": "青花釉里红楼阁式谷仓",
-    "登封窑珍珠地划花虎豹纹瓶": "北宋登封窑珍珠地划双虎纹瓶",
-    "皮胎犀皮漆鎏金铜扣耳杯（2件）": "吴皮胎犀皮河豚鎏金铜扣耳杯",
-
-    "'永安三年'款青釉堆塑谷仓罐": "青釉堆塑谷仓罐",
-    "'赤乌十四年'款青釉虎子": "青釉虎子",
-
-    "'滇王之印'金印": "滇王之印",
-    "'统领释教大元国师之印'龙钮玉印": "统领释教大元国师之印",
-
-    "天亡簋": "大丰簋",
-    # 非书画卷轴类，包含《》但不提取作品名
-    "西夏文佛经《吉祥遍至口和本续》纸本": "吉祥遍至口和本续",
-    "文彦博《三帖卷》": "文彦博行书三帖卷",
-    "韩琦《行楷信札卷》": "行楷信札卷",
-    "写本王仁煦《刊谬补缺切韵》": "刊谬补缺切韵",
-    "北宋刻本《范仲淹文集》（30卷）": "范文正公文集",
-    "楚简《孔子诗论》": "战国楚简《孔子诗论》",
-    "云梦睡虎地秦简《语书》": "睡虎地秦墓竹简",
-    "马王堆汉墓帛书《周易》": "马王堆帛书周易",
-    "郭店楚简《老子（甲、乙、丙）》": "郭店楚简《老子》",
-    "章怀太子墓壁画马球图（1组）": "章怀太子墓马球图",
-    "章怀太子墓壁画狩猎出行图（1组）": "章怀太子墓狩猎出行图",
-    "懿德太子墓壁画阙楼图（1组）": "懿德太子墓阙楼图",
-    "永泰公主墓壁画宫女图（1组）": "永泰公主墓宫女图",
-    "刻开宝藏本《阿惟越致经》（1卷）": "北宋刻开宝藏本《阿惟越致经》",
-
-    # 批量检查发现的404项
-    "五星出东方护膊": "五星出东方利中国",
-    "祁序《江山牧放图》卷": "祁序",
-    "诅盟场面贮贝器": "西汉诅盟场面铜贮贝器",
-    "杀人祭柱场面贮贝器": "西汉杀人祭柱场面贮贝器",
-    "仰韶文化彩陶人面鱼纹盆": "人面鱼纹彩陶盆",
-    "仰韶文化彩陶网纹船形壶": "彩陶网纹船形壶",
-    "龙山文化彩绘蟠龙纹陶盘": "彩绘蟠龙纹陶盘",
-    "仰韶文化彩陶人形双系瓶": "人头形器口彩陶瓶",
-    "大汶口文化彩陶八角星纹豆": "八角星纹彩陶豆",
-    "鲁山窑黑釉蓝斑腰鼓": "唐鲁山窑黑釉蓝斑腰鼓",
-    "陶骆驼载乐舞三彩俑": "唐代陶骆驼载乐舞三彩俑",
-    "三彩骆驼载乐俑": "唐三彩骆驼载乐俑",
-    "长沙窑青釉褐彩贴花人物纹壶": "唐长沙窑青釉褐彩贴花人物纹壶",
-    "越窑莲花式托盏": "五代越窑莲花式托盏",
-    "耀州窑青釉刻花提梁倒流壶": "五代耀州窑青釉刻花提梁倒流壶",
-    "官窑弦纹瓶": "宋官窑弦纹瓶",
-    "定窑白釉刻莲花瓣纹龙首净瓶": "北宋定窑白釉刻莲花瓣纹龙首净瓶",
-    "官窑贯耳尊": "官窑贯耳瓶",
-    "良渚文化神人兽面纹玉钺": "神人兽面纹玉钺",
-    "太阳神鸟金箔片": "商周太阳神鸟金饰",
-    "包金镶玉嵌琉璃银带钩": "鎏金嵌玉镶琉璃银带钩",
-    "河姆渡文化双鸟朝阳纹象牙雕刻器": "双鸟朝阳纹牙雕",
-    "绿玻璃小瓶": "隋绿玻璃小瓶",
-
-    "绿玻璃盖罐": "隋绿玻璃盖罐",
-    "林逋《自书诗》卷": "林逋自书诗卷",
-    "蔡襄《自书诗》卷": "蔡襄自书诗",
-}
-
-# 需要带ID的百度百科链接（名称有歧义，需精确ID）
-BAIDU_ID_OVERRIDES = {
-    "秦简《数》": "数/2470274",
-    "摇钱树": "青铜摇钱树/5423397",
-    "'皇后之玺'玉玺": "西汉皇后之玺/3703513",
-    "'统领释教大元国师之印'龙钮玉印": "元\u201c统领释教大元国师之印\u201d龙钮玉印",
-    "拓西岳华山庙碑册（华阴本）": "宋拓西岳华山庙碑册/19622482",
-    "曹全碑初拓本（'因'字不损本）": "曹全碑明初拓本/19622378",
-}
-
-# 书画卷轴类自动提取作品名（作者《作品名》卷/轴/图/帖）
-ARTWORK_PATTERN = re.compile(r'.*《([^》]+)》[卷轴图帖]')
-
-def get_link_url(name):
-    """获取百度百科链接"""
-    if name in BAIDU_ID_OVERRIDES:
-        url = f"https://baike.baidu.com/item/{BAIDU_ID_OVERRIDES[name]}"
-        return url
-    if name in BAIDU_OVERRIDES:
-        baike_name = BAIDU_OVERRIDES[name]
-    else:
-        m = ARTWORK_PATTERN.match(name)
-        if m:
-            baike_name = m.group(1)
-        else:
-            # 去掉末尾的（1组）（2件）等细节
-            baike_name = re.sub(r'[（(][^）)]*[）)]$', '', name)
-    url = f"https://baike.baidu.com/item/{urllib.parse.quote(baike_name)}"
-    return url
-
 ROTATED_IMAGES = {
     "米芾《苕溪诗》卷": "90deg",
     "文彦博《三帖卷》": "-90deg",
 }
 
-def get_image_html(name, era, index):
-    """生成图片HTML，优先使用搜集到的图片"""
-    url = image_urls.get(name)
+def get_image_html(relic, index):
+    """生成图片HTML，从文物数据的 image_url 字段读取"""
+    url = relic.get('image_url', '')
+    name = relic['name']
+    era = relic['era']
     if url:
         rot = ROTATED_IMAGES.get(name)
         extra = f' style="transform: rotate({rot});"' if rot else ''
@@ -638,7 +519,6 @@ def generate_html():
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            border: 2px dashed;
             transition: all 0.3s;
         }
         
@@ -971,7 +851,7 @@ def generate_html():
         museum = relic.get("museum", "")
         desc = relic["desc"]
         
-        img_html = get_image_html(name, era, idx)
+        img_html = get_image_html(relic, idx)
         placeholder_html = get_placeholder_html(name, era, idx)
         
         if img_html:
@@ -987,7 +867,7 @@ def generate_html():
                 </div>
                 <div class="card-body">
                     <div class="card-header">
-                        <h2 class="card-name"><a href="{get_link_url(name)}" target="_blank" rel="noopener">{name}</a></h2>
+                        <h2 class="card-name">{'<a href="' + relic['baike_url'] + '" target="_blank" rel="noopener">' + name + '</a>' if relic.get('baike_url') else name}</h2>
                         <span class="card-era">{era}</span>
                     </div>
                     <div class="card-info">
@@ -1010,34 +890,6 @@ def generate_html():
 '''
         html += card_html
     
-    # 特辑卡片
-    if relics_special:
-        special_cards = ''
-        for idx, r in enumerate(relics_special):
-            name = r['name']
-            special_cards += f'''
-            <article class="relic-card special-card" data-no="{r.get('no', idx+1)}">
-                <div class="card-body">
-                    <div class="card-header">
-                        <h2 class="card-name" style="color:#8B6914;">{name}</h2>
-                        <span class="card-era">{r.get('era','')}</span>
-                    </div>
-                    <div class="card-info">
-                        <div class="info-row">
-                            <span class="info-label">来源</span>
-                            <span class="info-value">{r.get('source','')}</span>
-                        </div>
-                        <div class="info-row">
-                            <span class="info-label">物主</span>
-                            <span class="info-value">{r.get('owner','')}</span>
-                        </div>
-                    </div>
-                    <p class="card-desc">{r.get('desc','')}</p>
-                    <div class="card-footer">
-                        <span class="card-owner">{r.get('museum','')}</span>
-                    </div>
-                </div>
-            </article>'''
     # 生成地图数据（按坐标聚合，同地点多条记录合并）
     def aggregate(data_list):
         groups = {}
@@ -1082,12 +934,23 @@ def generate_html():
     if relics_special:
         special_cards = ''
         for idx, r in enumerate(relics_special):
+            s_name = r['name']
+            s_era = r.get('era', '')
+            s_img_html = get_image_html(r, idx)
+            s_placeholder_html = get_placeholder_html(s_name, s_era, idx)
+            if s_img_html:
+                s_image_section = s_img_html + s_placeholder_html.replace('<div class="placeholder"', '<div class="placeholder" style="display:none;"')
+            else:
+                s_image_section = s_placeholder_html.replace('<div class="placeholder"', '<div class="placeholder" style="display:flex;"')
             special_cards += f'''
             <article class="relic-card special-card">
+                <div class="card-image">
+                    {s_image_section}
+                </div>
                 <div class="card-body">
                     <div class="card-header">
-                        <h2 class="card-name" style="color:#8B6914;">{'<a href="' + r['baike_url'] + '" target="_blank" rel="noopener" style="color:#8B6914;">' + r['name'] + '</a>' if r.get('baike_url') else r['name']}</h2>
-                        <span class="card-era">{r.get('era','')}</span>
+                        <h2 class="card-name" style="color:#8B6914;">{'<a href="' + r['baike_url'] + '" target="_blank" rel="noopener" style="color:#8B6914;">' + s_name + '</a>' if r.get('baike_url') else s_name}</h2>
+                        <span class="card-era">{s_era}</span>
                     </div>
                     <div class="card-info">
                         <div class="info-row">
@@ -1102,6 +965,7 @@ def generate_html():
                     <p class="card-desc">{r.get('desc','')}</p>
                     <div class="card-footer">
                         <span class="card-owner">{r.get('museum','')}</span>
+                        <span class="card-no">No. {r['no']}</span>
                     </div>
                 </div>
             </article>'''
@@ -1112,7 +976,7 @@ def generate_html():
     <section class="special-section" id="specialSection">
         <div class="special-header">
             <h2>✦ 未收录国宝特辑</h2>
-            <p>这些同样重量级的文物虽未列入禁止出境展览名录，但其历史价值与艺术成就丝毫不逊。<br/>特辑持续更新中。</p>
+            <p>收录未列入禁止出境展览名录（或流失境外）的重磅文物，其历史价值与艺术成就丝毫不逊。<br/>特辑持续更新中。</p>
         </div>
         <div class="container">
             <div class="relics-grid">''' + special_cards + '''
@@ -1337,7 +1201,7 @@ def generate_html():
     
     print("HTML页面已生成：relics-195/index.html")
     print(f"总计 {len(relics)} 件文物")
-    print(f"配有图片 {len(image_urls)} 件")
+    print(f"配有图片 {sum(1 for r in relics if r.get('image_url'))} 件")
 
 if __name__ == "__main__":
     generate_html()

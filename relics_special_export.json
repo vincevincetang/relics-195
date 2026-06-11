@@ -1,611 +1,522 @@
-# -*- coding: utf-8 -*-
-"""
-特辑：未列入195名单的重磅文物
-"""
-relics_special = [
+[
   {
+    "no": 1,
     "name": "毛公鼎",
     "era": "西周·宣王时期（约前828-前782年）",
-    "owner": "西周贵族毛公（周宣王重臣）",
-    "no": 1,
+    "batch": "特辑",
     "source": "清道光年间陕西省岐山县出土。",
+    "owner": "西周贵族毛公（周宣王重臣）",
     "desc": "高53.8厘米，口径47厘米，重34.5公斤。内壁铸铭文32行497字，为现存青铜器铭文最长者，记载周宣王对毛公的诰命辞。铭文书法为西周晚期金文典范，被郭沫若称为抵得一篇《尚书》，是研究西周政治制度的第一手文献。为台北故宫镇馆之宝。",
-    "museum": "台北故宫博物院",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Ding_cauldron_of_Duke_Mao.jpg",
-    "baike_url": "https://baike.baidu.com/item/%E6%AF%9B%E5%85%AC%E9%BC%8E"
+    "museum": "台北故宫博物院"
   },
   {
+    "no": 2,
     "name": "散氏盘",
     "era": "西周·厉王时期（约前9世纪）",
-    "owner": "西周散国贵族",
-    "no": 2,
+    "batch": "特辑",
     "source": "清乾隆年间陕西凤翔出土。清宫内府收藏，1949年随文物南迁至台北。",
+    "owner": "西周散国贵族",
     "desc": "高20.6厘米，口径54.6厘米。盘内铸铭文19行357字，记载夨国侵占散国土地，经周王派员勘定后，夨国割地赔偿的契约全文。书法浑朴雄伟，与毛公鼎、虢季子白盘并称西周三大青铜器。",
-    "museum": "台北故宫博物院",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/San_Family_Plate.JPG/960px-San_Family_Plate.JPG",
-    "baike_url": "https://baike.baidu.com/item/%E6%95%A3%E6%B0%8F%E7%9B%98"
+    "museum": "台北故宫博物院"
   },
   {
+    "no": 3,
     "name": "颜真卿《祭侄文稿》",
     "era": "唐·乾元元年（758年）",
-    "owner": "唐·颜真卿（书法家、政治家）",
-    "no": 3,
+    "batch": "特辑",
     "source": "颜真卿为追祭在安史之乱中殉国的侄子颜季明而作。流传有序，北宋入宣和内府，后经明、清收藏家递藏，1949年随文物南迁至台北。",
+    "owner": "唐·颜真卿（书法家、政治家）",
     "desc": "纵28.3厘米，横75.5厘米，行草书。全文23行234字。情感激越、笔墨淋漓，多处涂抹删改，忠愤之气跃然纸上。元代鲜于枢评其为天下行书第二。",
-    "museum": "台北故宫博物院",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Jizhiwengao1.jpg",
-    "baike_url": "https://baike.baidu.com/item/%E7%A5%AD%E4%BE%84%E6%96%87%E7%A8%BF"
+    "museum": "台北故宫博物院"
   },
   {
+    "no": 4,
     "name": "苏轼《寒食帖》",
     "era": "北宋·元丰五年（1082年）",
-    "owner": "北宋·苏轼（文学家、书法家、画家）",
-    "no": 4,
+    "batch": "特辑",
     "source": "苏轼因乌台诗案被贬黄州第三年（1082年）所作。流传有序，曾入清内府，后流散民间，几经辗转入藏台北故宫。",
+    "owner": "北宋·苏轼（文学家、书法家、画家）",
     "desc": "纵34.2厘米，横199.5厘米，行书17行。书写苏轼自作《寒食雨》二首，笔势奔放跌宕，字形大小参差，墨色枯润相间，是其情感最为真率、技艺最为精湛的传世墨迹。与兰亭序、祭侄文稿并称天下三大行书。",
-    "museum": "台北故宫博物院",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Su_Shi-Cold_Food_Observance.jpg/1920px-Su_Shi-Cold_Food_Observance.jpg",
-    "baike_url": "https://baike.baidu.com/item/%E5%AF%92%E9%A3%9F%E5%B8%96"
+    "museum": "台北故宫博物院"
   },
   {
+    "no": 5,
     "name": "王羲之《快雪时晴帖》",
     "era": "东晋·约4世纪",
-    "owner": "东晋·王羲之（书圣）",
-    "no": 5,
+    "batch": "特辑",
     "source": "王羲之致友人信札。唐代即入宫廷收藏，乾隆帝将其与王献之《中秋帖》、王珣《伯远帖》合称三希，藏于养心殿三希堂。1949年运至台北。",
+    "owner": "东晋·王羲之（书圣）",
     "desc": "纵23厘米，横14.8厘米，行书4行28字。虽为唐代摹本，但笔法精妙，极得右军神韵。乾隆帝誉其为天下无双，古今鲜对。",
-    "museum": "台北故宫博物院",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/%E5%BF%AB%E9%9B%AA%E6%99%82%E6%99%B4%E5%B8%96%28%E5%B1%80%E9%83%A8%29.jpg/1920px-%E5%BF%AB%E9%9B%AA%E6%99%82%E6%99%B4%E5%B8%96%28%E5%B1%80%E9%83%A8%29.jpg",
-    "baike_url": "https://baike.baidu.com/item/%E5%BF%AB%E9%9B%AA%E6%97%B6%E6%99%B4%E5%B8%96"
+    "museum": "台北故宫博物院"
   },
   {
+    "no": 6,
     "name": "黄公望《富春山居图·剩山图卷》",
     "era": "元·至正七年至十年（1347-1350年）",
-    "owner": "元·黄公望（画家，元四家之首）",
-    "no": 6,
+    "batch": "特辑",
     "source": "原为《富春山居图》前段，明末遭火焚后残存。清初经吴其贞、王廷宾递藏，后归浙江博物馆收藏。1956年由沙孟海等专家鉴定入藏。",
+    "owner": "元·黄公望（画家，元四家之首）",
     "desc": "纵31.8厘米，横51.4厘米，纸本水墨。为《富春山居图》遭火焚后幸存的前段，因火痕斑驳如剩山残水而得名。画面以披麻皴绘山峦起伏，笔墨苍润简远，虽为残卷，但气韵完整，是黄公望晚年山水画风的绝佳体现。",
-    "museum": "浙江省博物馆",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/%E5%AF%8C%E6%98%A5%E5%B1%B1%E5%B1%85%E5%9C%96%28%E5%89%A9%E5%B1%B1%E5%9C%96%29.jpg/1920px-%E5%AF%8C%E6%98%A5%E5%B1%B1%E5%B1%85%E5%9C%96%28%E5%89%A9%E5%B1%B1%E5%9C%96%29.jpg",
-    "baike_url": "https://baike.baidu.com/item/%E5%AF%8C%E6%98%A5%E5%B1%B1%E5%B1%85%E5%9B%BE"
+    "museum": "浙江省博物馆"
   },
   {
+    "no": 7,
     "name": "黄公望《富春山居图·无用师卷》",
     "era": "元·至正七年至十年（1347-1350年）",
-    "owner": "元·黄公望（画家，元四家之首）",
-    "no": 7,
+    "batch": "特辑",
     "source": "黄公望为师弟无用师所作。明末遭火焚断为两段，前段《剩山图》在浙江博物馆，后段入清宫，1949年运至台北。两卷隔海相望六十余年，2011年才在台北合璧展出。",
+    "owner": "元·黄公望（画家，元四家之首）",
     "desc": "纵33厘米，横636.9厘米，纸本水墨。以浙江富春江为背景，峰峦起伏、江水平静、林木萧疏，笔法简远，被誉为画中之兰亭，是中国山水画的巅峰之作。",
-    "museum": "台北故宫博物院",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/%E5%AF%8C%E6%98%A5%E5%B1%B1%E5%B1%85%E5%9C%96%28%E7%84%A1%E7%94%A8%E5%B8%AB%E5%8D%B7%29.jpg/1920px-%E5%AF%8C%E6%98%A5%E5%B1%B1%E5%B1%85%E5%9C%96%28%E7%84%A1%E7%94%A8%E5%B8%AB%E5%8D%B7%29.jpg",
-    "baike_url": "https://baike.baidu.com/item/%E5%AF%8C%E6%98%A5%E5%B1%B1%E5%B1%85%E5%9B%BE"
+    "museum": "台北故宫博物院"
   },
   {
+    "no": 8,
     "name": "阎立本《历代帝王图》",
     "era": "唐·约7世纪",
-    "owner": "唐·阎立本（画家、宰相）",
-    "no": 8,
+    "batch": "特辑",
     "source": "传为阎立本绘历代帝王像，自西汉昭帝至隋炀帝共13位。清末民初流出海外，1929年入藏波士顿美术馆。",
+    "owner": "唐·阎立本（画家、宰相）",
     "desc": "纵51.3厘米，横531厘米，绢本设色。描绘十三位帝王形象，每位帝王旁有榜题，画家通过面相、服饰、仪态展现不同帝王的气度与性格，是中国古代人物画的不朽名作。",
-    "museum": "美国波士顿美术馆",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Yan_Liben.The_Thirteen_Emperors._Boston_MFA.jpg/1920px-Yan_Liben.The_Thirteen_Emperors._Boston_MFA.jpg",
-    "baike_url": "https://baike.baidu.com/item/%E5%8E%86%E4%BB%A3%E5%B8%9D%E7%8E%8B%E5%9B%BE"
+    "museum": "美国波士顿美术馆"
   },
   {
+    "no": 9,
     "name": "昭陵六骏·飒露紫、拳毛騧",
     "era": "唐·贞观十年（636年）",
-    "owner": "唐太宗李世民（命令雕刻）",
-    "no": 9,
+    "batch": "特辑",
     "source": "原立于陕西礼泉县唐太宗昭陵。1914年被盗卖至美国，现藏宾夕法尼亚大学博物馆。其余四骏现存西安碑林博物馆。",
+    "owner": "唐太宗李世民（命令雕刻）",
     "desc": "高约172厘米，宽约204厘米，浮雕石刻。飒露紫为李世民东征洛阳时的坐骑，浮雕中将军丘行恭为其拔箭；拳毛騧为平定刘黑闼时的坐骑。两骏神态生动，肌肉线条刚健，是唐代雕塑艺术的杰作。",
-    "museum": "美国宾夕法尼亚大学博物馆",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/10/%E5%AE%BE%E5%A4%95%E6%B3%95%E5%B0%BC%E4%BA%9A%E5%A4%A7%E5%AD%A6%E5%8D%9A%E7%89%A9%E9%A6%86%E5%94%90%E4%BB%A3%E6%98%AD%E9%99%B5%E5%85%AD%E9%AA%8F%E4%B9%8B%E4%B8%80%E9%A3%92%E9%9C%B2%E7%B4%AB%E7%9F%B3%E5%88%BB%E5%B7%A6%E4%BE%A7%E9%9D%A2.jpg",
-    "baike_url": "https://baike.baidu.com/item/%E6%98%AD%E9%99%B5%E5%85%AD%E9%AA%8F"
+    "museum": "美国宾夕法尼亚大学博物馆"
   },
   {
+    "no": 10,
     "name": "贾湖骨笛",
     "era": "新石器时代·贾湖文化（约前7000-前5800年）",
-    "owner": "贾湖先民（墓主为部落首领或巫觋）",
-    "no": 10,
+    "batch": "特辑",
     "source": "1987年河南省舞阳县贾湖遗址M282号墓出土。",
+    "owner": "贾湖先民（墓主为部落首领或巫觋）",
     "desc": "长23.6厘米，以丹顶鹤尺骨制成，钻有7个音孔。经测定可演奏七声音阶，音质清亮。是世界上目前发现最早的可吹奏乐器，将中国音乐史前推至8000年前，证明七声音阶并非源自西方，改写了世界音乐史。被誉为中华第一笛。",
-    "museum": "河南博物院",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/20260408_Bone_Flute_from_Jiahu.jpg",
-    "baike_url": "https://baike.baidu.com/item/%E8%B4%BE%E6%B9%96%E9%AA%A8%E7%AC%9B"
+    "museum": "河南博物院"
   },
   {
+    "no": 11,
     "name": "妇好鸮尊",
     "era": "商后期·武丁时期（约前13-前12世纪）",
-    "owner": "商王武丁配偶妇好（女将军、女祭司）",
-    "no": 11,
+    "batch": "特辑",
     "source": "1976年河南省安阳市殷墟妇好墓出土。",
+    "owner": "商王武丁配偶妇好（女将军、女祭司）",
     "desc": "高45.9厘米，口长16.4厘米。以猫头鹰为原型设计，头微昂、圆眼竖耳、挺胸直立，双翅并拢，造型雄奇。器身满饰兽面纹、蝉纹、蛇纹等，是商代青铜艺术造型的巅峰之作。两件成对，分别藏于河南博物院和中国国家博物馆。",
-    "museum": "河南博物院/中国国家博物馆",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/20260408_Bronze_Owl-Shaped_Zun_with_Inscriptions_of_Fu_Hao%2C_National_Museum_of_China_02.jpg",
-    "baike_url": "https://baike.baidu.com/item/%E5%A6%87%E5%A5%BD%E9%B8%AE%E5%B0%8A"
+    "museum": "河南博物院/中国国家博物馆"
   },
   {
+    "no": 12,
     "name": "皿方罍",
     "era": "商代晚期（约前13-前11世纪）",
-    "owner": "商代贵族皿氏家族",
-    "no": 12,
+    "batch": "特辑",
     "source": "1919年湖南省桃源县水田乡茅山峪出土。器身流失海外近百年，2014年经洽购回归，器身与器盖合璧入藏湖南省博物馆。",
+    "owner": "商代贵族皿氏家族",
     "desc": "通高88厘米，口长26.1厘米，口宽21.6厘米。器盖铸铭文8字皿而全作父己尊彝，器身铭文6字皿作父己尊彝。整器集立雕、浮雕、线雕于一身，造型庄严雄伟，被誉为方罍之王。",
-    "museum": "湖南博物院",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Min_Er_Quan_Bronze_Square_Lei%2C_Shang_dynasty%2C_Hunan_Museum%2C_picture4.jpg",
-    "baike_url": "https://baike.baidu.com/item/%E7%9A%BF%E6%96%B9%E7%BD%8D"
+    "museum": "湖南博物院"
   },
   {
+    "no": 13,
     "name": "里耶秦简",
     "era": "秦代（前221-前207年）",
-    "owner": "秦代迁陵县行政机构",
-    "no": 13,
+    "batch": "特辑",
     "source": "2002年湖南省龙山县里耶镇一号井出土。",
+    "owner": "秦代迁陵县行政机构",
     "desc": "共3.6万余枚，总字数超20万字，简长约23厘米。为秦代迁陵县的官方行政档案，内容涵盖户籍、田赋、司法、邮驿、祭祀、教育等各方面。其中九九乘法口诀表简将中国乘法口诀史前推600余年；洞庭郡的记载改写了秦代行政区划认知。",
-    "museum": "里耶秦简博物馆（湖南龙山县）",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Liye_Qing_Slips%2C_containing_%22Qianling_County%2C_Dongting_Commandery%22.jpg/960px-Liye_Qing_Slips%2C_containing_%22Qianling_County%2C_Dongting_Commandery%22.jpg",
-    "baike_url": "https://baike.baidu.com/item/%E9%87%8C%E8%80%B6%E7%A7%A6%E7%AE%80"
+    "museum": "里耶秦简博物馆（湖南龙山县）"
   },
   {
+    "no": 14,
     "name": "周昉《簪花仕女图》",
     "era": "唐·约8世纪",
-    "owner": "唐·周昉（画家，以仕女画著称）",
-    "no": 14,
+    "batch": "特辑",
     "source": "传为唐代周昉所作。流传有序，经南宋内府、清宫收藏，后由辽宁省博物馆收藏。",
+    "owner": "唐·周昉（画家，以仕女画著称）",
     "desc": "纵46厘米，横180厘米，绢本设色。绘六位贵妇在庭院中赏花、戏犬、漫步的场景。人物体态丰腴、服饰华美，以周家样风格著称，是研究唐代贵族妇女生活与服饰的珍贵图像资料。",
-    "museum": "辽宁省博物馆",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/%E5%94%90%E5%91%A8%E6%98%89%E7%B0%AA%E8%8A%B1%E4%BB%95%E5%A5%B3%E5%9B%BE.jpg/1920px-%E5%94%90%E5%91%A8%E6%98%89%E7%B0%AA%E8%8A%B1%E4%BB%95%E5%A5%B3%E5%9B%BE.jpg",
-    "baike_url": "https://baike.baidu.com/item/%E7%B0%AA%E8%8A%B1%E4%BB%95%E5%A5%B3%E5%9B%BE"
+    "museum": "辽宁省博物馆"
   },
   {
+    "no": 15,
     "name": "张萱《虢国夫人游春图》",
     "era": "北宋摹本·唐开元年间原本",
-    "owner": "唐·张萱（画家，擅长人物仕女画）",
-    "no": 15,
+    "batch": "特辑",
     "source": "原作为唐代张萱绘，北宋画院摹本。流传有序，明清时入内府，后由辽宁省博物馆收藏。",
+    "owner": "唐·张萱（画家，擅长人物仕女画）",
     "desc": "纵51.8厘米，横148厘米，绢本设色。绘八骑九人出行队列。人物神态从容，马匹步伐轻快，画面充满春日气息。虽为摹本，但保留了唐代绘画的典型风格，是研究盛唐贵族生活的经典作品。",
-    "museum": "辽宁省博物馆",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/%E5%94%90_%E5%BC%A0%E8%90%B1_%E8%99%A2%E5%9B%BD%E5%A4%AB%E4%BA%BA%E6%B8%B8%E6%98%A5%E5%9B%BE.jpg/1920px-%E5%94%90_%E5%BC%A0%E8%90%B1_%E8%99%A2%E5%9B%BD%E5%A4%AB%E4%BA%BA%E6%B8%B8%E6%98%A5%E5%9B%BE.jpg",
-    "baike_url": "https://baike.baidu.com/item/%E8%99%A2%E5%9B%BD%E5%A4%AB%E4%BA%BA%E6%B8%B8%E6%98%A5%E5%9B%BE"
+    "museum": "辽宁省博物馆"
   },
   {
+    "no": 16,
     "name": "顾恺之《洛神赋图》（宋摹本）",
     "era": "北宋摹本·东晋原本",
-    "owner": "东晋·顾恺之（画家，中国人物画鼻祖）",
-    "no": 16,
+    "batch": "特辑",
     "source": "传为东晋顾恺之绘，以曹植《洛神赋》为题材。故宫博物院所藏为最早、最完整的版本。",
+    "owner": "东晋·顾恺之（画家，中国人物画鼻祖）",
     "desc": "纵27.1厘米，横572.8厘米，绢本设色。画面采用连环画式构图，人物衣带飘飘、山水秀美，春蚕吐丝描法线条流畅。顾恺之的传神论在此画中得到充分体现，是中国人物画的源头级作品。",
-    "museum": "故宫博物院",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/B_Gu_Kaizhi._Nymph_of_the_Luo_River._%28section%29_Southern_Song_Copy._Liaoning_Provincial_museum.jpg/1920px-B_Gu_Kaizhi._Nymph_of_the_Luo_River._%28section%29_Southern_Song_Copy._Liaoning_Provincial_museum.jpg",
-    "baike_url": "https://baike.baidu.com/item/%E6%B4%9B%E7%A5%9E%E8%B5%8B%E5%9B%BE"
+    "museum": "故宫博物院"
   },
   {
+    "no": 17,
     "name": "渎山大玉海",
     "era": "元·至元二年（1265年）",
-    "owner": "元世祖忽必烈（下令制作）",
-    "no": 17,
+    "batch": "特辑",
     "source": "元世祖忽必烈命匠人制作，原置于广寒殿，后辗转流落至真武庙中为道士腌菜缸。清乾隆十年寻得，以千金购回，安置于北海团城至今。",
+    "owner": "元世祖忽必烈（下令制作）",
     "desc": "高70厘米，口径135-182厘米，膛深55厘米，重约1053-1178公斤。以整块独山玉雕成，外壁浮雕出没于波涛中的海龙、海马等海兽。是现存最早、最大的传世玉器。",
-    "museum": "北海公园团城（北京市）",
-    "image_url": "https://p6.itc.cn/images01/20230915/7ffd35d6916c4817abfd26df9cf0aa40.jpeg",
-    "baike_url": "https://baike.baidu.com/item/%E6%B8%8E%E5%B1%B1%E5%A4%A7%E7%8E%89%E6%B5%B7/5199987"
+    "museum": "北海公园团城（北京市）"
   },
   {
+    "no": 18,
     "name": "孔子徒人图漆衣镜",
     "era": "西汉·约前2-1世纪",
-    "owner": "西汉·海昏侯刘贺",
-    "no": 18,
+    "batch": "特辑",
     "source": "2015年江西省南昌市新建区墎墩山海昏侯墓出土。",
+    "owner": "西汉·海昏侯刘贺",
     "desc": "镜体为矩形，木胎髹漆，背面彩绘孔子及五位弟子立像，并有各自身份题记。出土时镜匣内有孔子徒人图镜铭文。这是目前发现最早的孔子形象实物之一，对研究儒家思想的传播及汉代绘画艺术具有极高价值。",
-    "museum": "南昌汉代海昏侯国遗址博物馆",
-    "baike_url": "https://baike.baidu.com/item/%E5%AD%94%E5%AD%90%E8%A1%A3%E9%95%9C",
-    "image_url": "https://fdfs.xmcdn.com/group62/M0B/9B/34/wKgMZ1z_WTzQwXJzAAGlnOz3yYA37_mobile_large.jpeg"
+    "museum": "南昌汉代海昏侯国遗址博物馆"
   },
   {
+    "no": 19,
     "name": "海昏侯墓《齐论语》简",
     "era": "西汉·约前2-1世纪",
-    "owner": "西汉·海昏侯刘贺",
-    "no": 19,
+    "batch": "特辑",
     "source": "2015年江西省南昌市新建区墎墩山海昏侯墓出土。",
+    "owner": "西汉·海昏侯刘贺",
     "desc": "竹简约500余枚，为目前已发现的最早《论语》实物，确认为亡佚1800多年的《齐论语》版本。《齐论语》较其他版本多出《知道》《问王》两篇，其中《知道》篇存简约300余字，内容为孔子应答弟子问智与道之语录，学术价值无可估量。",
-    "museum": "南昌汉代海昏侯国遗址博物馆",
-    "baike_url": "https://baike.baidu.com/item/%E9%BD%90%E8%AE%BA%E8%AF%AD%E6%99%BA%E9%81%93%E7%AE%80",
-    "image_url": "https://q7.itc.cn/q_70/images03/20260414/683a02731d4d405794c24216e1e49b38.jpeg"
+    "museum": "南昌汉代海昏侯国遗址博物馆"
   },
   {
+    "no": 20,
     "name": "海昏侯墓《诗经》简",
     "era": "西汉·约前2-1世纪",
-    "owner": "西汉·海昏侯刘贺",
-    "no": 20,
+    "batch": "特辑",
     "source": "2015年江西省南昌市新建区墎墩山海昏侯墓出土。",
+    "owner": "西汉·海昏侯刘贺",
     "desc": "墓中出土《诗经》竹简约1200枚，保存有305篇中的约300篇。篇目次序与今本《毛诗》有差异，注释文字系统不同，为汉代三家诗之一，鲁诗的可能性极大。鲁诗自西晋永嘉之乱后失传，若证实，将是目前最早、最完整的《诗经》古本实物。",
-    "museum": "南昌汉代海昏侯国遗址博物馆",
-    "image_url": "https://q9.itc.cn/q_70/images03/20260414/0e4fc90fe3cc4f90a2681057cf499e11.jpeg",
-    "baike_url": "https://baike.baidu.com/item/%E9%B2%81%E8%AF%97/9859775"
+    "museum": "南昌汉代海昏侯国遗址博物馆"
   },
   {
+    "no": 21,
     "name": "辽代木雕水月观音像",
     "era": "辽·约11至12世纪",
-    "owner": "辽代工匠（无款）",
-    "no": 21,
+    "batch": "特辑",
     "source": "原供奉于山西某寺，1920年代流失海外，现藏美国纳尔逊-阿特金斯艺术博物馆。",
+    "owner": "辽代工匠（无款）",
     "desc": "高约241厘米，木雕彩绘。整体造型既保留了唐代的雍容华贵，又融入了辽代的沉雄大气，被誉为美国藏中国佛教造像第一名品。纳尔逊博物馆专门为其设计了中国庙宇式展厅，成为该馆标志性展品。",
-    "museum": "美国纳尔逊-阿特金斯艺术博物馆",
-    "image_url": "https://pics0.baidu.com/feed/bba1cd11728b4710244bd83e5e12bef2fe0323c3.jpeg?token=05f3b2b01d2bf68e791072ad99c767bd",
-    "baike_url": "https://baike.baidu.com/item/%E8%BE%BD%E4%BB%A3%E6%9C%A8%E9%9B%95%E6%B0%B4%E6%9C%88%E8%A7%82%E9%9F%B3%E5%83%8F"
+    "museum": "美国纳尔逊-阿特金斯艺术博物馆"
   },
   {
+    "no": 22,
     "name": "广胜寺下寺壁画《药师经变》",
     "era": "元·约14世纪",
-    "owner": "元代晋南民间画师",
-    "no": 22,
+    "batch": "特辑",
     "source": "原位于山西洪洞广胜寺下寺大雄宝殿。1929年寺僧以1600大洋售予美国人，后由收藏家Sackler购得，1964年以其母名义捐赠予大都会艺术博物馆。",
+    "owner": "元代晋南民间画师",
     "desc": "长15.2米，高7.52米。画中端坐药师如来，十二神将陪伴左右，形象地表现了东方佛教净土的盛况，为元代寺观壁画之杰作。1929年寺僧售出，被肢解为数百块，后经大都会博物馆修复完整复原，成为该馆最知名的中国艺术藏品之一。",
-    "museum": "美国大都会艺术博物馆",
-    "image_url": "https://pics0.baidu.com/feed/a50f4bfbfbedab64ba14bb9e00672ecc78311eef.jpeg",
-    "baike_url": "https://baike.baidu.com/item/%E8%8D%AF%E5%B8%88%E7%BB%8F%E5%8F%98/19502511"
+    "museum": "美国大都会艺术博物馆"
   },
   {
+    "no": 23,
     "name": "曜变天目茶碗（稻叶天目）",
     "era": "宋·约12-13世纪",
-    "owner": "南宋建窑工匠",
+    "batch": "特辑",
     "source": "南宋建窑烧制，后流传至日本，经德川将军家、稻叶家递藏，后由岩崎弥之助购入，现藏静嘉堂文库。",
+    "owner": "南宋建窑工匠",
     "desc": "高7.2厘米，口径12.2厘米，建窑黑釉盏。内壁遍布大小银蓝色斑纹，斑纹周围晕散五彩光彩，随光线角度变幻莫测，如宇宙星云，故称曜变。现存完整曜变天目仅三件，此件光彩最胜，斑纹最大最密，被誉为天下第一碗。日本国宝。",
-    "museum": "日本静嘉堂文库美术馆",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Y%C5%8Dhen_Tenmoku_%28Seikad%C5%8D_Bunko_Art_Museum%29.jpg/960px-Y%C5%8Dhen_Tenmoku_%28Seikad%C5%8D_Bunko_Art_Museum%29.jpg",
-    "baike_url": "https://baike.baidu.com/item/%E6%9B%9C%E5%8F%98%E5%A4%A9%E7%9B%AE%E8%8C%B6%E7%A2%97/8622599",
-    "no": 23
+    "museum": "日本静嘉堂文库美术馆"
   },
   {
+    "no": 24,
     "name": "商虎食人卣",
     "era": "商晚期·约前13-前11世纪",
-    "owner": "商代贵族",
+    "batch": "特辑",
     "source": "传出土于湖南省安化、宁乡交界处，后被古董商售往日本，1950年由住友财团捐赠泉屋博古馆。",
+    "owner": "商代贵族",
     "desc": "通高35.7厘米，重5.09千克，青铜盛酒器。造型取踞虎与人相抱的姿态，虎以后足及尾支撑为三足，前爪抱持一人，虎口大张作欲食状。器表呈黑褐色，纹饰繁缛，以人兽为主题。立意奇特，为商代青铜器中最为怪诞诡谲之作。",
-    "museum": "日本泉屋博古馆",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Cernuschi_vase_you_en_forme_de_felin_bronze_XIs_av_jc_1.jpg/1920px-Cernuschi_vase_you_en_forme_de_felin_bronze_XIs_av_jc_1.jpg",
-    "baike_url": "https://baike.baidu.com/item/%E5%95%86%E8%99%8E%E9%A3%9F%E4%BA%BA%E5%8D%A3/10706572",
-    "no": 24
+    "museum": "日本泉屋博古馆"
   },
   {
+    "no": 25,
     "name": "女史箴图（唐摹本）",
     "era": "唐摹本·约5-7世纪",
-    "owner": "东晋顾恺之（原本）、唐代佚名（摹本）",
+    "batch": "特辑",
     "source": "传为唐代摹本，原为清宫旧藏。1900年八国联军侵华时流失，1903年入藏大英博物馆。",
+    "owner": "东晋顾恺之（原本）、唐代佚名（摹本）",
     "desc": "纵24.4厘米，横343.8厘米，绢本设色。以张华《女史箴》为文本，分九段绘画配箴文，描绘宫廷妇女应遵循的道德规范。线条如春蚕吐丝，人物衣带飘逸，为中国人物画经典之作。大英博物馆镇馆之宝之一，因文物保护原因每年仅展出六周。",
-    "museum": "大英博物馆",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Gu_Kaizhi_001.jpg/1920px-Gu_Kaizhi_001.jpg",
-    "baike_url": "https://baike.baidu.com/item/%E5%A5%B3%E5%8F%B2%E7%AE%B4%E5%9B%BE/1122344",
-    "no": 25
+    "museum": "大英博物馆"
   },
   {
+    "no": 26,
     "name": "丧乱帖（唐摹本）",
     "era": "唐摹本·约8世纪",
-    "owner": "东晋王羲之（原本）、唐代佚名（摹本）",
+    "batch": "特辑",
     "source": "奈良时期由遣唐使携入日本，经圣武天皇收藏，后归妙法院，明治十三年献上皇室，现藏宫内厅三之丸尚藏馆。",
+    "owner": "东晋王羲之（原本）、唐代佚名（摹本）",
     "desc": "纵28.7厘米，横58.9厘米，白麻纸本，双钩填墨。行草书8行62字，内容为王羲之闻先祖墓遭战乱破坏后悲愤之作。笔势雄强苍劲，字迹自然跌宕，是最接近王羲之真迹面目的唐摹本之一。与《二谢帖》《得示帖》合裱一卷。",
-    "museum": "日本宫内厅三之丸尚藏馆",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Wang_Yi-zhi_001.JPG",
-    "baike_url": "https://baike.baidu.com/item/%E4%B8%A7%E4%B9%B1%E5%B8%96/2487284",
-    "no": 26
+    "museum": "日本宫内厅三之丸尚藏馆"
   },
   {
+    "no": 27,
     "name": "出警入跸图",
     "era": "明·约16世纪",
-    "owner": "明代宫廷画师",
+    "batch": "特辑",
     "source": "原藏清宫，1949年随文物南迁至台北，现藏台北故宫博物院。",
+    "owner": "明代宫廷画师",
     "desc": "《出警图》纵92.1厘米，横2601.3厘米；《入跸图》纵92.1厘米，横3003.6厘米，绢本设色。描绘明万历皇帝谒陵盛况。出警为乘马走陆路，入跸为乘船走水路。全卷人物过千、马匹逾百，场面恢弘浩荡，为存世最长的中国古代帝王出行图之一。",
-    "museum": "台北故宫博物院",
-    "image_url": "https://n.sinaimg.cn/sinacn12/566/w2048h918/20180720/72b2-hfqtahh5168636.jpg",
-    "baike_url": "https://baike.baidu.com/item/%E5%87%BA%E8%AD%A6%E5%85%A5%E8%B7%B8%E5%9B%BE/3612722",
-    "no": 27
+    "museum": "台北故宫博物院"
   },
   {
+    "no": 28,
     "name": "范宽《溪山行旅图》",
     "era": "北宋·约11世纪",
-    "owner": "北宋·范宽（北宋山水画三家之一）",
+    "batch": "特辑",
     "source": "流传有序，历经宋、元、明、清内府及名家收藏，1949年随文物南迁至台北，现藏台北故宫博物院。",
+    "owner": "北宋·范宽（北宋山水画三家之一）",
     "desc": "纵206.3厘米，横103.3厘米，绢本浅设色。画面正中巨峰壁立，飞瀑直下，山间云雾缭绕，近处行旅人马穿行。以雨点皴法塑造山石质感，气势磅礴。被公认为北宋山水画第一神品，明代董其昌誉为宋画第一。",
-    "museum": "台北故宫博物院",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/%E8%B0%BF%E5%B1%B1%E8%A1%8C%E6%97%85%E5%9B%BE%E8%BD%B4.%E6%BA%AA%E5%B1%B1%E8%A1%8C%E6%97%85%E5%9B%BE.%E5%AE%8B.%E8%8C%83%E5%AE%BD.%E7%BB%A2%E6%9C%AC%E6%B5%85%E8%AE%BE%E8%89%B2.%E5%8F%B0%E5%8C%97%E6%95%85%E5%AE%AB%E5%8D%9A%E7%89%A9%E9%99%A2%E8%97%8F.jpg/960px-%E8%B0%BF%E5%B1%B1%E8%A1%8C%E6%97%85%E5%9B%BE%E8%BD%B4.%E6%BA%AA%E5%B1%B1%E8%A1%8C%E6%97%85%E5%9B%BE.%E5%AE%8B.%E8%8C%83%E5%AE%BD.%E7%BB%A2%E6%9C%AC%E6%B5%85%E8%AE%BE%E8%89%B2.%E5%8F%B0%E5%8C%97%E6%95%85%E5%AE%AB%E5%8D%9A%E7%89%A9%E9%99%A2%E8%97%8F.jpg",
-    "baike_url": "https://baike.baidu.com/item/%E6%BA%AA%E5%B1%B1%E8%A1%8C%E6%97%85%E5%9B%BE/1775752",
-    "no": 28
+    "museum": "台北故宫博物院"
   },
   {
+    "no": 29,
     "name": "唐人宫乐图",
     "era": "晚唐·约9-10世纪",
-    "owner": "唐代宫廷画师（佚名）",
+    "batch": "特辑",
     "source": "清宫内府旧藏，1949年随文物南迁至台北，现藏台北故宫博物院。",
+    "owner": "唐代宫廷画师（佚名）",
     "desc": "纵48.7厘米，横69.5厘米，绢本设色。绘十二位宫中仕女围坐方桌宴饮奏乐的场景，分别执胡笳、琵琶、古筝、笙等乐器。人物体态丰腴、服饰华美，是唐代仕女画的典范之作。",
-    "museum": "台北故宫博物院",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/%E5%94%90%E4%BA%BA%E5%AE%AB%E4%B9%90%E5%9B%BE%E8%BD%B4.%E6%99%9A%E5%94%90%E7%BB%98.%E5%8F%B0%E5%8C%97%E6%95%85%E5%AE%AB%E5%8D%9A%E7%89%A9%E9%99%A2%E8%97%8F.jpg/1920px-%E5%94%90%E4%BA%BA%E5%AE%AB%E4%B9%90%E5%9B%BE%E8%BD%B4.%E6%99%9A%E5%94%90%E7%BB%98.%E5%8F%B0%E5%8C%97%E6%95%85%E5%AE%AB%E5%8D%9A%E7%89%A9%E9%99%A2%E8%97%8F.jpg",
-    "baike_url": "https://baike.baidu.com/item/%E5%AE%AB%E4%B9%90%E5%9B%BE/1767358",
-    "no": 29
+    "museum": "台北故宫博物院"
   },
   {
+    "no": 30,
     "name": "张萱《捣练图》",
     "era": "北宋摹本·唐开元年间原本",
-    "owner": "唐·张萱（画家，擅长人物仕女画）",
+    "batch": "特辑",
     "source": "原作为唐代张萱绘，北宋徽宗朝摹本。清末流出海外，1912年入藏美国波士顿美术馆。",
+    "owner": "唐·张萱（画家，擅长人物仕女画）",
     "desc": "纵37厘米，横145.3厘米，绢本设色。绘十二位仕女在宫中捣练、理线、熨烫、缝制的劳动场景。人物姿态优雅、服饰华丽，画面以S形构图自然串联各工序。卷首有赵佶题签。",
-    "museum": "美国波士顿美术馆",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Court_Ladies_Preparing_Newly_Woven_Silk.jpg/1920px-Court_Ladies_Preparing_Newly_Woven_Silk.jpg",
-    "baike_url": "https://baike.baidu.com/item/%E6%8D%A3%E7%BB%83%E5%9B%BE/1892239",
-    "no": 30
+    "museum": "美国波士顿美术馆"
   },
   {
+    "no": 31,
     "name": "仇英《汉宫春晓图》",
     "era": "明·约16世纪",
-    "owner": "明·仇英（画家，明四家之一）",
+    "batch": "特辑",
     "source": "仇英工笔重彩人物画代表作。流传有序，曾入清内府收藏，现藏台北故宫博物院。",
+    "owner": "明·仇英（画家，明四家之一）",
     "desc": "纵30.6厘米，横574.1厘米，绢本设色。以春日晨曦中的汉代宫廷为题，绘后妃、宫娥、皇子、画师等各类人物115人，穿插观景、赏花、奏乐、弈棋、斗草等场景。画面建筑繁复、色彩妍丽，人物衣饰描绘精细入微，是仇英工笔重彩的巅峰之作。",
-    "museum": "台北故宫博物院",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Spring_Morning_in_the_Han_Palace.jpg/1920px-Spring_Morning_in_the_Han_Palace.jpg",
-    "baike_url": "https://baike.baidu.com/item/%E6%B1%89%E5%AE%AB%E6%98%A5%E6%99%93%E5%9B%BE/7676493",
-    "no": 31
+    "museum": "台北故宫博物院"
   },
   {
+    "no": 32,
     "name": "李唐《万壑松风图》",
     "era": "南宋·约12世纪",
-    "owner": "南宋·李唐（画家，南宋四家之首）",
+    "batch": "特辑",
     "source": "李唐南渡后巨障山水代表作。历经宋元明清内府及名家收藏，1949年随文物南迁至台北，现藏台北故宫博物院。",
+    "owner": "南宋·李唐（画家，南宋四家之首）",
     "desc": "纵188.7厘米，横139.8厘米，绢本设色。画面中群峰峭拔，万壑松涛，山间云雾缭绕，飞瀑流泉奔泻而下。以斧劈皴法塑造山石，皴法刚劲、墨色浑厚，为北宋向南宋山水画转型的关键作品。",
-    "museum": "台北故宫博物院",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Li_Tang_-_Wind_in_Pines_Among_a_Myriad_Valleys.jpg/960px-Li_Tang_-_Wind_in_Pines_Among_a_Myriad_Valleys.jpg",
-    "baike_url": "https://baike.baidu.com/item/%E4%B8%87%E5%A3%91%E6%9D%BE%E9%A3%8E%E5%9B%BE/22693918",
-    "no": 32
+    "museum": "台北故宫博物院"
   },
   {
+    "no": 33,
     "name": "郭熙《早春图》",
     "era": "北宋·神宗时期（约1072年）",
-    "owner": "北宋·郭熙（画家，宫廷画师）",
+    "batch": "特辑",
     "source": "郭熙为北宋神宗朝宫廷画师，此图为其中年代表作。流传有序，曾入清内府，1949年随文物南迁至台北，现藏台北故宫博物院。",
+    "owner": "北宋·郭熙（画家，宫廷画师）",
     "desc": "纵158.3厘米，横108.1厘米，绢本水墨。描绘初春大地复苏、山间云雾弥漫之景。以卷云皴法画出圆润山石，蟹爪枝表现枯木生机，三远法（高远、深远、平远）并用，布局变化万千。画左署款早春，壬子年郭熙笔。",
-    "museum": "台北故宫博物院",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Guo_Xi_-_Early_Spring_%28large%29.jpg/960px-Guo_Xi_-_Early_Spring_%28large%29.jpg",
-    "baike_url": "https://baike.baidu.com/item/%E6%97%A9%E6%98%A5%E5%9B%BE/10284600",
-    "no": 33
+    "museum": "台北故宫博物院"
   },
   {
+    "no": 34,
     "name": "青铜错金银嵌琉璃乳钉纹方壶",
     "era": "战国·公元前4-3世纪",
-    "owner": "战国王室贵族（推测）",
+    "batch": "特辑",
     "source": "清末民初出土于河南洛阳/新郑一带（战国韩魏王室遗址）。经卢芹斋等古董商售往欧洲，1917年入藏比利时斯托克莱家族。2020年纽约苏富比拍卖以830.7万美元成交，入藏龙美术馆。",
+    "owner": "战国王室贵族（推测）",
     "desc": "通高35.1厘米，口径12.5厘米，腹径22.8厘米。方形盖四角立鸟形钮，肩部设兽首衔环耳。通身错金银并镶嵌蓝白黄三色蜻蜓眼琉璃，金乳钉以片覆铜钉锤打而成。集西亚琉璃、中原错金银与分铸焊接工艺于一身，代表战国奢华工艺巅峰。",
-    "museum": "龙美术馆（上海）",
-    "image_url": "https://image.thepaper.cn/image/345/913/898.jpg",
-    "baike_url": "https://www.thepaper.cn/newsDetail_forward_30614087",
-    "no": 34
+    "museum": "龙美术馆（上海）"
   },
   {
+    "no": 35,
     "name": "兮甲盘",
     "era": "西周·宣王时期（约前827-前782年）",
-    "owner": "西周贵族兮甲（尹吉甫，周宣王重臣）",
+    "batch": "特辑",
     "source": "宋代出土，历经元、明、清多家收藏。清末流散海外，2014年回归国内。2017年7月15日西泠印社春季拍卖以2.1275亿元成交，创当时中国大陆古董拍卖纪录，买家为龙美术馆创始人刘益谦，此后为刘益谦夫妇私人收藏。",
+    "owner": "西周贵族兮甲（尹吉甫，周宣王重臣）",
     "desc": "高11.8厘米，口径47厘米，圈足。盘内铸铭文133字，记载兮甲随周宣王征伐猃狁、管理淮夷贡赋之事。铭文书法为西周晚期金文典范，是研究西周政治、军事、经济制度的重要史料。",
-    "museum": "龙美术馆（上海）",
-    "image_url": "https://pics0.baidu.com/feed/a2cc7cd98d1001e9c5c3352a5e6afefc55e79789.jpeg",
-    "baike_url": "https://baike.baidu.com/item/%E5%85%AE%E7%94%B2%E7%9B%98/2104318",
-    "no": 35
+    "museum": "龙美术馆（上海）"
   },
   {
+    "no": 36,
     "name": "夏绿松石龙形器",
     "era": "夏代·二里头文化（约前21-前17世纪）",
-    "owner": "夏代王室贵族",
+    "batch": "特辑",
     "source": "2002年河南洛阳偃师二里头遗址出土。出土于宫殿区贵族墓葬中，墓主身份高贵。",
+    "owner": "夏代王室贵族",
     "desc": "长约64.5厘米，由2000余片形状各异的绿松石片镶嵌而成。龙首呈扁圆形，龙身弯曲呈S形，尾端内卷，色彩碧绿，工艺精湛。被誉为中国最早的龙形象实物，亦称中华第一龙。",
-    "museum": "二里头夏都遗址博物馆（河南洛阳）",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/%E7%BB%BF%E6%9D%BE%E7%9F%B3%E9%BE%99%E5%BD%A2%E5%99%A82.jpg/960px-%E7%BB%BF%E6%9D%BE%E7%9F%B3%E9%BE%99%E5%BD%A2%E5%99%A82.jpg",
-    "baike_url": "https://baike.baidu.com/item/%E5%A4%8F%E7%BB%BF%E6%9D%BE%E7%9F%B3%E9%BE%99%E5%BD%A2%E5%99%A8/50353953",
-    "no": 36
+    "museum": "二里头夏都遗址博物馆（河南洛阳）"
   },
   {
+    "no": 37,
     "name": "乳钉纹铜爵",
     "era": "夏代·二里头文化（约前21-前17世纪）",
-    "owner": "夏代贵族",
+    "batch": "特辑",
     "source": "1975年河南偃师二里头遗址出土。为二里头文化青铜酒器。",
+    "owner": "夏代贵族",
     "desc": "高22.5厘米，流尾长31.5厘米。束腰平底，三足细长外撇，腹部饰乳钉纹。造型简洁雅致，是夏代青铜铸造技术的典型代表。是目前全球发现最早的青铜爵，被誉为“中华第一爵”、“世界第一爵” 。",
-    "museum": "二里头夏都遗址博物馆（河南洛阳）",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Xia_Bronze_Jue.jpg/960px-Xia_Bronze_Jue.jpg",
-    "baike_url": "https://baike.baidu.com/item/%E4%B9%B3%E9%92%89%E7%BA%B9%E9%93%9C%E7%88%B5/23762152",
-    "no": 37
+    "museum": "二里头夏都遗址博物馆（河南洛阳）"
   },
   {
+    "no": 38,
     "name": "曾侯乙建鼓底座",
     "era": "战国早期·约前433年",
-    "owner": "战国曾国君主曾侯乙",
+    "batch": "特辑",
     "source": "1978年湖北随州擂鼓墩曾侯乙墓出土。出土时鼓身已朽，仅存青铜底座。2010年上海世博会八件国宝之一。",
+    "owner": "战国曾国君主曾侯乙",
     "desc": "通高54厘米，重192.1公斤。青铜铸制，由八对大龙和数十条小龙纠结盘绕而成，龙身镶嵌绿松石。造型繁复奇诡，铸造工艺极精，堪称中国古代青铜铸造技术的巅峰之作。",
-    "museum": "湖北省博物馆",
-    "image_url": "https://pic2.zhimg.com/100/v2-57ff73257ac35472f2ba01cdd43a7461_r.jpg",
-    "baike_url": "https://baike.baidu.com/item/%E4%B8%9C%E5%91%A8%E9%93%9C%E5%BB%BA%E9%BC%93%E5%BA%A7/19236206",
-    "no": 38
+    "museum": "湖北省博物馆"
   },
   {
+    "no": 39,
     "name": "兆域图",
     "era": "战国·中山国（约前4-前3世纪）",
-    "owner": "战国中山国王",
+    "batch": "特辑",
     "source": "1977年河北平山三汲乡中山王墓出土。为已故中山王陵园规划图，是中国现存最早的建筑规划设计图。",
+    "owner": "战国中山国王",
     "desc": "铜版长94厘米，宽48厘米，厚约1厘米。以金银错工艺将陵园建筑平面图按比例刻于铜版上，标注各建筑尺寸及名称。是中国最早的建筑规划设计图，在世界地图学史和建筑史上具有重要地位。",
-    "museum": "河北博物院",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/%E9%94%99%E9%87%91%E9%93%B6%E9%93%9C%E7%89%88%E5%85%86%E5%9F%9F%E5%9B%BE.jpg/960px-%E9%94%99%E9%87%91%E9%93%B6%E9%93%9C%E7%89%88%E5%85%86%E5%9F%9F%E5%9B%BE.jpg",
-    "baike_url": "https://baike.baidu.com/item/%E5%85%86%E5%9F%9F%E5%9B%BE/848125",
-    "no": 39
+    "museum": "河北博物院"
   },
   {
+    "no": 40,
     "name": "西汉文帝行玺金印",
     "era": "西汉·南越国时期（约前2世纪）",
-    "owner": "南越国第二代王赵眜（自称文帝）",
+    "batch": "特辑",
     "source": "1983年广州象岗山南越王墓出土。墓主为南越国第二代王赵眜，该印出自墓主棺椁位置。",
+    "owner": "南越国第二代王赵眜（自称文帝）",
     "desc": "通高1.8厘米，边长3.1厘米，重148.5克，含金量98%。印面阴刻小篆文帝行玺四字，盘龙钮。为目前唯一出土的汉代帝制金印，打破秦汉帝玺白玉螭虎钮的规制，以黄金为材且尺寸远超汉制标准。",
-    "museum": "西汉南越王博物馆（广州）",
-    "image_url": "https://bkimg.cdn.bcebos.com/pic/32fa828ba61ea8d3cad9369a930a304e241f58b0",
-    "baike_url": "https://baike.baidu.com/item/%E8%A5%BF%E6%B1%89%E6%96%87%E5%B8%9D%E8%A1%8C%E7%8E%BA%E9%87%91%E5%8D%B0/9686256",
-    "no": 40
+    "museum": "西汉南越王博物馆（广州）"
   },
   {
+    "no": 41,
     "name": "凌家滩遗址玉版（含山玉版）",
     "era": "新石器时代·凌家滩文化（约前3300-前2500年）",
-    "owner": "凌家滩文化部族首领或巫觋",
+    "batch": "特辑",
     "source": "1987年安徽含山凌家滩遗址M4号墓出土。出土时被夹于玉质龟甲中。",
+    "owner": "凌家滩文化部族首领或巫觋",
     "desc": "长11.4厘米，宽8.3厘米，厚约0.1-0.4厘米。学界对纹饰含义存在多种推测，包含太阳象征、“八方”“数理关系”之说，另有学者将八角星纹解读为“神化了的太阳” ，亦有观点认为其可能与远古洛书、八卦及古代历法存在关联。",
-    "museum": "北京故宫博物院",
-    "image_url": "https://www.neac.gov.cn/seac/c103391/202301/1160440/images/d6e1e29b2d00409caf2fec1296c2dfaa.png",
-    "baike_url": "https://baike.baidu.com/item/%E5%87%8C%E5%AE%B6%E6%BB%A9%E9%81%97%E5%9D%80%E7%8E%89%E7%89%88/65693413",
-    "no": 41
+    "museum": "北京故宫博物院"
   },
   {
+    "no": 42,
     "name": "赵佶《瑞鹤图》",
     "era": "北宋·政和二年（1112年）",
-    "owner": "北宋·赵佶（宋徽宗，画家皇帝）",
+    "batch": "特辑",
     "source": "赵佶绘画代表作之一，描绘政和二年正月十六日汴梁宫殿上空白鹤祥瑞之景。流传有序，现藏辽宁省博物馆。",
+    "owner": "北宋·赵佶（宋徽宗，画家皇帝）",
     "desc": "纵51厘米，横138.2厘米，绢本设色。画汴梁宣德门上空群鹤盘旋，姿态各异，其中两只立于殿脊鸱吻之上。绘画精细工丽，兼具写实与祥瑞寓意，右上角赵佶瘦金体题诗并记。",
-    "museum": "辽宁省博物馆",
-    "image_url": "https://pics0.baidu.com/feed/4ec2d5628535e5dd8336bb99bd3c89e0cf1b6263.jpeg",
-    "baike_url": "https://baike.baidu.com/item/%E7%91%9E%E9%B9%A4%E5%9B%BE/1944566",
-    "no": 42
+    "museum": "辽宁省博物馆"
   },
   {
+    "no": 43,
     "name": "银雀山汉简《孙子兵法》《孙膑兵法》",
     "era": "西汉·约前140-前118年",
-    "owner": "西汉早期军事贵族（墓主不详）",
+    "batch": "特辑",
     "source": "1972年山东临沂银雀山一号汉墓出土。墓中同时出土《孙子兵法》《孙膑兵法》，一举解决了孙武、孙膑是否为同一人的千年学术悬案。",
+    "owner": "西汉早期军事贵族（墓主不详）",
     "desc": "共4942枚竹简，简长27.5厘米，早期隶书。内容包括《孙子兵法》《孙膑兵法》《六韬》《尉缭子》等大量先秦兵书及文献。其中失传1700余年的《孙膑兵法》重见天日，证明孙武和孙膑确为两人。",
-    "museum": "山东博物馆（济南）",
-    "image_url": "https://pics1.baidu.com/feed/f603918fa0ec08fa1c2453a33e783a6355fbda36.jpeg",
-    "baike_url": "https://baike.baidu.com/item/%E9%93%B6%E9%9B%80%E5%B1%B1%E6%B1%89%E5%A2%93%E7%AB%B9%E7%AE%80/3574737",
-    "no": 43
+    "museum": "山东博物馆（济南）"
   },
   {
+    "no": 44,
     "name": "敦煌星图甲本",
     "era": "唐·中宗时期（705-710年）",
-    "owner": "唐代天文学家（绘制者不详）",
+    "batch": "特辑",
     "source": "发现于敦煌莫高窟藏经洞。1907年被斯坦因盗运至英国，现藏大英图书馆。",
+    "owner": "唐代天文学家（绘制者不详）",
     "desc": "绢本彩绘卷子，绘有1359颗星，用圆圈、黑点、涂黄三种方式区分。为世界上现存最古老的星图之一，比欧洲最古老的星图早约600年。",
-    "museum": "大英图书馆（英国伦敦）",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Dunhuang_Star_Atlas_-_complete.jpg",
-    "baike_url": "https://baike.baidu.com/item/%E6%95%A6%E7%85%8C%E6%98%9F%E5%9B%BE/988929",
-    "no": 44
+    "museum": "大英图书馆（英国伦敦）"
   },
   {
+    "no": 45,
     "name": "陈容《九龙图》",
     "era": "南宋·淳祐四年（1244年）",
-    "owner": "南宋·陈容（画家，以画龙著称）",
+    "batch": "特辑",
     "source": "陈容画龙代表作。清末流出海外，现藏美国波士顿美术馆。",
+    "owner": "南宋·陈容（画家，以画龙著称）",
     "desc": "纸本墨笔淡设色，绘九龙穿行于云雾波涛之中。九龙姿态各异，腾云驾雾，气势恢宏。陈容画龙自成一派，后世画龙者多宗之。",
-    "museum": "美国波士顿美术馆",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Chen_Rong_-_Nine_Dragons.jpg/1920px-Chen_Rong_-_Nine_Dragons.jpg",
-    "baike_url": "https://baike.baidu.com/item/%E4%B9%9D%E9%BE%99%E5%9B%BE/9294143",
-    "no": 45
+    "museum": "美国波士顿美术馆"
   },
   {
+    "no": 46,
     "name": "帝后礼佛图",
     "era": "北魏·约6世纪",
-    "owner": "北魏皇室（宣武帝敕建）",
+    "batch": "特辑",
     "source": "原为洛阳龙门石窟宾阳中洞东壁浮雕。1930年代遭盗凿分割，皇帝礼佛图现藏美国大都会艺术博物馆，皇后礼佛图现藏美国纳尔逊-阿特金斯艺术博物馆。",
+    "owner": "北魏皇室（宣武帝敕建）",
     "desc": "浮雕分《皇帝礼佛图》（高208厘米宽394厘米）和《皇后礼佛图》（高202厘米宽278厘米），前者以孝文帝为中心，后者以文昭皇后为中心，展现北魏皇室礼佛的盛大场面。龙门石窟研究院已启动虚拟复原项目。",
-    "museum": "大都会艺术博物馆（纽约）/ 纳尔逊-阿特金斯艺术博物馆（堪萨斯城）",
-    "image_url": "https://upload-images.jianshu.io/upload_images/2325758-b4ece696e97ec8ba.jpg",
-    "baike_url": "https://baike.baidu.com/item/%E5%B8%9D%E5%90%8E%E7%A4%BC%E4%BD%9B%E5%9B%BE/2958062",
-    "no": 46
+    "museum": "大都会艺术博物馆（纽约）/ 纳尔逊-阿特金斯艺术博物馆（堪萨斯城）"
   },
   {
+    "no": 47,
     "name": "敦煌藏经洞唐咸通九年《金刚经》",
     "era": "唐·咸通九年（868年）",
-    "owner": "唐代佛教信众王玠（为二亲敬造普施）",
+    "batch": "特辑",
     "source": "发现于敦煌莫高窟藏经洞。1907年被斯坦因盗运至英国，现藏大英图书馆。为世界上现存最早的有确切纪年的雕版印刷品。",
+    "owner": "唐代佛教信众王玠（为二亲敬造普施）",
     "desc": "卷轴装，长487.7厘米。卷首刊刻《金刚般若波罗蜜经》扉页画，绘释迦牟尼佛在祇树给孤独园说法场景，刀法遒劲。全卷经文雕刻清晰，印刷精良，印于咸通九年（868年），较欧洲最早印刷品早500余年。",
-    "museum": "大英图书馆（英国伦敦）",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Jingangjing.jpg/960px-Jingangjing.jpg",
-    "baike_url": "https://baike.baidu.com/item/%E9%87%91%E5%88%9A%E7%BB%8F%E5%8D%B7%E5%AD%90/3032971",
-    "no": 47
+    "museum": "大英图书馆（英国伦敦）"
   },
   {
+    "no": 48,
     "name": "遂公盨",
     "era": "西周中期·约前10-前9世纪",
-    "owner": "西周遂国贵族遂公",
+    "batch": "特辑",
     "source": "2002年由保利艺术博物馆从海外购回。为西周中期青铜食器，原为海外私人收藏。",
+    "owner": "西周遂国贵族遂公",
     "desc": "高11.8厘米，口径24.8厘米，椭圆形。器内底铸铭文10行98字，记述大禹治水及为政以德的治国理念，是目前最早的关于大禹治水和德治思想的文献记载，将大禹治水传说的文献记载提前了约700年。",
-    "museum": "保利艺术博物馆（北京）",
-    "image_url": "https://imagecloud.thepaper.cn/thepaper/image/217/792/211.jpeg",
-    "baike_url": "https://baike.baidu.com/item/%E8%A5%BF%E5%91%A8%E9%81%82%E5%85%AC%E7%9B%A8/66195951",
-    "no": 48
+    "museum": "保利艺术博物馆（北京）"
   },
   {
+    "no": 49,
     "name": "西汉错金银云纹青铜犀尊",
     "era": "西汉·约前2-1世纪",
-    "owner": "西汉贵族",
+    "batch": "特辑",
     "source": "1963年陕西省兴平市豆马村出土。出土时完好无损，为西汉青铜酒器精品。",
+    "owner": "西汉贵族",
     "desc": "高34.1厘米，长58.1厘米。以犀牛为造型，躯体肥硕健壮，蹄足粗壮有力。通体饰错金银云纹，工艺精湛。犀牛造型逼真，为中国古代青铜器中罕见的写实主义动物造型作品。",
-    "museum": "中国国家博物馆",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Bronze_rhinoceros_wine_vessel.jpg/960px-Bronze_rhinoceros_wine_vessel.jpg",
-    "baike_url": "https://baike.baidu.com/item/%E8%A5%BF%E6%B1%89%E9%94%99%E9%87%91%E9%93%B6%E4%BA%91%E7%BA%B9%E9%9D%92%E9%93%9C%E7%8A%80%E5%B0%8A/23605948",
-    "no": 49
+    "museum": "中国国家博物馆"
   },
   {
+    "no": 50,
     "name": "永乐大钟",
     "era": "明·永乐年间（1403-1424年）",
-    "owner": "明成祖朱棣（下令铸造）",
+    "batch": "特辑",
     "source": "明成祖朱棣迁都北京后下令铸造，原藏于汉经厂，后辗转移至觉生寺（大钟寺）。",
+    "owner": "明成祖朱棣（下令铸造）",
     "desc": "高6.75米，口沿直径3.3米，重约46吨。钟身内外铸有佛教经咒23万余字，包括《法华经》《金刚经》等。钟声洪亮悠远，可传数十里。为世界上现存最大的青铜钟之一，有钟王之称。",
-    "museum": "大钟寺古钟博物馆（北京）",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/%E6%B0%B8%E4%B9%90%E5%A4%A7%E9%92%9F%E6%AD%A3%E9%9D%A2.jpg/1920px-%E6%B0%B8%E4%B9%90%E5%A4%A7%E9%92%9F%E6%AD%A3%E9%9D%A2.jpg",
-    "baike_url": "https://baike.baidu.com/item/%E6%B0%B8%E4%B9%90%E5%A4%A7%E9%92%9F/2245465",
-    "no": 50
+    "museum": "大钟寺古钟博物馆（北京）"
   },
   {
+    "no": 51,
     "name": "错金银虎噬鹿铜屏风座",
     "era": "战国·中山国（约前4世纪）",
-    "owner": "战国中山王厝",
+    "batch": "特辑",
     "source": "1977年河北平山三汲乡中山王厝墓出土。为出土的青铜屏风底座之一，共出土三件不同造型的底座。",
+    "owner": "战国中山王厝",
     "desc": "高21.9厘米，长51厘米。以猛虎吞噬幼鹿的瞬间为造型，虎身错金银，虎目镶嵌绿松石。展现了战国时期青铜雕塑的高度写实水平。虎腹铸铭文“十四祀，牀麀，啬夫徐戠，制省器”。",
-    "museum": "河北博物院（石家庄）",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/20250118_Bronze_Stand_in_the_Form_of_a_Tiger_Devouring_a_Deer.jpg/960px-20250118_Bronze_Stand_in_the_Form_of_a_Tiger_Devouring_a_Deer.jpg",
-    "baike_url": "https://baike.baidu.com/item/%E9%94%99%E9%87%91%E9%93%B6%E8%99%8E%E5%99%AC%E9%B9%BF%E9%93%9C%E5%B1%8F%E9%A3%8E%E5%BA%A7/979190",
-    "no": 51
+    "museum": "河北博物院（石家庄）"
   },
   {
+    "no": 52,
     "name": "西汉错金铜博山炉",
     "era": "西汉·约前2世纪",
-    "owner": "西汉中山靖王刘胜",
+    "batch": "特辑",
     "source": "1968年河北满城陵山中山靖王刘胜墓出土。为刘胜使用的熏香器具。",
+    "owner": "西汉中山靖王刘胜",
     "desc": "通高26厘米，足径9.7厘米。炉身呈豆形，炉盖镂空雕成层峦叠嶂的博山形，山间人物、野兽出没。通体错金，工艺繁复精湛，是中国古代博山炉中最精美的一件，被誉为天下第一炉。",
-    "museum": "河北博物院（石家庄）",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/%E9%94%99%E9%87%91%E9%93%9C%E5%8D%9A%E5%B1%B1%E7%82%891.png/960px-%E9%94%99%E9%87%91%E9%93%9C%E5%8D%9A%E5%B1%B1%E7%82%891.png",
-    "baike_url": "https://baike.baidu.com/item/%E8%A5%BF%E6%B1%89%E9%94%99%E9%87%91%E9%93%9C%E5%8D%9A%E5%B1%B1%E7%82%89/628977",
-    "no": 52
-  },
-  {
-    "name": "鎏金铁芯铜龙",
-    "era": "唐·约8世纪",
-    "owner": "唐代宫廷工匠",
-    "source": "1975年陕西省西安市南郊草场坡出土。现藏陕西历史博物馆。",
-    "desc": "高34厘米，长28厘米，重约2.8公斤。铜质龙身通体鎏金，内置铁芯。龙首高昂，长须飘垂，四肢关节清晰，龙尾上扬。集铸造、鎏金、铁芯工艺于一身，为唐代金属工艺的杰出代表。",
-    "museum": "陕西历史博物馆",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Tang_Gilt_Bronze_Dragon_with_Iron_Core_%2833608935728%29.jpg/960px-Tang_Gilt_Bronze_Dragon_with_Iron_Core_%2833608935728%29.jpg",
-    "baike_url": "https://baike.baidu.com/item/%E9%8E%8F%E9%87%91%E9%93%81%E8%8A%AF%E9%93%9C%E9%BE%99",
-    "no": 53
-  },
-  {
-    "name": "石峁遗址玉人头像",
-    "era": "新石器时代·石峁文化（约前2300-前2000年）",
-    "owner": "石峁先民（部落首领或祭司）",
-    "source": "1975年神木县石峁遗址出土。现藏陕西历史博物馆。",
-    "desc": "高45厘米，青玉质，局部褐斑。双面平雕，顶部凸起发髻，阴刻橄榄形大眼、鹰钩鼻、微张的嘴，脑后有凸耳，颊钻一圆孔供系佩。为陕西省首次发现的原始社会玉雕人头像。",
-    "museum": "陕西历史博物馆",
-    "image_url": "https://bkimg.cdn.bcebos.com/pic/246cca2a5b6bffc2033bf69e",
-    "baike_url": "https://baike.baidu.com/item/%E6%96%B0%E7%9F%B3%E5%99%A8%E7%8E%89%E9%9B%95%E4%BA%BA%E5%A4%B4%E5%83%8F",
-    "no": 54
-  },
-  {
-    "name": "张旭《古诗四帖》",
-    "era": "唐·约8世纪",
-    "owner": "唐·张旭（书法家，草圣）",
-    "source": "张旭传世狂草代表作。流传有序，宋代入内府，明清经名家递藏，现藏辽宁省博物馆。",
-    "desc": "纵29.1厘米，横195.2厘米，五色笺纸本狂草。书录庾信《步虚词》、谢灵运《王子晋赞》等古诗四首。笔势纵横奔放，汪洋恣肆，气势如虹。张旭被誉为草圣，与李白诗歌、裴旻剑舞并称盛唐三绝。",
-    "museum": "辽宁省博物馆",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Zhang_Xu_Gu_Shi_Si_Tie.jpg/960px-Zhang_Xu_Gu_Shi_Si_Tie.jpg",
-    "baike_url": "https://baike.baidu.com/item/%E5%8F%A4%E8%AF%97%E5%9B%9B%E8%B4%B4",
-    "no": 55
+    "museum": "河北博物院（石家庄）"
   }
 ]
