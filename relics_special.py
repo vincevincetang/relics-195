@@ -607,5 +607,16 @@ relics_special = [
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Zhang_Xu_Gu_Shi_Si_Tie.jpg/960px-Zhang_Xu_Gu_Shi_Si_Tie.jpg",
     "baike_url": "https://baike.baidu.com/item/%E5%8F%A4%E8%AF%97%E5%9B%9B%E8%B4%B4",
     "no": 55
+  },
+  {
+    "name": "《淳化阁帖》最善本（4卷）",
+    "era": "北宋·淳化三年（992年）",
+    "owner": "北宋·王著（奉旨编选）",
+    "source": "原刻枣木板于北宋庆历年间宫中失火焚毁。第四、六、七、八卷四册为传世仅存。碑帖鉴定家马成名于1990年代初在香港藏家李启严处发现，1994-1995年经佳士得拍卖由美国收藏家安思远购藏。2003年上海博物馆以450万美元购回。",
+    "desc": "全帖10卷，收录先秦至隋唐103位书法家420篇作品。此为存世第四、六、七、八卷，其中第四、七、八卷是仅存的北宋祖刻原石拓本（孤本），第六卷为南宋泉州本北宋祖本。淡墨擦拓，字口清晰。被誉为法帖之祖。入选第一批《国家珍贵古籍名录》。",
+    "museum": "上海博物馆",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/%E8%99%9E%E4%B8%96%E5%8D%97_%E6%A5%B7%E4%B9%A6%E5%A4%A7%E8%BF%90%E5%B8%96%E9%A1%B5.jpg/960px-%E8%99%9E%E4%B8%96%E5%8D%97_%E6%A5%B7%E4%B9%A6%E5%A4%A7%E8%BF%90%E5%B8%96%E9%A1%B5.jpg",
+    "baike_url": "https://baike.baidu.com/item/%E6%B7%B3%E5%8C%96%E9%98%81%E5%B8%96%E6%9C%80%E5%96%84%E6%9C%AC",
+    "no": 56
   }
 ]
