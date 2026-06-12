@@ -739,5 +739,16 @@ relics_special = [
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/%E5%8C%97%E5%AE%8B%E6%B1%9D%E7%AA%AF%E9%9D%92%E7%93%B7%E8%93%AE%E8%8A%B1%E5%BC%8F%E6%BA%AB%E7%A2%97.tif/lossy-page1-1280px-%E5%8C%97%E5%AE%8B%E6%B1%9D%E7%AA%AF%E9%9D%92%E7%93%B7%E8%93%AE%E8%8A%B1%E5%BC%8F%E6%BA%AB%E7%A2%97.tif.jpg",
     "baike_url": "https://baike.baidu.com/item/%E6%B1%9D%E7%AA%91%E8%8E%B2%E8%8A%B1%E7%A2%97/9974585",
     "no": 67
+  },
+  {
+    "name": "明成化斗彩三秋杯",
+    "era": "明·成化年间（1465-1487年）",
+    "owner": "明成化御窑（宫廷御用）",
+    "source": "原为故宫博物院收藏，1956年著名收藏家孙瀛洲倾尽家产购得后捐赠给故宫博物院。成化斗彩存世极稀，此杯仅此一对。",
+    "desc": "高4.3厘米，口径6.8厘米，足径2.6厘米。胎薄如纸，透光可见指纹。杯身绘三秋花卉与蝴蝶，青花勾勒轮廓，釉上填红、黄、绿诸彩，精巧绝伦。被誉为斗彩之冠，是成化斗彩中最为名贵的品种。",
+    "museum": "故宫博物院",
+    "image_url": "https://bkimg.cdn.bcebos.com/pic/4bed2e738bd4b31c8701eaf22985307f9e2f07085264",
+    "baike_url": "https://baike.baidu.com/item/%E6%88%90%E5%8C%96%E6%96%97%E5%BD%A9%E4%B8%89%E7%A7%8B%E6%9D%AF/18173337",
+    "no": 68
   }
 ]
