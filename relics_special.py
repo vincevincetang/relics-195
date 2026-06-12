@@ -695,5 +695,16 @@ relics_special = [
     "image_url": "https://pics0.baidu.com/feed/d0c8a786c9177f3e79f2cfd3118d0cc89d3d56fe.jpeg",
     "baike_url": "https://baike.baidu.com/item/%E6%98%8E%E5%98%89%E9%9D%96%E9%9A%86%E5%BA%86%E9%97%B4%E5%86%85%E5%BA%9C%E6%8A%84%E6%9C%AC%E3%80%8A%E6%B0%B8%E4%B9%90%E5%A4%A7%E5%85%B8%E3%80%8B/55553753",
     "no": 63
+  },
+  {
+    "name": "居延里程简·悬泉里程简（汉代驿道文书）",
+    "era": "西汉·约前1世纪",
+    "owner": "西汉边塞行政机构",
+    "source": "居延里程简1930年出土于内蒙古额济纳旗居延遗址（汉代肩水金关），现藏甘肃简牍博物馆。悬泉里程简1990年出土于甘肃敦煌悬泉置遗址，现藏甘肃简牍博物馆。",
+    "desc": "居延里程简记载长安至河西走廊驿道沿线里程，自长安至张掖、居延等地，详列各驿站间的距离。悬泉里程简记载敦煌悬泉置至周边地区的驿道路线。两简均为木质简牍，隶书墨书，是研究汉代丝绸之路驿传制度和交通地理的第一手实物。",
+    "museum": "甘肃简牍博物馆",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/%E5%B1%85%E5%BB%B6%E6%BC%A2%E7%B0%A1%EF%BC%88%E7%87%83%E6%94%BE%E8%8B%A3%E7%81%AB%EF%BC%89.jpg/960px-%E5%B1%85%E5%BB%B6%E6%BC%A2%E7%B0%A1%EF%BC%88%E7%87%83%E6%94%BE%E8%8B%A3%E7%81%AB%EF%BC%89.jpg",
+    "baike_url": "https://baike.baidu.com/item/%E5%B1%85%E5%BB%B6%E6%BC%A2%E7%B0%A1",
+    "no": 64
   }
 ]
