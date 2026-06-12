@@ -750,5 +750,16 @@ relics_special = [
     "image_url": "https://bkimg.cdn.bcebos.com/pic/4bed2e738bd4b31c8701eaf22985307f9e2f07085264",
     "baike_url": "https://baike.baidu.com/item/%E6%88%90%E5%8C%96%E6%96%97%E5%BD%A9%E4%B8%89%E7%A7%8B%E6%9D%AF/18173337",
     "no": 68
+  },
+  {
+    "name": "乾隆田黄三链章",
+    "era": "清·乾隆年间（约18世纪）",
+    "owner": "清高宗·乾隆皇帝（御用玺印）",
+    "source": "乾隆皇帝御用玺印，以整块田黄石雕刻而成。清宫旧藏，现藏故宫博物院。",
+    "desc": "以整块田黄石雕出三枚印章及三条活动链条，印文分别为乾隆宸翰、惟精惟一、乐天。三印由三条石环锁链相连，环环相扣可自由活动却不可分离，工艺巧夺天工。田黄石素有石帝之称，此作为田黄雕刻之巅峰。",
+    "museum": "故宫博物院",
+    "image_url": "https://img.dpm.org.cn/Uploads/Picture/dc/2705[1024].jpg",
+    "baike_url": "https://baike.baidu.com/item/%E7%94%B0%E9%BB%84%E4%B8%89%E9%93%BE%E7%AB%A0/5180675",
+    "no": 69
   }
 ]
