@@ -975,8 +975,8 @@ def generate_html():
     
     <section class="special-section" id="specialSection">
         <div class="special-header">
-            <h2>✦ 未收录国宝特辑</h2>
-            <p>收录未列入禁止出境展览名录（或流失境外）的重磅文物，其历史价值与艺术成就丝毫不逊。<br/>特辑持续更新中。</p>
+            <h2>✦ 未收录特辑</h2>
+            <p>此特辑收录未列入禁止出境展览文物名录（或流失、流转至境外）的重磅文物，这些文物的历史价值与艺术成就丝毫不逊。特辑持续更新中。</p>
         </div>
         <div class="container">
             <div class="relics-grid">''' + special_cards + '''
