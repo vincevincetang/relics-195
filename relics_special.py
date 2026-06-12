@@ -576,14 +576,14 @@ relics_special = [
     "no": 52
   },
   {
-    "name": "鎏金铁芯铜龙",
-    "era": "唐·约8世纪",
-    "owner": "唐代宫廷工匠",
-    "source": "1975年陕西省西安市南郊草场坡出土。现藏陕西历史博物馆。",
+    "name": "唐鎏金铁芯铜龙",
+    "era": "唐·开元年间（713-741）",
+    "owner": "唐宰相燕国公张说",
+    "source": "1975年陕西省西安市南郊草场坡出土。学界推测此物可能是宰相燕国公张说府邸装饰构件或礼仪器物。",
     "desc": "高34厘米，长28厘米，重约2.8公斤。铜质龙身通体鎏金，内置铁芯。龙首高昂，长须飘垂，四肢关节清晰，龙尾上扬。集铸造、鎏金、铁芯工艺于一身，为唐代金属工艺的杰出代表。",
     "museum": "陕西历史博物馆",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Tang_Gilt_Bronze_Dragon_with_Iron_Core_%2833608935728%29.jpg/960px-Tang_Gilt_Bronze_Dragon_with_Iron_Core_%2833608935728%29.jpg",
-    "baike_url": "https://baike.baidu.com/item/%E9%8E%8F%E9%87%91%E9%93%81%E8%8A%AF%E9%93%9C%E9%BE%99",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Tang_Gilt_Bronze_Dragon_with_Iron_Core_%289948309066%29.jpg/960px-Tang_Gilt_Bronze_Dragon_with_Iron_Core_%289948309066%29.jpg",
+    "baike_url": "https://baike.baidu.com/item/%E5%94%90%E9%8E%8F%E9%87%91%E9%93%81%E8%8A%AF%E9%93%9C%E9%BE%99/8696673",
     "no": 53
   },
   {
@@ -604,7 +604,7 @@ relics_special = [
     "source": "张旭传世狂草代表作。流传有序，宋代入内府，明清经名家递藏，现藏辽宁省博物馆。",
     "desc": "纵29.1厘米，横195.2厘米，五色笺纸本狂草。书录庾信《步虚词》、谢灵运《王子晋赞》等古诗四首。笔势纵横奔放，汪洋恣肆，气势如虹。张旭被誉为草圣，与李白诗歌、裴旻剑舞并称盛唐三绝。",
     "museum": "辽宁省博物馆",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Zhang_Xu_Gu_Shi_Si_Tie.jpg/960px-Zhang_Xu_Gu_Shi_Si_Tie.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Zhang_Xu_-_Grass_style_calligraphy_%282%29.jpg",
     "baike_url": "https://baike.baidu.com/item/%E5%8F%A4%E8%AF%97%E5%9B%9B%E8%B4%B4",
     "no": 55
   },
@@ -613,10 +613,76 @@ relics_special = [
     "era": "北宋·淳化三年（992年）",
     "owner": "北宋·王著（奉旨编选）",
     "source": "原刻枣木板于北宋庆历年间宫中失火焚毁。第四、六、七、八卷四册为传世仅存。碑帖鉴定家马成名于1990年代初在香港藏家李启严处发现，1994-1995年经佳士得拍卖由美国收藏家安思远购藏。2003年上海博物馆以450万美元购回。",
-    "desc": "全帖10卷，收录先秦至隋唐103位书法家420篇作品。此为存世第四、六、七、八卷，其中第四、七、八卷是仅存的北宋祖刻原石拓本（孤本），第六卷为南宋泉州本北宋祖本。淡墨擦拓，字口清晰。被誉为法帖之祖。入选第一批《国家珍贵古籍名录》。",
+    "desc": "全帖10卷，收录先秦至隋唐103位书法家420篇作品。此为存世第四、六、七、八卷，其中第四、七、八卷是仅存的北宋祖刻原石拓本（孤本），第六卷为南宋泉州本北宋祖本。被誉为法帖之祖。",
     "museum": "上海博物馆",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/%E8%99%9E%E4%B8%96%E5%8D%97_%E6%A5%B7%E4%B9%A6%E5%A4%A7%E8%BF%90%E5%B8%96%E9%A1%B5.jpg/960px-%E8%99%9E%E4%B8%96%E5%8D%97_%E6%A5%B7%E4%B9%A6%E5%A4%A7%E8%BF%90%E5%B8%96%E9%A1%B5.jpg",
     "baike_url": "https://baike.baidu.com/item/%E6%B7%B3%E5%8C%96%E9%98%81%E5%B8%96%E6%9C%80%E5%96%84%E6%9C%AC",
     "no": 56
+  },
+  {
+    "name": "赵孟𫖯《帝师胆巴碑》",
+    "era": "元·延祐三年（1316年）",
+    "owner": "元·赵孟𫖯（书法家、画家）",
+    "source": "赵孟𫖯奉敕撰书，为元朝帝师胆巴而立。清代入内府，现藏故宫博物院。",
+    "desc": "纵33.6厘米，横166厘米，纸本楷书。全文125行，满行8字，记述帝师胆巴的生平事迹。赵孟𫖯晚年楷书代表作，书法雄健浑厚、苍劲老到，是研习赵体楷书的典范作品。",
+    "museum": "故宫博物院",
+    "image_url": "https://pics0.baidu.com/feed/8c1001e93901213f10c81f557fac70df2e2e951d.jpeg",
+    "baike_url": "https://baike.baidu.com/item/%E5%B8%9D%E5%B8%88%E8%83%86%E5%B7%B4%E7%A2%91/10701891",
+    "no": 57
+  },
+  {
+    "name": "韩干《照夜白图》",
+    "era": "唐·约8世纪",
+    "owner": "唐·韩干（画家，以画马著称）",
+    "source": "韩干为唐玄宗御马照夜白所作。流传有序，历代著录清晰。清末流出海外，现藏美国大都会艺术博物馆。",
+    "desc": "纵30.8厘米，横33.5厘米，纸本水墨。绘唐玄宗爱马照夜白被拴于马桩之上的场景，马匹昂首嘶鸣，四蹄奔腾，动感强烈。画上有南唐后主李煜、北宋米芾、南宋贾似道等历代名家题跋。",
+    "museum": "美国大都会艺术博物馆",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Night_Shining_White_%E5%94%90_%E9%9F%93%E5%B9%B9_%E7%85%A7%E5%A4%9C%E7%99%BD%E5%9C%96_%E5%8D%B7.jpg/1280px-Night_Shining_White_%E5%94%90_%E9%9F%93%E5%B9%B9_%E7%85%A7%E5%A4%9C%E7%99%BD%E5%9C%96_%E5%8D%B7.jpg",
+    "baike_url": "https://baike.baidu.com/item/%E7%85%A7%E5%A4%9C%E7%99%BD%E5%9B%BE/1724473",
+    "no": 58
+  },
+  {
+    "name": "易县八佛洼三彩罗汉（现存11尊）",
+    "era": "辽·约11-12世纪",
+    "owner": "辽代民间工匠",
+    "source": "原置于河北省易县八佛洼山洞中。20世纪初被盗卖出境，流散世界各地。分别藏于大英博物馆、纽约大都会艺术博物馆、波士顿美术馆、宾夕法尼亚大学博物馆、纳尔逊-阿特金斯艺术博物馆、加拿大皇家安大略博物馆、吉美国立亚洲艺术博物馆等处。",
+    "desc": "三彩釉陶质，等身大小（约高100-120厘米）。罗汉造像写实传神，面部表情丰富，衣纹流畅自然，施黄、绿、褐三彩釉。代表中国古代宗教雕塑的巅峰水准，被国际学者誉为应属于一批在全世界范围内可能最为杰出的罗汉塑像。",
+    "museum": "分藏全球多家博物馆",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/%E7%BA%BD%E7%BA%A6%E5%A4%A7%E9%83%BD%E4%BC%9A%E8%89%BA%E6%9C%AF%E5%8D%9A%E7%89%A9%E9%A6%86%E6%98%93%E5%8E%BF%E8%BE%BD%E4%BB%A3%E4%B8%89%E5%BD%A9%E7%BD%97%E6%B1%89%E5%83%8F%E9%95%BF%E8%80%85.jpg/960px-%E7%BA%BD%E7%BA%A6%E5%A4%A7%E9%83%BD%E4%BC%9A%E8%89%BA%E6%9C%AF%E5%8D%9A%E7%89%A9%E9%A6%86%E6%98%93%E5%8E%BF%E8%BE%BD%E4%BB%A3%E4%B8%89%E5%BD%A9%E7%BD%97%E6%B1%89%E5%83%8F%E9%95%BF%E8%80%85.jpg",
+    "baike_url": "https://baike.baidu.com/item/%E6%98%93%E5%8E%BF%E5%85%AB%E4%BD%9B%E6%B4%BC%E8%BE%BD%E4%B8%89%E5%BD%A9%E7%BD%97%E6%B1%89%E7%BB%84%E5%83%8F/8598768",
+    "no": 59
+  },
+  {
+    "name": "卢棱伽《六尊者像》",
+    "era": "唐·约8世纪",
+    "owner": "唐·卢棱伽（画家，吴道子弟子）",
+    "source": "传为唐代卢棱伽绘。流传有序，清宫旧藏，现藏故宫博物院。",
+    "desc": "纵30厘米，横约53厘米（每开），绢本设色。绘六位罗汉尊者像，人物神态各异，衣纹线条遒劲有力，设色沉稳雅致。卢棱伽为吴道子得意弟子，画风得吴道子真传，此作为唐代人物画的重要传世作品。",
+    "museum": "故宫博物院",
+    "image_url": "https://pics0.baidu.com/feed/024f78f0f736afc36e4f77f5557e95cbb6451251.jpeg",
+    "baike_url": "https://baike.baidu.com/item/%E5%85%AD%E5%B0%8A%E8%80%85%E5%83%8F/6401846",
+    "no": 60
+  },
+  {
+    "name": "崔白《双喜图》",
+    "era": "北宋·嘉祐六年（1061年）",
+    "owner": "北宋·崔白（画家，宫廷画师）",
+    "source": "崔白为北宋中期花鸟画革新代表。流传有序，清宫旧藏，现藏台北故宫博物院。",
+    "desc": "纵193.7厘米，横103.4厘米，绢本设色。绘深秋时节，山鹊惊飞、野兔回首、枝叶摇曳之景。笔法灵活多变，以双勾和没骨法兼用，开创北宋花鸟画新风。画左署款嘉祐辛丑年崔白笔。",
+    "museum": "台北故宫博物院",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Cui_Bai_-_Magpies_and_Hare.jpg/960px-Cui_Bai_-_Magpies_and_Hare.jpg",
+    "baike_url": "https://baike.baidu.com/item/%E5%8F%8C%E5%96%9C%E5%9B%BE/8732588",
+    "no": 61
+  },
+  {
+    "name": "炽盛光佛并五星图",
+    "era": "唐·乾宁四年（897年）",
+    "owner": "唐·张淮兴（敦煌画师）",
+    "source": "发现于敦煌莫高窟藏经洞。清末流失海外，现藏大英博物馆。",
+    "desc": "绢本设色，绘炽盛光佛（Tejaprabha Buddha）端坐于中央，周围环绕五星神（金、木、水、火、土星）。画风融合汉地绘画与佛教密宗元素，色彩绚丽，线条流畅。是研究唐代天文观念与佛教艺术融合的重要实物。",
+    "museum": "大英博物馆",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Tejaprabh%C4%81_Buddha_and_the_Five_Planets_by_Chang_Huai-hsing_%28cropped%29.jpg",
+    "baike_url": "https://baike.baidu.com/item/%E5%94%90%E4%BB%A3%E7%82%BD%E7%9B%9B%E5%85%89%E4%BD%9B%E5%B9%B6%E4%BA%94%E6%98%9F%E5%9B%BE/857380",
+    "no": 62
   }
 ]
