@@ -860,5 +860,27 @@ relics_special = [
     "image_url": "https://bkimg.cdn.bcebos.com/pic/242dd42a2834349b033b74e1c5b102ce36d3d5391006",
     "baike_url": "https://baike.baidu.com/item/%E6%88%98%E5%9B%BD%E9%84%82%E5%90%9B%E5%90%AF%E9%87%91%E8%8A%82/23776339",
     "no": 78
+  },
+  {
+    "name": "西汉老官山提花织机模型",
+    "era": "西汉·约前2-前1世纪",
+    "owner": "西汉蜀地贵族（墓主）",
+    "source": "2012年四川省成都市天回镇老官山汉墓出土。共出土4台木制织机模型及相关工具。",
+    "desc": "木制织机模型，其中一台为多综提花织机，结构复杂，由一个带钩的丁字形连杆控制综片开口，可织造复杂图案花纹。是世界上已知最早的提花织机实物模型，将中国提花织造技术的可靠证据前推至西汉时期，比西方同类技术早1500余年。",
+    "museum": "成都博物馆",
+    "image_url": "https://k.sinaimg.cn/n/sinakd20111/384/w2048h1536/20231228/c1dc-9914ff49c2d4bcd1a6f3710a0190a8ff.jpg/w700d1q75cms.jpg",
+    "baike_url": "https://baike.baidu.com/item/%E6%B1%89%E4%BB%A3%E6%8F%90%E8%8A%B1%E6%9C%BA/8286214",
+    "no": 79
+  },
+  {
+    "name": "春秋子仲姜盘",
+    "era": "春秋·约前7-前6世纪",
+    "owner": "春秋晋国贵族（为妻子仲姜作器）",
+    "source": "传世品，清末至民国间出土。",
+    "desc": "青铜浅腹盘，口径约45厘米。盘内底饰圆雕鱼、蛙、龟等水生动物，其中圆雕动物可随水波转动，极富巧思。盘有铭文6行32字，记某贵族为其夫人仲姜作此盘。工艺精湛，为春秋时期青铜艺术与机械构思结合的杰作。",
+    "museum": "上海博物馆",
+    "image_url": "https://bkimg.cdn.bcebos.com/pic/b21c8701a18b87d653980a510a0828381e30fda2",
+    "baike_url": "https://baike.baidu.com/item/%E6%98%A5%E7%A7%8B%E5%AD%90%E4%BB%B2%E5%A7%9C%E7%9B%98/655770",
+    "no": 80
   }
 ]
