@@ -893,5 +893,16 @@ relics_special = [
     "image_url": "https://bkimg.cdn.bcebos.com/pic/d058ccbf6c81800a19d82275456f24fa828ba61ee90f",
     "baike_url": "https://baike.baidu.com/item/%E8%A5%BF%E6%B1%89%E9%87%91%E5%85%BD/3210068",
     "no": 81
+  },
+  {
+    "name": "战国曾侯乙云纹金盏",
+    "era": "战国早期·约前5世纪",
+    "owner": "战国早期曾国国君曾侯乙",
+    "source": "1978年湖北省随县擂鼓墩曾侯乙墓出土。同出金匕一件，置于盏内。",
+    "desc": "纯金铸，高11厘米，重2156克，为已出土先秦金器中最大最重的一件。直口浅腹，三凤首形矮足，盖面饰云纹、蟠螭纹。内置镂孔龙纹金匕。为研究先秦贵金属工艺与黄金礼器提供了重要实物。",
+    "museum": "湖北省博物馆",
+    "image_url": "https://bkimg.cdn.bcebos.com/pic/342ac65c10385343b493bc839613b07eca808837",
+    "baike_url": "https://baike.baidu.com/item/%E6%9B%BE%E4%BE%AF%E4%B9%99%E4%BA%91%E7%BA%B9%E9%87%91%E7%9B%8F/2798299",
+    "no": 82
   }
 ]
