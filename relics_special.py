@@ -904,5 +904,16 @@ relics_special = [
     "image_url": "https://bkimg.cdn.bcebos.com/pic/342ac65c10385343b493bc839613b07eca808837",
     "baike_url": "https://baike.baidu.com/item/%E6%9B%BE%E4%BE%AF%E4%B9%99%E4%BA%91%E7%BA%B9%E9%87%91%E7%9B%8F/2798299",
     "no": 82
+  },
+  {
+    "name": "东汉青铜卡尺",
+    "era": "新莽·约9年",
+    "owner": "东汉工匠（制作）",
+    "source": "1992年江苏省扬州市邗江区甘泉镇东汉墓出土。现藏扬州市博物馆。",
+    "desc": "青铜质，由固定尺、活动尺及导槽构成，通长13.3厘米。可测量直径、深度等数据，原理与现代游标卡尺相似。比欧洲同类工具早约1600年，是世界最早的滑动式机械测量工具实物。",
+    "museum": "扬州市博物馆",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/%E4%B8%9C%E6%B1%89%E9%93%9C%E5%8D%A1%E5%B0%BA.jpg/960px-%E4%B8%9C%E6%B1%89%E9%93%9C%E5%8D%A1%E5%B0%BA.jpg",
+    "baike_url": "https://baike.baidu.com/item/%E9%9D%92%E9%93%9C%E5%8D%A1%E5%B0%BA/7362572",
+    "no": 83
   }
 ]
