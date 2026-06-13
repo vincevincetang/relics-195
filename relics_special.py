@@ -882,5 +882,16 @@ relics_special = [
     "image_url": "https://bkimg.cdn.bcebos.com/pic/b21c8701a18b87d653980a510a0828381e30fda2",
     "baike_url": "https://baike.baidu.com/item/%E6%98%A5%E7%A7%8B%E5%AD%90%E4%BB%B2%E5%A7%9C%E7%9B%98/655770",
     "no": 80
+  },
+  {
+    "name": "新莽·金错刀母钱（一刀平五千）",
+    "era": "新莽·居摄二年（公元7年）",
+    "owner": "新朝·王莽（下诏铸行）",
+    "source": "王莽首次币制改革时铸造，始建国元年（公元9年）即废止，行用仅两年。",
+    "desc": "青铜质，由刀环与刀身组成。环面为方孔圆钱形，阴刻一刀二字嵌以黄金；刀身铸平五千阳文，值五铢钱五千。中国古代唯一采用错金工艺的钱币，是王莽虚值大钱改革的典型实物。",
+    "museum": "中国国家博物馆",
+    "image_url": "https://bkimg.cdn.bcebos.com/pic/d1a20cf431adcbefdef5f518a1af2edda2cc9fef",
+    "baike_url": "https://baike.baidu.com/item/%E9%87%91%E9%94%99%E5%88%80%E6%AF%8D%E9%92%B1/352419",
+    "no": 81
   }
 ]
