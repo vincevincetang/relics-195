@@ -268,6 +268,7 @@ def generate_html():
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="referrer" content="no-referrer">
     <title>中国禁止出国（境）展览文物 | 195件（组）国宝档案</title>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;700&family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/5.5.0/echarts.min.js"></script>
@@ -989,7 +990,7 @@ def generate_html():
     const museumData = ''' + map_json_museum + ''';
     var currentMode = 0;
 
-    fetch('https://geo.datav.aliyun.com/areas_v3/bound/100000_full.json')
+    fetch('china.json')
         .then(r => r.json())
         .then(china => {
             echarts.registerMap('china', china);
