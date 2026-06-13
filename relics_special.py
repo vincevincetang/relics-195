@@ -915,5 +915,16 @@ relics_special = [
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/%E4%B8%9C%E6%B1%89%E9%93%9C%E5%8D%A1%E5%B0%BA.jpg/960px-%E4%B8%9C%E6%B1%89%E9%93%9C%E5%8D%A1%E5%B0%BA.jpg",
     "baike_url": "https://baike.baidu.com/item/%E9%9D%92%E9%93%9C%E5%8D%A1%E5%B0%BA/7362572",
     "no": 83
+  },
+  {
+    "name": "钱镠铁券",
+    "era": "唐·乾宁四年（897年）",
+    "owner": "唐·钱镠（吴越国王，受券人）",
+    "source": "唐昭宗赐予镇海镇东军节度使钱镠，以表彰其平定董昌之功。宋代坠河，元代渔夫捞获，历代由钱氏后裔珍藏。1951年钱氏后人捐献给政府。",
+    "desc": "铁质金书，形如覆瓦，长52厘米，宽29.8厘米，嵌金铭文333字。载卿恕九死、子孙三死之免死条款。是中国现存唯一唐代铁券实物，成语免死金牌即源于此。曾为宋太宗、明太祖、清高宗等六位皇帝御览。",
+    "museum": "中国国家博物馆",
+    "image_url": "https://www.chnmuseum.cn/zp/zpml/kgfjp/202111/P020220303338279112828.jpg",
+    "baike_url": "https://baike.baidu.com/item/%E9%92%B1%E9%95%A0%E9%93%81%E5%88%B8/18146173",
+    "no": 84
   }
 ]
