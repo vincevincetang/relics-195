@@ -882,5 +882,16 @@ relics_special = [
     "image_url": "https://bkimg.cdn.bcebos.com/pic/b21c8701a18b87d653980a510a0828381e30fda2",
     "baike_url": "https://baike.baidu.com/item/%E6%98%A5%E7%A7%8B%E5%AD%90%E4%BB%B2%E5%A7%9C%E7%9B%98/655770",
     "no": 80
+  },
+  {
+    "name": "西汉金兽",
+    "era": "西汉（约前2-前1世纪）",
+    "owner": "西汉诸侯王（埋藏者不详）",
+    "source": "1982年江苏省盱眙县南窑庄窖藏出土。出土时盖于铜壶之上，壶内贮有大量金币。",
+    "desc": "纯金铸，重9100克，含金量99%，为中国考古所见最重金器。空腹厚壁，浇铸与捶击工艺结合，通体锤饰圆形斑纹，内壁刻小篆黄六二字。是研究西汉黄金储备与铸造工艺的重要实物。",
+    "museum": "南京博物院",
+    "image_url": "https://bkimg.cdn.bcebos.com/pic/d058ccbf6c81800a19d82275456f24fa828ba61ee90f",
+    "baike_url": "https://baike.baidu.com/item/%E8%A5%BF%E6%B1%89%E9%87%91%E5%85%BD/3210068",
+    "no": 81
   }
 ]
