@@ -1068,6 +1068,7 @@ def generate_html():
     }
     
     function showSpecial() {
+        location.hash = 'special';
         var sec = document.getElementById('specialSection');
         if (!sec) return;
         document.querySelectorAll('.filter-btn, .special-tab-btn').forEach(function(b) { b.classList.remove('active'); });
@@ -1172,6 +1173,7 @@ def generate_html():
         filterBtns.forEach(btn => {
             btn.addEventListener('click', () => {
                 showMain();
+                location.hash = btn.dataset.filter;
                 filterBtns.forEach(b => b.classList.remove('active'));
                 btn.classList.add('active');
                 
@@ -1192,6 +1194,14 @@ def generate_html():
         cards.forEach((card, i) => {
             card.style.animationDelay = `${(i % 20) * 0.05}s`;
         });
+
+        // 恢复刷新前的标签状态
+        if (location.hash === '#special') {
+            showSpecial();
+        } else if (location.hash) {
+            var target = document.querySelector('.filter-btn[data-filter="' + location.hash.slice(1) + '"]');
+            if (target) target.click();
+        }
     </script>
 </body>
 </html>

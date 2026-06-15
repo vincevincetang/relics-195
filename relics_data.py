@@ -159,11 +159,11 @@ batch1 = [
         "baike_url":"https://baike.baidu.com/item/%E6%B0%B4%E6%99%B6%E6%9D%AF",
     },
     {
-        "name":"淅川出土铜禁",
+        "name":"春秋云纹铜禁",
         "era":"春秋中期·楚庄王时期（约前6世纪）",
         "source":"1978年河南省淅川县下寺2号楚墓出土。墓主为楚庄王之子、令尹子庚（又名王子午）。",
         "owner":"楚国令尹子庚（楚庄王之子）",
-        "desc":"通高28.8厘米，器身长103厘米，以粗细不同的铜梗支撑多层镂空云纹，十二只龙形异兽攀缘于禁的四周，是我国迄今发现用失蜡法铸造的时代最早的铜器。",
+        "desc":"通高28.8厘米，器身长103厘米，以粗细不同的铜梗支撑多层镂空云纹，十二只龙形异兽攀缘于禁的四周，是我国迄今发现用失蜡法铸造的时代最早的铜器，将中国失蜡法铸造工艺历史提前至春秋时期，纠正了该技术源自印度的观点。",
         "museum":"河南博物院",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/9/99/Bronze_jin_from_Henan.jpg",
         "baike_url":"https://baike.baidu.com/item/%E4%BA%91%E7%BA%B9%E9%93%9C%E7%A6%81",
