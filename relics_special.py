@@ -1146,5 +1146,16 @@ relics_special = [
     "image_url": "https://bkimg.cdn.bcebos.com/pic/32fa828ba61ea8d3103e84eb970a304e241f58c5",
     "baike_url": "https://baike.baidu.com/item/%E5%8D%97%E5%AE%8B%E3%80%8A%E5%B9%B3%E6%B1%9F%E5%9B%BE%E3%80%8B%E7%A2%91/804380",
     "no": 104
+  },
+  {
+    "name": "西汉鎏金银竹节铜熏炉",
+    "era": "西汉",
+    "owner": "汉武帝（赐予阳信长公主）",
+    "source": "1981年陕西省兴平市茂陵东侧从葬坑出土。未央宫御制器，炉口铭文载其为未央宫旧物，后被汉武帝赐予阳信长公主（即平阳公主，汉武帝姊）与大将军卫青，可视为二人婚仪赏器。现藏陕西历史博物馆。",
+    "desc": "通高58厘米，通体鎏金鋈银。炉体、竹节长柄及底座分铸铆合，博山炉形制。底座透雕双蟠龙咬竹节柄，全器共饰九龙纹。炉口圈足刻铭文，载其为未央宫旧物，汉武帝赐阳信长公主。1981年茂陵陪葬坑出土。",
+    "museum": "陕西历史博物馆",
+    "image_url": "https://bkimg.cdn.bcebos.com/pic/e61190ef76c6a7efce1b494462a6b851f3deb48fc806",
+    "baike_url": "https://baike.baidu.com/item/%E8%A5%BF%E6%B1%89%E9%8E%8F%E9%87%91%E9%93%B6%E7%AB%B9%E8%8A%82%E9%93%9C%E7%86%8F%E7%82%89/2838055",
+    "no": 105
   }
 ]
