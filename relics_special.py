@@ -1157,5 +1157,16 @@ relics_special = [
     "image_url": "https://bkimg.cdn.bcebos.com/pic/e61190ef76c6a7efce1b494462a6b851f3deb48fc806",
     "baike_url": "https://baike.baidu.com/item/%E8%A5%BF%E6%B1%89%E9%8E%8F%E9%87%91%E9%93%B6%E7%AB%B9%E8%8A%82%E9%93%9C%E7%86%8F%E7%82%89/2838055",
     "no": 105
+  },
+  {
+    "name": "唐鎏金鹦鹉纹提梁银罐",
+    "era": "唐（约8世纪）",
+    "owner": "唐代宫廷用器（何家村窖藏）",
+    "source": "1970年陕西省西安市南郊何家村唐代窖藏出土。同窖藏出土金银器270余件，为唐代宫廷珍宝，推测于安史之乱时仓促埋藏。",
+    "desc": "通高24.2厘米口径14.4厘米腹径16.2厘米底径15.3厘米。银质鎏金捶揲成型平錾花纹。罐身满饰鹦鹉纹缠枝花卉鹦鹉衔花枝展翅。提梁饰菱形锦纹覆碗形盖盖顶刻莲瓣卷草纹。1970年何家村窖藏出土。何家村三大件之一唐工艺巅峰丝路见证。",
+    "museum": "陕西历史博物馆",
+    "image_url": "https://bkimg.cdn.bcebos.com/pic/500fd9f9d72a6059d40385cf2634349b023bbad0",
+    "baike_url": "https://baike.baidu.com/item/%E5%94%90%E9%8E%8F%E9%87%91%E9%B9%A6%E9%B9%89%E7%BA%B9%E6%8F%90%E6%A2%81%E9%93%B6%E7%BD%90/3142965",
+    "no": 106
   }
 ]
