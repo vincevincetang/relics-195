@@ -269,10 +269,15 @@ def generate_html():
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="referrer" content="no-referrer">
-    <title>中国禁止出国（境）展览文物 | 195件（组）国宝档案</title>
+    <title>物华天宝 · 何以中国</title>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;700&family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/5.5.0/echarts.min.js"></script>
     <style>
+        @font-face {
+            font-family: 'ZhiHaoTianGongZhuan';
+            src: url('HYZhiHaoTianGongZhuanW-2.woff') format('woff');
+            font-display: swap;
+        }
         :root {
             --primary: #8B4513;
             --primary-light: #A0522D;
@@ -299,8 +304,8 @@ def generate_html():
         
         .header {
             background: linear-gradient(180deg, #2C1810 0%, #4A3728 100%);
-            color: #FDF6E3;
-            padding: 80px 20px 60px;
+            color: #f4e1a7;
+            padding: 30px 20px 50px;
             text-align: center;
             position: relative;
             overflow: hidden;
@@ -317,14 +322,14 @@ def generate_html():
         .header-content {
             position: relative;
             z-index: 1;
-            max-width: 900px;
+            max-width: 960px;
             margin: 0 auto;
         }
         
         .header h1 {
-            font-family: 'Noto Serif SC', serif;
-            font-size: clamp(2rem, 5vw, 3.2rem);
-            font-weight: 700;
+            font-family: 'ZhiHaoTianGongZhuan', 'Noto Serif SC', serif;
+            font-size: clamp(2rem, 5vw, 5rem);
+            font-weight: normal;
             margin-bottom: 16px;
             letter-spacing: 0.1em;
             text-shadow: 0 2px 20px rgba(0,0,0,0.3);
@@ -341,7 +346,7 @@ def generate_html():
         .header .desc {
             font-size: 0.95rem;
             color: rgba(253,246,227,0.7);
-            max-width: 700px;
+            max-width: 750px;
             margin: 0 auto;
             line-height: 1.8;
         }
@@ -396,6 +401,141 @@ def generate_html():
             position: relative;
         }
         
+        .sort-bar {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            max-width: 1400px;
+            margin: 12px auto 0;
+            padding-top: 12px;
+            border-top: 1px solid var(--border);
+            font-size: 13px;
+            flex-wrap: wrap;
+        }
+        .sort-label {
+            color: #888;
+            margin-right: 4px;
+            font-size: 12px;
+        }
+        .sort-btn {
+            padding: 3px 12px;
+            border: 1px solid var(--border);
+            border-radius: 14px;
+            background: transparent;
+            cursor: pointer;
+            font-size: 13px;
+            color: #555;
+            transition: all 0.2s;
+        }
+        .sort-btn:hover { border-color: var(--accent-gold); color: #333; }
+        .sort-btn.active {
+            background: var(--accent-gold);
+            color: #fff;
+            border-color: var(--accent-gold);
+        }
+        .sort-order-btn {
+            cursor: pointer;
+            color: #888;
+            padding: 3px 8px;
+            user-select: none;
+            font-size: 14px;
+        }
+        .sort-order-btn:hover { color: #333; }
+        .sort-reset-btn {
+            padding: 3px 10px;
+            border: none;
+            background: transparent;
+            cursor: pointer;
+            font-size: 12px;
+            color: #bbb;
+        }
+        .sort-reset-btn:hover { color: #c45c48; }
+        .category-select-wrapper {
+            position: relative;
+            display: inline-block;
+        }
+        .category-select {
+            padding: 3px 28px 3px 10px;
+            border: 1px solid var(--border);
+            border-radius: 14px;
+            background: transparent;
+            cursor: pointer;
+            font-size: 13px;
+            color: #555;
+            outline: none;
+            min-width: 100px;
+            appearance: none;
+            -webkit-appearance: none;
+        }
+        .category-select:hover { border-color: var(--accent-gold); }
+        .category-clear {
+            display: none;
+            position: absolute;
+            right: 6px;
+            top: 50%;
+            transform: translateY(-50%);
+            cursor: pointer;
+            color: #bbb;
+            font-size: 12px;
+            padding: 2px 4px;
+            line-height: 1;
+            border-radius: 50%;
+            transition: all 0.2s;
+            user-select: none;
+        }
+        .category-clear:hover { color: #c45c48; }
+        .category-clear.visible { display: block; }
+        .batch-select-wrapper {
+            position: relative;
+            display: inline-block;
+        }
+        .batch-select {
+            padding: 3px 28px 3px 10px;
+            border: 1px solid var(--border);
+            border-radius: 14px;
+            background: transparent;
+            cursor: pointer;
+            font-size: 13px;
+            color: #555;
+            outline: none;
+            appearance: none;
+            -webkit-appearance: none;
+        }
+        .batch-select:hover { border-color: var(--accent-gold); }
+        .batch-clear {
+            display: none;
+            position: absolute;
+            right: 6px;
+            top: 50%;
+            transform: translateY(-50%);
+            cursor: pointer;
+            color: #bbb;
+            font-size: 12px;
+            padding: 2px 4px;
+            line-height: 1;
+            border-radius: 50%;
+            transition: all 0.2s;
+            user-select: none;
+        }
+        .batch-clear:hover { color: #c45c48; }
+        .batch-clear.visible { display: block; }
+        .sort-bar-map-btn {
+            padding: 3px 12px;
+            border: 1px solid var(--border);
+            border-radius: 14px;
+            background: transparent;
+            cursor: pointer;
+            font-size: 13px;
+            color: #555;
+            transition: all 0.2s;
+            white-space: nowrap;
+            margin-left: auto;
+        }
+        .sort-bar-map-btn:hover {
+            border-color: var(--accent-gold);
+            color: #333;
+        }
+        
         .search-clear {
             display: none;
             position: absolute;
@@ -442,29 +582,33 @@ def generate_html():
             opacity: 0.5;
         }
         
-        .filter-group {
+        .tab-group {
             display: flex;
             gap: 8px;
-            flex-wrap: wrap;
+            flex-shrink: 0;
         }
-        
-        .filter-btn {
-            padding: 10px 20px;
+        .tab-btn {
+            padding: 10px 24px;
             border: 2px solid var(--border);
             border-radius: 10px;
             background: #fff;
             color: var(--text-medium);
-            font-size: 0.85rem;
+            font-size: 0.9rem;
+            font-weight: 600;
             cursor: pointer;
             transition: all 0.3s;
             font-family: inherit;
-            font-weight: 500;
+            white-space: nowrap;
         }
-        
-        .filter-btn:hover, .filter-btn.active {
+        .tab-btn:hover {
             border-color: var(--accent-gold);
             background: linear-gradient(135deg, #FFF8DC, #FDF6E3);
-            color: var(--primary);
+        }
+        .tab-btn.active {
+            border-color: var(--primary);
+            background: var(--primary);
+            color: #fff;
+            box-shadow: 0 2px 12px rgba(74,55,40,0.25);
         }
         
         .container {
@@ -674,25 +818,6 @@ def generate_html():
             opacity: 0;
             border-top: none;
         }
-        .special-tab-btn {
-            padding: 6px 16px;
-            border: 1px solid #b8860b;
-            background: transparent;
-            border-radius: 16px;
-            cursor: pointer;
-            font-size: 0.85rem;
-            color: #b8860b;
-            transition: all 0.3s;
-            white-space: nowrap;
-        }
-        .special-tab-btn:hover {
-            background: #b8860b;
-            color: #fff;
-        }
-        .special-tab-btn.active {
-            background: #b8860b;
-            color: #fff;
-        }
         .special-section { display: none; }
         .special-section.visible { display: block; }
         .relics-grid.special-hidden { display: none; }
@@ -712,24 +837,9 @@ def generate_html():
         .special-header p {
             font-size: 0.95rem;
             color: #8D6E63;
-            max-width: 640px;
+            max-width: 700px;
             margin: 0 auto;
             line-height: 1.8;
-        }
-        .map-toggle-btn {
-            padding: 6px 16px;
-            border: 1px solid var(--accent-gold);
-            background: transparent;
-            border-radius: 16px;
-            cursor: pointer;
-            font-size: 0.85rem;
-            color: var(--primary-light);
-            transition: all 0.3s;
-            white-space: nowrap;
-        }
-        .map-toggle-btn:hover {
-            background: var(--accent-gold);
-            color: #fff;
         }
         .map-title {
             font-family: 'Noto Serif SC', serif;
@@ -783,28 +893,23 @@ def generate_html():
 <body>
     <header class="header">
         <div class="header-content">
-            <h1>禁止出国（境）展览文物</h1>
-            <p class="subtitle">195件（组）中华国宝档案</p>
-            <p class="desc">
-                国家文物局先后于2002年、2012年、2013年公布三批禁止出境展览的一级文物名单，
-                旨在保护国家一级文物中的孤品和易损品，确保珍贵文物的绝对安全。
+            <h1>物華天寶 · 何以中國</h1>
+            <p class="subtitle">
+                汇聚国家文物局公布的禁止出境展览文物，
+                及名录之外的华夏绝珍，构建中华国宝的双维档案。
             </p>
             <div class="header-stats">
                 <div class="stat-item">
-                    <div class="stat-number">64</div>
-                    <div class="stat-label">第一批（2002年）</div>
-                </div>
-                <div class="stat-item">
-                    <div class="stat-number">37</div>
-                    <div class="stat-label">第二批（2012年）</div>
-                </div>
-                <div class="stat-item">
-                    <div class="stat-number">94</div>
-                    <div class="stat-label">第三批（2013年）</div>
-                </div>
-                <div class="stat-item">
                     <div class="stat-number">195</div>
-                    <div class="stat-label">总计（件/组）</div>
+                    <div class="stat-label">禁出境文物</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">''' + str(len(relics_special)) + '''</div>
+                    <div class="stat-label">特辑典藏</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">''' + str(len(relics) + len(relics_special)) + '''</div>
+                    <div class="stat-label">总计</div>
                 </div>
             </div>
         </div>
@@ -816,14 +921,54 @@ def generate_html():
                 <input type="text" id="searchInput" placeholder="搜索文物名称、时代、物主...">
                 <span class="search-clear" id="searchClear" onclick="clearSearch()">✕</span>
             </div>
-            <div class="filter-group">
-                <button class="filter-btn active" data-filter="all">全部</button>
-                <button class="filter-btn" data-filter="第一批">第一批</button>
-                <button class="filter-btn" data-filter="第二批">第二批</button>
-                <button class="filter-btn" data-filter="第三批">第三批</button>
-                <button class="map-toggle-btn" onclick="toggleMapSection()">🗺 地理分布</button>
-                ''' + ('<button class="special-tab-btn" onclick="showSpecial()">✦ 未收录特辑</button>' if relics_special else '') + '''
+            <div class="tab-group">
+                <button class="tab-btn active" id="tabBtn195">📜 195禁止出境名录</button>
+                <button class="tab-btn" id="tabBtnSpecial">✦ 特辑名录</button>
             </div>
+        </div>
+        <div class="sort-bar">
+            <span class="sort-label">排序</span>
+            <button class="sort-btn active" data-sort="default">默认</button>
+            <button class="sort-btn" data-sort="period">时代</button>
+            <span class="sort-order-btn" id="sortOrderBtn">↑ 升序</span>
+            <button class="sort-reset-btn" id="sortResetBtn">重置</button>
+            <span class="sort-label" style="margin-left:16px;">类型</span>
+            <div class="category-select-wrapper">
+                <select id="categoryFilter" class="category-select">
+                    <option value="all">全部</option>
+                    <option value="青铜器">青铜器</option>
+                    <option value="绘画">绘画</option>
+                    <option value="书法">书法</option>
+                    <option value="瓷器">瓷器</option>
+                    <option value="金银器">金银器</option>
+                    <option value="玉器">玉器</option>
+                    <option value="雕塑造像">雕塑造像</option>
+                    <option value="古籍简牍">古籍简牍</option>
+                    <option value="织绣服饰">织绣服饰</option>
+                    <option value="石刻碑帖">石刻碑帖</option>
+                    <option value="漆器">漆器</option>
+                    <option value="陶器">陶器</option>
+                    <option value="乐器">乐器</option>
+                    <option value="玺印符节">玺印符节</option>
+                    <option value="竹木牙角">竹木牙角</option>
+                    <option value="天文舆图">天文舆图</option>
+                    <option value="佛家法器">佛家法器</option>
+                    <option value="壁画">壁画</option>
+                    <option value="玻璃水晶">玻璃水晶</option>
+                </select>
+                <span class="category-clear" id="categoryClear" onclick="clearCategory()">✕</span>
+            </div>
+            <span class="sort-label" id="batchLabel" style="margin-left:16px;">批次</span>
+            <div class="batch-select-wrapper">
+                <select id="batchFilter" class="batch-select">
+                    <option value="all">全部</option>
+                    <option value="第一批">第一批</option>
+                    <option value="第二批">第二批</option>
+                    <option value="第三批">第三批</option>
+                </select>
+                <span class="batch-clear" id="batchClear" onclick="clearBatch()">✕</span>
+            </div>
+            <button class="sort-bar-map-btn" id="mapToggleBtn" onclick="toggleMapSection()">🗺 地理分布</button>
         </div>
     </div>
     
@@ -861,7 +1006,7 @@ def generate_html():
             image_section = placeholder_html.replace('<div class="placeholder"', '<div class="placeholder" style="display:flex;"')
         
         card_html = f'''
-            <article class="relic-card" data-batch="{batch[:3]}" data-name="{name}" data-era="{era}" data-owner="{owner}" data-museum="{museum}">
+            <article class="relic-card" data-batch="{batch[:3]}" data-name="{name}" data-era="{era}" data-owner="{owner}" data-museum="{museum}" data-period-order="{relic.get('period_order', '')}" data-no="{no}" data-category='{json.dumps(relic.get("category", []), ensure_ascii=False)}'>
                 <div class="card-image">
                     {image_section}
                     <span class="batch-badge">{batch}</span>
@@ -944,7 +1089,7 @@ def generate_html():
             else:
                 s_image_section = s_placeholder_html.replace('<div class="placeholder"', '<div class="placeholder" style="display:flex;"')
             special_cards += f'''
-            <article class="relic-card special-card">
+            <article class="relic-card special-card" data-period-order="{r.get('period_order', '')}" data-no="{r['no']}" data-category='{json.dumps(r.get("category", []), ensure_ascii=False)}'>
                 <div class="card-image">
                     {s_image_section}
                 </div>
@@ -975,10 +1120,6 @@ def generate_html():
     </main>
     
     <section class="special-section" id="specialSection">
-        <div class="special-header">
-            <h2>✦ 未收录特辑</h2>
-            <p>此特辑收录未列入禁止出境展览文物名录（或流失、流转至境外）的重磅文物，这些文物的历史价值与艺术成就丝毫不逊。特辑持续更新中。</p>
-        </div>
         <div class="container">
             <div class="relics-grid">''' + special_cards + '''
         </div></div>
@@ -1068,48 +1209,47 @@ def generate_html():
     }
     
     function showSpecial() {
+        document.getElementById('tabBtn195').classList.remove('active');
+        document.getElementById('tabBtnSpecial').classList.add('active');
         location.hash = 'special';
         var sec = document.getElementById('specialSection');
         if (!sec) return;
-        document.querySelectorAll('.filter-btn, .special-tab-btn').forEach(function(b) { b.classList.remove('active'); });
-        var sbtn = document.querySelector('.special-tab-btn');
-        if (sbtn) sbtn.classList.add('active');
         document.getElementById('relicsGrid').style.display = 'none';
         sec.style.display = 'block';
         sec.querySelectorAll('.special-card').forEach(function(c) { c.classList.remove('hidden'); c.style.animationDelay = '0s'; });
         var mc = document.querySelector('main.container');
         if (mc) mc.style.padding = '0';
-        // 隐藏地理分布按钮
-        var mtb = document.querySelector('.map-toggle-btn');
-        if (mtb) mtb.style.display = 'none';
+        // 隐藏批次和地图
+        document.getElementById('batchLabel').style.display = 'none';
+        document.getElementById('batchFilter').style.display = 'none';
+        document.getElementById('mapToggleBtn').style.display = 'none';
         var ms = document.getElementById('mapSection');
         if (ms && !ms.classList.contains('collapsed')) toggleMapSection();
-        // 应用当前搜索词
-        var sq = document.getElementById('searchInput');
-        if (sq && sq.value) {
-            var q = sq.value.toLowerCase().trim();
-            sec.querySelectorAll('.special-card').forEach(function(c) {
-                c.classList.toggle('hidden', !(c.textContent || '').toLowerCase().includes(q));
-            });
-        }
+        if (typeof filterCards === 'function') filterCards(searchInput ? searchInput.value : '');
+        if (typeof doSort === 'function') doSort();
     }
     function showMain() {
+        document.getElementById('tabBtn195').classList.add('active');
+        document.getElementById('tabBtnSpecial').classList.remove('active');
+        location.hash = '';
         var sec = document.getElementById('specialSection');
         if (!sec) return;
         sec.style.display = 'none';
-        var sbtn = document.querySelector('.special-tab-btn');
-        if (sbtn) sbtn.classList.remove('active');
         var grid = document.getElementById('relicsGrid');
         grid.style.display = '';
         var mainContainer = document.querySelector('main.container');
         if (mainContainer) mainContainer.style.padding = '';
-        // 显示地理分布按钮
-        var mtb = document.querySelector('.map-toggle-btn');
-        if (mtb) mtb.style.display = '';
+        // 显示批次和地图
+        document.getElementById('batchLabel').style.display = '';
+        document.getElementById('batchFilter').style.display = '';
+        document.getElementById('mapToggleBtn').style.display = '';
+        if (typeof filterCards === 'function') filterCards(searchInput ? searchInput.value : '');
+        if (typeof doSort === 'function') doSort();
     }
     function toggleMapSection() {
         var section = document.getElementById('mapSection');
-        var btn = document.querySelector('.map-toggle-btn');
+        var btn = document.getElementById('mapToggleBtn');
+        if (!section || !btn) return;
         var isCollapsed = section.classList.contains('collapsed');
         section.classList.toggle('collapsed');
         btn.textContent = isCollapsed ? '🗺 收起地图' : '🗺 地理分布';
@@ -1133,74 +1273,148 @@ def generate_html():
         const searchInput = document.getElementById('searchInput');
         const cards = document.querySelectorAll('.relic-card');
         
-        function applySearch() {
-            var evt = new Event('input');
-            searchInput.dispatchEvent(evt);
+        function filterCards(q) {
+            q = (q || '').toLowerCase().trim();
+            var catFilter = document.getElementById('categoryFilter').value;
+            var batchFilter = document.getElementById('batchFilter').value;
+            // 195名单
+            cards.forEach(function(card) {
+                if (!card.dataset.name) return;
+                var txt = (card.querySelector('.card-body').textContent || '').toLowerCase();
+                var match = txt.includes(q);
+                if (batchFilter !== 'all') match = match && (card.dataset.batch === batchFilter);
+                if (catFilter !== 'all') {
+                    var cats = JSON.parse(card.dataset.category || '[]');
+                    match = match && cats.includes(catFilter);
+                }
+                card.classList.toggle('hidden', !match);
+            });
+            // 特辑
+            document.querySelectorAll('.special-card').forEach(function(card) {
+                var txt = (card.querySelector('.card-body').textContent || '').toLowerCase();
+                var match = txt.includes(q);
+                if (catFilter !== 'all') {
+                    var cats = JSON.parse(card.dataset.category || '[]');
+                    match = match && cats.includes(catFilter);
+                }
+                card.classList.toggle('hidden', !match);
+            });
         }
         function clearSearch() {
             searchInput.value = '';
             document.getElementById('searchClear').classList.remove('visible');
-            applySearch();
+            filterCards('');
             searchInput.focus();
         }
         searchInput.addEventListener('input', function() {
             var clr = document.getElementById('searchClear');
             if (clr) clr.classList.toggle('visible', this.value.length > 0);
-        });
-        searchInput.addEventListener('input', (e) => {
-            const query = e.target.value.toLowerCase().trim();
-            // 搜索195名单
-            var activeFilter = document.querySelector('.filter-btn.active');
-            var filter = activeFilter ? activeFilter.dataset.filter : 'all';
-            cards.forEach(card => {
-                if (!card.dataset.name) return;
-                var name = card.dataset.name.toLowerCase();
-                var era = card.dataset.era.toLowerCase();
-                var owner = card.dataset.owner.toLowerCase();
-                var museum = (card.dataset.museum || '').toLowerCase();
-                var match = name.includes(query) || era.includes(query) || owner.includes(query) || museum.includes(query);
-                if (filter !== 'all') match = match && (card.dataset.batch === filter);
-                card.classList.toggle('hidden', !match);
-                });
-            // 搜索特辑卡片
-            document.querySelectorAll('.special-card').forEach(function(card) {
-                var txt = (card.textContent || '').toLowerCase();
-                card.classList.toggle('hidden', !txt.includes(query));
-            });
+            filterCards(this.value);
         });
         
-        const filterBtns = document.querySelectorAll('.filter-btn');
-        filterBtns.forEach(btn => {
-            btn.addEventListener('click', () => {
-                showMain();
-                location.hash = btn.dataset.filter;
-                filterBtns.forEach(b => b.classList.remove('active'));
-                btn.classList.add('active');
-                
-                const filter = btn.dataset.filter;
-                var query = searchInput ? searchInput.value.toLowerCase().trim() : '';
-                cards.forEach(card => {
-                    if (!card.dataset.batch) return;
-                    var match = filter === 'all' || card.dataset.batch === filter;
-                    if (query) {
-                        var txt = ((card.dataset.name || '') + (card.dataset.era || '') + (card.dataset.owner || '') + (card.dataset.museum || '')).toLowerCase();
-                        match = match && txt.includes(query);
-                    }
-                    card.classList.toggle('hidden', !match);
-                });
-            });
+        document.getElementById('tabBtn195').addEventListener('click', function() {
+            if (this.classList.contains('active')) return;
+            showMain();
+        });
+        document.getElementById('tabBtnSpecial').addEventListener('click', function() {
+            if (this.classList.contains('active')) return;
+            showSpecial();
         });
         
         cards.forEach((card, i) => {
             card.style.animationDelay = `${(i % 20) * 0.05}s`;
         });
 
+        // 排序逻辑
+        var sortState = { key: 'default', asc: true };
+
+        function getSortContainer() {
+            var sec = document.getElementById('specialSection');
+            var grid = document.getElementById('relicsGrid');
+            return grid.offsetParent ? grid : sec.querySelector('.relics-grid');
+        }
+
+        function doSort() {
+            var container = getSortContainer();
+            if (!container) return;
+            var cards = Array.from(container.querySelectorAll('.relic-card'));
+            cards.sort(function(a, b) {
+                var cmp;
+                if (sortState.key === 'default') {
+                    cmp = (parseInt(a.dataset.no) || 0) - (parseInt(b.dataset.no) || 0);
+                } else if (sortState.key === 'period') {
+                    var pa = parseInt(a.dataset.periodOrder) || 0;
+                    var pb = parseInt(b.dataset.periodOrder) || 0;
+                    cmp = pa !== pb ? pa - pb : (parseInt(a.dataset.no) || 0) - (parseInt(b.dataset.no) || 0);
+                }
+                return sortState.asc ? cmp : -cmp;
+            });
+            cards.forEach(function(card) { container.appendChild(card); });
+        }
+
+        document.querySelectorAll('.sort-btn').forEach(function(btn) {
+            btn.addEventListener('click', function() {
+                document.querySelectorAll('.sort-btn').forEach(function(b) { b.classList.remove('active'); });
+                this.classList.add('active');
+                sortState.key = this.dataset.sort;
+                doSort();
+            });
+        });
+
+        document.getElementById('sortOrderBtn').addEventListener('click', function() {
+            sortState.asc = !sortState.asc;
+            this.textContent = sortState.asc ? '↑ 升序' : '↓ 降序';
+            doSort();
+        });
+
+        document.getElementById('sortResetBtn').addEventListener('click', function() {
+            document.querySelectorAll('.sort-btn').forEach(function(b) { b.classList.remove('active'); });
+            document.querySelector('.sort-btn[data-sort="default"]').classList.add('active');
+            sortState.key = 'default';
+            sortState.asc = true;
+            document.getElementById('sortOrderBtn').textContent = '↑ 升序';
+            doSort();
+        });
+
+        function clearCategory() {
+            var sel = document.getElementById('categoryFilter');
+            sel.value = 'all';
+            document.getElementById('categoryClear').classList.remove('visible');
+            filterCards(searchInput ? searchInput.value : '');
+        }
+
+        document.getElementById('categoryFilter').addEventListener('change', function() {
+            document.getElementById('categoryClear').classList.toggle('visible', this.value !== 'all');
+            filterCards(searchInput ? searchInput.value : '');
+        });
+
+        function clearBatch() {
+            var sel = document.getElementById('batchFilter');
+            sel.value = 'all';
+            document.getElementById('batchClear').classList.remove('visible');
+            location.hash = '';
+            filterCards(searchInput ? searchInput.value : '');
+            doSort();
+        }
+
+        document.getElementById('batchFilter').addEventListener('change', function() {
+            document.getElementById('batchClear').classList.toggle('visible', this.value !== 'all');
+            var val = this.value;
+            location.hash = val === 'all' ? '' : val;
+            filterCards(searchInput ? searchInput.value : '');
+            doSort();
+        });
+
         // 恢复刷新前的标签状态
         if (location.hash === '#special') {
-            showSpecial();
-        } else if (location.hash) {
-            var target = document.querySelector('.filter-btn[data-filter="' + location.hash.slice(1) + '"]');
-            if (target) target.click();
+            document.getElementById('tabBtnSpecial').click();
+        } else {
+            if (location.hash) {
+                var batchVal = location.hash.slice(1);
+                document.getElementById('batchFilter').value = batchVal;
+                document.getElementById('batchClear').classList.toggle('visible', batchVal !== 'all');
+            }
+            document.getElementById('tabBtn195').click();
         }
     </script>
 </body>

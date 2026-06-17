@@ -18,6 +18,8 @@ batch1 = [
         "museum":"中国国家博物馆",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/%E9%B9%B3%E9%B1%BC%E7%9F%B3%E6%96%A7%E5%9B%BE%E5%BD%A9%E7%BB%98%E9%99%B6%E7%BC%B808765.jpg/960px-%E9%B9%B3%E9%B1%BC%E7%9F%B3%E6%96%A7%E5%9B%BE%E5%BD%A9%E7%BB%98%E9%99%B6%E7%BC%B808765.jpg",
         "baike_url":"https://baike.baidu.com/item/%E9%B9%B3%E9%B1%BC%E7%9F%B3%E6%96%A7%E5%9B%BE%E5%BD%A9%E9%99%B6%E7%BC%B8",
+        "category": ["陶器", "绘画"],
+        "period_order": 2,
     },
     {
         "name":"陶鹰鼎",
@@ -29,6 +31,8 @@ batch1 = [
         "museum":"中国国家博物馆",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/%E9%B9%B0%E5%BD%A2%E9%99%B6%E9%BC%8E08720.jpg/960px-%E9%B9%B0%E5%BD%A2%E9%99%B6%E9%BC%8E08720.jpg",
         "baike_url":"https://baike.baidu.com/item/%E9%99%B6%E9%B9%B0%E9%BC%8E",
+        "category": ["陶器", "雕塑造像"],
+        "period_order": 2,
     },
     {
         "name":"后母戊鼎",
@@ -40,6 +44,8 @@ batch1 = [
         "museum":"中国国家博物馆",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/HouMuWuDingFullView.jpg/960px-HouMuWuDingFullView.jpg",
         "baike_url":"https://baike.baidu.com/item/%E5%90%8E%E6%AF%8D%E6%88%8A%E9%BC%8E",
+        "category": ["青铜器"],
+        "period_order": 12,
     },
     {
         "name":"利簋",
@@ -51,6 +57,8 @@ batch1 = [
         "museum":"中国国家博物馆",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Li_Gui%2C_2016-09-09_01.jpg/960px-Li_Gui%2C_2016-09-09_01.jpg",
         "baike_url":"https://baike.baidu.com/item/%E8%A5%BF%E5%91%A8%E5%88%A9%E7%B0%8B",
+        "category": ["青铜器"],
+        "period_order": 13,
     },
     {
         "name":"大盂鼎",
@@ -62,6 +70,8 @@ batch1 = [
         "museum":"上海博物馆",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/2/26/%E5%A4%A7%E7%9B%82%E9%BC%8E_Da_Yu_ding.jpg",
         "baike_url":"https://baike.baidu.com/item/%E5%A4%A7%E7%9B%82%E9%BC%8E",
+        "category": ["青铜器"],
+        "period_order": 13,
     },
     {
         "name":"虢季子白盘",
@@ -73,6 +83,8 @@ batch1 = [
         "museum":"中国国家博物馆",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Guojizibai_pan_01.jpg/960px-Guojizibai_pan_01.jpg",
         "baike_url":"https://baike.baidu.com/item/%E8%99%A2%E5%AD%A3%E5%AD%90%E7%99%BD%E7%9B%98",
+        "category": ["青铜器"],
+        "period_order": 13,
     },
     {
         "name":"凤冠（六龙三凤冠等）",
@@ -84,6 +96,8 @@ batch1 = [
         "museum":"中国国家博物馆/故宫博物院/明十三陵博物馆",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/%E5%AD%9D%E7%AB%AF%E6%98%BE%E7%9A%87%E5%90%8E%E4%B9%9D%E9%BE%99%E4%B9%9D%E5%87%A4%E5%86%A0.jpeg/960px-%E5%AD%9D%E7%AB%AF%E6%98%BE%E7%9A%87%E5%90%8E%E4%B9%9D%E9%BE%99%E4%B9%9D%E5%87%A4%E5%86%A0.jpeg",
         "baike_url":"https://baike.baidu.com/item/%E6%98%8E%E5%AD%9D%E7%AB%AF%E7%9A%87%E5%90%8E%E4%B9%9D%E9%BE%99%E4%B9%9D%E5%87%A4%E5%86%A0",
+        "category": ["金银器", "织绣服饰"],
+        "period_order": 33,
     },
     {
         "name":"嵌绿松石象牙杯",
@@ -95,6 +109,8 @@ batch1 = [
         "museum":"中国社会科学院考古研究所",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/%E5%B5%8C%E7%BB%BF%E6%9D%BE%E7%9F%B3%E8%B1%A1%E7%89%99%E6%9D%AF.jpg/960px-%E5%B5%8C%E7%BB%BF%E6%9D%BE%E7%9F%B3%E8%B1%A1%E7%89%99%E6%9D%AF.jpg",
         "baike_url":"https://baike.baidu.com/item/%E5%B5%8C%E7%BB%BF%E6%9D%BE%E7%9F%B3%E8%B1%A1%E7%89%99%E6%9D%AF",
+        "category": ["竹木牙角"],
+        "period_order": 12,
     },
     {
         "name":"晋侯苏钟（一套16件）",
@@ -106,6 +122,8 @@ batch1 = [
         "museum":"上海博物馆/山西博物院",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Jinhousu_Bianzhong.JPG/960px-Jinhousu_Bianzhong.JPG",
         "baike_url":"https://baike.baidu.com/item/%E8%A5%BF%E5%91%A8%E6%99%8B%E4%BE%AF%E8%8B%8F%E9%92%9F/64120",
+        "category": ["青铜器", "乐器"],
+        "period_order": 13,
     },
     {
         "name":"大克鼎",
@@ -117,6 +135,8 @@ batch1 = [
         "museum":"上海博物馆",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Da_Ke_ding.jpg/960px-Da_Ke_ding.jpg",
         "baike_url":"https://baike.baidu.com/item/%E5%A4%A7%E5%85%8B%E9%BC%8E",
+        "category": ["青铜器"],
+        "period_order": 13,
     },
     {
         "name":"太保鼎",
@@ -128,6 +148,8 @@ batch1 = [
         "museum":"天津博物馆",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/e/e6/Taibao_Ding.jpg",
         "baike_url":"https://baike.baidu.com/item/%E5%A4%AA%E4%BF%9D%E9%BC%8E",
+        "category": ["青铜器"],
+        "period_order": 13,
     },
     {
         "name":"河姆渡出土朱漆碗",
@@ -139,6 +161,8 @@ batch1 = [
         "museum":"浙江省博物馆",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/%E6%B2%B3%E5%A7%86%E6%B8%A1%E5%87%BA%E5%9C%9F%E6%9C%B1%E6%BC%86%E7%A2%97%2C_2023-09-26.jpg/960px-%E6%B2%B3%E5%A7%86%E6%B8%A1%E5%87%BA%E5%9C%9F%E6%9C%B1%E6%BC%86%E7%A2%97%2C_2023-09-26.jpg",
         "baike_url":"https://baike.baidu.com/item/%E6%9C%B1%E6%BC%86%E7%A2%97",
+        "category": ["漆器"],
+        "period_order": 3,
     },
     {
         "name":"河姆渡出土陶灶",
@@ -150,6 +174,8 @@ batch1 = [
         "museum":"浙江省博物馆",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Pottery_stove_from_the_Hemudu_culture%28Neolithic%29_in_Zhejiang_Museum.JPG/960px-Pottery_stove_from_the_Hemudu_culture%28Neolithic%29_in_Zhejiang_Museum.JPG",
         "baike_url":"https://baike.baidu.com/item/%E6%96%B0%E7%9F%B3%E5%99%A8%E6%97%B6%E4%BB%A3%E9%99%B6%E7%81%B6",
+        "category": ["陶器"],
+        "period_order": 3,
     },
     {
         "name":"良渚出土玉琮王",
@@ -161,6 +187,8 @@ batch1 = [
         "museum":"浙江省博物馆",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/b/b7/Jade_Cong_King%2C_2018-06-09_01.jpg",
         "baike_url":"https://baike.baidu.com/item/%E7%8E%89%E7%90%AE%E7%8E%8B",
+        "category": ["玉器"],
+        "period_order": 8,
     },
     {
         "name":"水晶杯",
@@ -172,6 +200,8 @@ batch1 = [
         "museum":"杭州博物馆",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Crystal_Cup%28Warring_States_Period%29_in_Hangzhou_Museum.JPG/960px-Crystal_Cup%28Warring_States_Period%29_in_Hangzhou_Museum.JPG",
         "baike_url":"https://baike.baidu.com/item/%E6%B0%B4%E6%99%B6%E6%9D%AF",
+        "category": ["玻璃水晶"],
+        "period_order": 15,
     },
     {
         "name":"春秋云纹铜禁",
@@ -183,6 +213,8 @@ batch1 = [
         "museum":"河南博物院",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/9/99/Bronze_jin_from_Henan.jpg",
         "baike_url":"https://baike.baidu.com/item/%E4%BA%91%E7%BA%B9%E9%93%9C%E7%A6%81",
+        "category": ["青铜器"],
+        "period_order": 14,
     },
     {
         "name":"新郑出土莲鹤铜方壶",
@@ -194,6 +226,8 @@ batch1 = [
         "museum":"故宫博物院",
         "image_url":"https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/png/8752528AD977CFED27AFAAD3C38ACDD0.png",
         "baike_url":"https://baike.baidu.com/item/%E6%98%A5%E7%A7%8B%E8%8E%B2%E9%B9%A4%E6%96%B9%E5%A3%B6",
+        "category": ["青铜器"],
+        "period_order": 14,
     },
     {
         "name":"齐王墓青铜方镜",
@@ -205,6 +239,8 @@ batch1 = [
         "museum":"淄博市博物馆",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/c/c6/Rectangle_dragon-veins_copper_mirror.jpg",
         "baike_url":"https://baike.baidu.com/item/%E9%BD%90%E7%8E%8B%E5%A2%93%E9%9D%92%E9%93%9C%E6%96%B9%E9%95%9C",
+        "category": ["青铜器"],
+        "period_order": 17,
     },
     {
         "name":"铸客大铜鼎",
@@ -216,6 +252,8 @@ batch1 = [
         "museum":"中国国家博物馆",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Warring_States_Bronze_ZHU_KE_Ding_1a.jpg/960px-Warring_States_Bronze_ZHU_KE_Ding_1a.jpg",
         "baike_url":"https://baike.baidu.com/item/%E9%93%B8%E5%AE%A2%E5%A4%A7%E9%93%9C%E9%BC%8E",
+        "category": ["青铜器"],
+        "period_order": 15,
     },
     {
         "name":"朱然墓出土漆木屐",
@@ -227,6 +265,8 @@ batch1 = [
         "museum":"马鞍山市三国朱然家族墓地博物馆",
         "image_url":"https://p9.itc.cn/images01/20230216/34ea68eb83494ca4a1b9e00953124785.jpeg",
         "baike_url":"https://baike.baidu.com/item/%E6%9C%B1%E7%84%B6%E5%A2%93%E5%87%BA%E5%9C%9F%E6%BC%86%E6%9C%A8%E5%B1%90",
+        "category": ["漆器", "竹木牙角"],
+        "period_order": 20,
     },
     {
         "name":"朱然墓出土贵族生活图漆盘",
@@ -238,6 +278,8 @@ batch1 = [
         "museum":"马鞍山市三国朱然家族墓地博物馆",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/%E8%B4%B5%E6%97%8F%E7%94%9F%E6%B4%BB%E5%9B%BE%E6%BC%86%E7%9B%98%2C_2024-01-06.jpg/960px-%E8%B4%B5%E6%97%8F%E7%94%9F%E6%B4%BB%E5%9B%BE%E6%BC%86%E7%9B%98%2C_2024-01-06.jpg",
         "baike_url":"https://baike.baidu.com/item/%E6%9C%B1%E7%84%B6%E5%A2%93%E5%87%BA%E5%9C%9F%E8%B4%B5%E6%97%8F%E7%94%9F%E6%B4%BB%E5%9B%BE%E6%BC%86%E7%9B%98",
+        "category": ["漆器", "绘画"],
+        "period_order": 20,
     },
     {
         "name":"司马金龙墓出土漆屏",
@@ -249,6 +291,8 @@ batch1 = [
         "museum":"山西博物院",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/%E5%BD%A9%E7%BB%98%E4%BA%BA%E7%89%A9%E6%95%85%E4%BA%8B%E6%BC%86%E5%B1%8F%2C_2024-01-06.jpg/960px-%E5%BD%A9%E7%BB%98%E4%BA%BA%E7%89%A9%E6%95%85%E4%BA%8B%E6%BC%86%E5%B1%8F%2C_2024-01-06.jpg",
         "baike_url":"https://baike.baidu.com/item/%E5%8F%B8%E9%A9%AC%E9%87%91%E9%BE%99%E5%A2%93%E5%87%BA%E5%9C%9F%E6%BC%86%E5%B1%8F",
+        "category": ["漆器", "绘画"],
+        "period_order": 23,
     },
     {
         "name":"娄睿墓鞍马出行图壁画",
@@ -260,6 +304,8 @@ batch1 = [
         "museum":"山西博物院",
         "image_url":"https://q4.itc.cn/images01/20250825/cb76286320c94d29b97d947913f4dc8c.jpeg",
         "baike_url":"https://baike.baidu.com/item/%E5%A8%84%E7%9D%BF%E5%A2%93%E9%9E%8D%E9%A9%AC%E5%87%BA%E8%A1%8C%E5%9B%BE%E5%A3%81%E7%94%BB",
+        "category": ["壁画"],
+        "period_order": 23,
     },
     {
         "name":"涅槃变相碑",
@@ -271,6 +317,8 @@ batch1 = [
         "museum":"山西博物院",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/%E5%A4%AA%E5%8E%9F%E7%BA%AF%E9%98%B3%E5%AE%AB%E6%B6%85%E6%A7%83%E5%8F%98%E7%9B%B8%E7%A2%91%E6%AD%A3%E9%9D%A2%E5%B7%A6%E4%BE%A7%E9%9D%A2.jpg/960px-%E5%A4%AA%E5%8E%9F%E7%BA%AF%E9%98%B3%E5%AE%AB%E6%B6%85%E6%A7%83%E5%8F%98%E7%9B%B8%E7%A2%91%E6%AD%A3%E9%9D%A2%E5%B7%A6%E4%BE%A7%E9%9D%A2.jpg",
         "baike_url":"https://baike.baidu.com/item/%E6%B6%85%E6%A7%83%E5%8F%98%E7%9B%B8%E7%A2%91",
+        "category": ["石刻碑帖", "雕塑造像"],
+        "period_order": 25,
     },
     {
         "name":"常阳太尊石像",
@@ -282,6 +330,8 @@ batch1 = [
         "museum":"山西省艺术博物馆",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/20250602_Statue_of_Laozi_in_the_Chunyang_Temple.jpg/960px-20250602_Statue_of_Laozi_in_the_Chunyang_Temple.jpg",
         "baike_url":"https://baike.baidu.com/item/%E5%B8%B8%E9%98%B3%E5%A4%AA%E5%B0%8A%E7%9F%B3%E5%83%8F",
+        "category": ["石刻碑帖", "雕塑造像"],
+        "period_order": 25,
     },
     {
         "name":"大玉戈",
@@ -293,6 +343,8 @@ batch1 = [
         "museum":"湖北省博物馆",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/%E5%A4%A7%E7%8E%89%E6%88%88%2C_2015-04-06.jpg/960px-%E5%A4%A7%E7%8E%89%E6%88%88%2C_2015-04-06.jpg",
         "baike_url":"https://baike.baidu.com/item/%E5%A4%A7%E7%8E%89%E6%88%88",
+        "category": ["玉器"],
+        "period_order": 12,
     },
     {
         "name":"曾侯乙编钟",
@@ -304,6 +356,8 @@ batch1 = [
         "museum":"湖北省博物馆",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/20230208_Chime_bells_of_Marquis_Yi_of_Zeng.jpg/960px-20230208_Chime_bells_of_Marquis_Yi_of_Zeng.jpg",
         "baike_url":"https://baike.baidu.com/item/%E6%9B%BE%E4%BE%AF%E4%B9%99%E7%BC%96%E9%92%9F",
+        "category": ["青铜器", "乐器"],
+        "period_order": 15,
     },
     {
         "name":"曾侯乙墓外棺",
@@ -315,6 +369,8 @@ batch1 = [
         "museum":"湖北省博物馆",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/%E6%9B%BE%E4%BE%AF%E4%B9%99%E5%A2%93%E5%A4%96%E6%A3%BA%EF%BC%8C2014-04-06_01.jpg/960px-%E6%9B%BE%E4%BE%AF%E4%B9%99%E5%A2%93%E5%A4%96%E6%A3%BA%EF%BC%8C2014-04-06_01.jpg",
         "baike_url":"https://baike.baidu.com/item/%E6%9B%BE%E4%BE%AF%E4%B9%99%E5%A2%93%E5%A4%96%E6%A3%BA",
+        "category": ["漆器"],
+        "period_order": 15,
     },
     {
         "name":"曾侯乙青铜尊盘",
@@ -326,6 +382,8 @@ batch1 = [
         "museum":"湖北省博物馆",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/%E6%9B%BE%E4%BE%AF%E4%B9%99%E9%9D%92%E9%93%9C%E5%B0%8A%E7%9B%98%EF%BC%8C2015-04-06_02.jpg/960px-%E6%9B%BE%E4%BE%AF%E4%B9%99%E9%9D%92%E9%93%9C%E5%B0%8A%E7%9B%98%EF%BC%8C2015-04-06_02.jpg",
         "baike_url":"https://baike.baidu.com/item/%E6%9B%BE%E4%BE%AF%E4%B9%99%E5%B0%8A%E7%9B%98",
+        "category": ["青铜器"],
+        "period_order": 15,
     },
     {
         "name":"彩漆木雕小座屏",
@@ -337,6 +395,8 @@ batch1 = [
         "museum":"湖北省博物馆",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/%E5%BD%A9%E6%BC%86%E6%9C%A8%E9%9B%95%E5%B0%8F%E5%BA%A7%E5%B1%8F%EF%BC%8C2014-04-06_05.jpg/960px-%E5%BD%A9%E6%BC%86%E6%9C%A8%E9%9B%95%E5%B0%8F%E5%BA%A7%E5%B1%8F%EF%BC%8C2014-04-06_05.jpg",
         "baike_url":"https://baike.baidu.com/item/%E5%BD%A9%E6%BC%86%E6%9C%A8%E9%9B%95%E5%B0%8F%E5%BA%A7%E5%B1%8F",
+        "category": ["漆器", "竹木牙角"],
+        "period_order": 15,
     },
     {
         "name":"红山文化女神像",
@@ -348,6 +408,8 @@ batch1 = [
         "museum":"辽宁省博物馆",
         "image_url":"https://www.news.cn/politics/20250624/ca5599f35ac8437e9801e127abbb4b1e/20250624ca5599f35ac8437e9801e127abbb4b1e_2025061932792f43dbf84d75a9a5a1e14fab309f.png",
         "baike_url":"https://baike.baidu.com/item/%E7%BA%A2%E5%B1%B1%E6%96%87%E5%8C%96%E5%A5%B3%E7%A5%9E%E5%83%8F",
+        "category": ["雕塑造像", "陶器"],
+        "period_order": 4,
     },
     {
         "name":"鸭形玻璃注",
@@ -359,6 +421,8 @@ batch1 = [
         "museum":"辽宁省博物馆",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/%E9%B8%AD%E5%BD%A2%E7%8E%BB%E7%92%83%E6%B3%A806327.jpg/960px-%E9%B8%AD%E5%BD%A2%E7%8E%BB%E7%92%83%E6%B3%A806327.jpg",
         "baike_url":"https://baike.baidu.com/item/%E9%B8%AD%E5%BD%A2%E7%8E%BB%E7%92%83%E6%B3%A8",
+        "category": ["玻璃水晶"],
+        "period_order": 23,
     },
     {
         "name":"青铜神树",
@@ -370,6 +434,8 @@ batch1 = [
         "museum":"三星堆博物馆",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/%E2%85%A0%E5%8F%B7%E5%A4%A7%E5%9E%8B%E9%9D%92%E9%93%9C%E7%A5%9E%E6%A0%91.jpg/960px-%E2%85%A0%E5%8F%B7%E5%A4%A7%E5%9E%8B%E9%9D%92%E9%93%9C%E7%A5%9E%E6%A0%91.jpg",
         "baike_url":"https://baike.baidu.com/item/%E9%9D%92%E9%93%9C%E7%A5%9E%E6%A0%91",
+        "category": ["青铜器"],
+        "period_order": 12,
     },
     {
         "name":"三星堆出土玉边璋",
@@ -381,6 +447,8 @@ batch1 = [
         "museum":"三星堆博物馆",
         "image_url":"https://pic3.zhimg.com/v2-c3ef6847b6471b4f8f940d17e8f8f18c_1440w.jpg",
         "baike_url":"https://baike.baidu.com/item/%E4%B8%89%E6%98%9F%E5%A0%86%E5%87%BA%E5%9C%9F%E7%8E%89%E8%BE%B9%E7%92%8B",
+        "category": ["玉器"],
+        "period_order": 12,
     },
     {
         "name":"摇钱树",
@@ -392,6 +460,8 @@ batch1 = [
         "museum":"绵阳市博物馆",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/%E4%B8%9C%E6%B1%89%E6%91%87%E9%92%B1%E6%A0%91.jpg/960px-%E4%B8%9C%E6%B1%89%E6%91%87%E9%92%B1%E6%A0%91.jpg",
         "baike_url":"https://baike.baidu.com/item/青铜摇钱树/5423397",
+        "category": ["青铜器"],
+        "period_order": 19,
     },
     {
         "name":"铜奔马",
@@ -403,6 +473,8 @@ batch1 = [
         "museum":"甘肃省博物馆",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/%E9%9B%B7%E5%8F%B0%E6%B1%89%E5%A2%93%E9%93%9C%E5%A5%94%E9%A9%AC1.jpg/960px-%E9%9B%B7%E5%8F%B0%E6%B1%89%E5%A2%93%E9%93%9C%E5%A5%94%E9%A9%AC1.jpg",
         "baike_url":"https://baike.baidu.com/item/%E9%93%9C%E5%A5%94%E9%A9%AC",
+        "category": ["青铜器"],
+        "period_order": 19,
     },
     {
         "name":"铜车马",
@@ -414,6 +486,8 @@ batch1 = [
         "museum":"秦始皇帝陵博物院",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Qin_dynasty_bronze_chariot_and_horses.jpg/960px-Qin_dynasty_bronze_chariot_and_horses.jpg",
         "baike_url":"https://baike.baidu.com/item/%E9%93%9C%E8%BD%A6%E9%A9%AC",
+        "category": ["青铜器"],
+        "period_order": 16,
     },
     {
         "name":"墙盘",
@@ -425,6 +499,8 @@ batch1 = [
         "museum":"宝鸡青铜器博物院",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/7/77/Shi_Qiang_pan.jpg",
         "baike_url":"https://baike.baidu.com/item/%E5%A2%99%E7%9B%98",
+        "category": ["青铜器"],
+        "period_order": 13,
     },
     {
         "name":"淳化大鼎",
@@ -436,6 +512,8 @@ batch1 = [
         "museum":"淳化县博物馆",
         "image_url":"https://wenhui.whb.cn/u/cms/www/201805/182259445vef.jpg",
         "baike_url":"https://baike.baidu.com/item/%E6%B7%B3%E5%8C%96%E5%A4%A7%E9%BC%8E",
+        "category": ["青铜器"],
+        "period_order": 13,
     },
     {
         "name":"何尊",
@@ -447,6 +525,8 @@ batch1 = [
         "museum":"宝鸡青铜器博物院",
         "image_url":"https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/png/9957ABFBAC83A5C5324740AE537C069A.png",
         "baike_url":"https://baike.baidu.com/item/%E4%BD%95%E5%B0%8A",
+        "category": ["青铜器"],
+        "period_order": 13,
     },
     {
         "name":"茂陵石雕",
@@ -458,6 +538,8 @@ batch1 = [
         "museum":"茂陵博物馆",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/%E8%8C%82%E9%99%B5%E9%A9%AC%E8%B8%8F%E5%8C%88%E5%A5%B4%E7%9F%B3%E9%9B%95.JPG/960px-%E8%8C%82%E9%99%B5%E9%A9%AC%E8%B8%8F%E5%8C%88%E5%A5%B4%E7%9F%B3%E9%9B%95.JPG",
         "baike_url":"https://baike.baidu.com/item/%E8%8C%82%E9%99%B5%E7%9F%B3%E9%9B%95",
+        "category": ["石刻碑帖", "雕塑造像"],
+        "period_order": 17,
     },
     {
         "name":"大秦景教流行中国碑",
@@ -469,6 +551,8 @@ batch1 = [
         "museum":"西安碑林博物馆",
         "image_url":"https://gips0.baidu.com/it/u=2817000882,362578697&fm=3074&app=3074&f=JPEG",
         "baike_url":"https://baike.baidu.com/item/%E5%A4%A7%E7%A7%A6%E6%99%AF%E6%95%99%E6%B5%81%E8%A1%8C%E4%B8%AD%E5%9B%BD%E7%A2%91",
+        "category": ["石刻碑帖"],
+        "period_order": 25,
     },
     {
         "name":"舞马衔杯仿皮囊式银壶",
@@ -480,6 +564,8 @@ batch1 = [
         "museum":"陕西历史博物馆",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/5/5a/Gilt_silver_jar_with_pattern_of_dancing_horses.jpg",
         "baike_url":"https://baike.baidu.com/item/%E8%88%9E%E9%A9%AC%E8%A1%94%E6%9D%AF%E4%BB%BF%E7%9A%AE%E5%9B%8A%E5%BC%8F%E9%93%B6%E5%A3%B6",
+        "category": ["金银器"],
+        "period_order": 25,
     },
     {
         "name":"兽首玛瑙杯",
@@ -491,6 +577,8 @@ batch1 = [
         "museum":"陕西历史博物馆",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/%E5%94%90-%E7%8E%9B%E7%91%99%E5%85%BD%E9%A6%96%E6%9D%AF.jpg/960px-%E5%94%90-%E7%8E%9B%E7%91%99%E5%85%BD%E9%A6%96%E6%9D%AF.jpg",
         "baike_url":"https://baike.baidu.com/item/%E5%85%BD%E9%A6%96%E7%8E%9B%E7%91%99%E6%9D%AF",
+        "category": ["玉器", "金银器"],
+        "period_order": 25,
     },
     {
         "name":"景云铜钟",
@@ -502,6 +590,8 @@ batch1 = [
         "museum":"西安碑林博物馆",
         "image_url":"https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/png/D15E29412695E38B32C79EE637E30163.png",
         "baike_url":"https://baike.baidu.com/item/%E6%99%AF%E4%BA%91%E9%93%9C%E9%92%9F",
+        "category": ["青铜器", "乐器"],
+        "period_order": 25,
     },
     {
         "name":"银花双轮十二环锡杖",
@@ -513,6 +603,8 @@ batch1 = [
         "museum":"法门寺博物馆",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Famen_Temple_Staff.png/960px-Famen_Temple_Staff.png",
         "baike_url":"https://baike.baidu.com/item/%E9%93%B6%E8%8A%B1%E5%8F%8C%E8%BD%AE%E5%8D%81%E4%BA%8C%E7%8E%AF%E9%94%A1%E6%9D%96",
+        "category": ["金银器", "佛家法器"],
+        "period_order": 25,
     },
     {
         "name":"八重宝函",
@@ -524,6 +616,8 @@ batch1 = [
         "museum":"法门寺博物馆",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/4/44/Famen_Si_May_2007_052.jpg",
         "baike_url":"https://baike.baidu.com/item/%E5%85%AB%E9%87%8D%E5%AE%9D%E5%87%BD",
+        "category": ["金银器", "佛家法器"],
+        "period_order": 25,
     },
     {
         "name":"铜浮屠",
@@ -535,6 +629,8 @@ batch1 = [
         "museum":"法门寺博物馆",
         "image_url":"https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/png/ED5AEA3B122F94F54FF2E00C01AFDB48.png",
         "baike_url":"https://baike.baidu.com/item/%E9%93%9C%E6%B5%AE%E5%B1%A0",
+        "category": ["青铜器", "佛家法器"],
+        "period_order": 25,
     },
     {
         "name":"铜错金银四龙四凤方案",
@@ -546,6 +642,8 @@ batch1 = [
         "museum":"河北博物院",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/d/d6/%E6%88%98%E5%9B%BD%E9%94%99%E9%87%91%E9%93%B6%E5%9B%9B%E9%BE%99%E5%9B%9B%E5%87%A4%E9%93%9C%E6%96%B9%E6%A1%88.jpg",
         "baike_url":"https://baike.baidu.com/item/%E9%93%9C%E9%94%99%E9%87%91%E9%93%B6%E5%9B%9B%E9%BE%99%E5%9B%9B%E5%87%A4%E6%96%B9%E6%A1%88",
+        "category": ["青铜器"],
+        "period_order": 15,
     },
     {
         "name":"中山王铁足铜鼎",
@@ -557,6 +655,8 @@ batch1 = [
         "museum":"河北博物院",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/%E4%B8%AD%E5%B1%B1%E7%8E%8Bcuo%E9%93%81%E8%B6%B3%E9%93%9C%E9%BC%8E%E5%A4%8D%E5%88%B6%E5%93%81_1547.jpg/960px-%E4%B8%AD%E5%B1%B1%E7%8E%8Bcuo%E9%93%81%E8%B6%B3%E9%93%9C%E9%BC%8E%E5%A4%8D%E5%88%B6%E5%93%81_1547.jpg",
         "baike_url":"https://baike.baidu.com/item/%E4%B8%AD%E5%B1%B1%E7%8E%8B%E9%93%81%E8%B6%B3%E9%93%9C%E9%BC%8E",
+        "category": ["青铜器"],
+        "period_order": 15,
     },
     {
         "name":"刘胜金缕玉衣",
@@ -568,6 +668,8 @@ batch1 = [
         "museum":"河北博物院",
         "image_url":"https://vcg05.cfp.cn/creative/vcg/800/new/VCG211595618505.jpg",
         "baike_url":"https://baike.baidu.com/item/%E5%88%98%E8%83%9C%E9%87%91%E7%BC%95%E7%8E%89%E8%A1%A3",
+        "category": ["玉器", "织绣服饰"],
+        "period_order": 17,
     },
     {
         "name":"长信宫灯",
@@ -579,6 +681,8 @@ batch1 = [
         "museum":"河北博物院",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/20250118_Changxin_Palace_Lamp_01.jpg/960px-20250118_Changxin_Palace_Lamp_01.jpg",
         "baike_url":"https://baike.baidu.com/item/%E9%95%BF%E4%BF%A1%E5%AE%AB%E7%81%AF",
+        "category": ["青铜器"],
+        "period_order": 17,
     },
     {
         "name":"铜屏风构件5件",
@@ -590,6 +694,8 @@ batch1 = [
         "museum":"南越王博物院",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Bronze_screen_parts_at_Nanyue_King_Museum_01.jpg/960px-Bronze_screen_parts_at_Nanyue_King_Museum_01.jpg",
         "baike_url":"https://baike.baidu.com/item/%E9%93%9C%E5%B1%8F%E9%A3%8E%E6%9E%84%E4%BB%B65%E4%BB%B6",
+        "category": ["青铜器"],
+        "period_order": 17,
     },
     {
         "name":"角形玉杯",
@@ -601,6 +707,8 @@ batch1 = [
         "museum":"南越王博物院",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Jade_Drinking_Vessel_at_Nanyue_King_Museum.jpg/960px-Jade_Drinking_Vessel_at_Nanyue_King_Museum.jpg",
         "baike_url":"https://baike.baidu.com/item/%E8%A7%92%E5%BD%A2%E7%8E%89%E6%9D%AF",
+        "category": ["玉器"],
+        "period_order": 17,
     },
     {
         "name":"人物御龙帛画",
@@ -612,6 +720,8 @@ batch1 = [
         "museum":"湖南省博物馆",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Changshadragon.jpg/960px-Changshadragon.jpg",
         "baike_url":"https://baike.baidu.com/item/%E4%BA%BA%E7%89%A9%E5%BE%A1%E9%BE%99%E5%B8%9B%E7%94%BB",
+        "category": ["绘画"],
+        "period_order": 15,
     },
     {
         "name":"人物龙凤帛画",
@@ -623,6 +733,8 @@ batch1 = [
         "museum":"湖南省博物馆",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/0/0c/Silk_Painting_of_a_Lady%2C_Phoenix_and_Dragon.jpg",
         "baike_url":"https://baike.baidu.com/item/%E4%BA%BA%E7%89%A9%E9%BE%99%E5%87%A4%E5%B8%9B%E7%94%BB",
+        "category": ["绘画"],
+        "period_order": 15,
     },
     {
         "name":"直裾素纱禅衣",
@@ -634,6 +746,8 @@ batch1 = [
         "museum":"湖南博物院",
         "image_url":"https://bkimg.cdn.bcebos.com/pic/7acb0a46f21fbe096b63c1ce9e381b338744eaf807ea",
         "baike_url":"https://baike.baidu.com/item/%E7%9B%B4%E8%A3%BE%E7%B4%A0%E7%BA%B1%E7%A6%85%E8%A1%A3",
+        "category": ["织绣服饰"],
+        "period_order": 17,
     },
     {
         "name":"马王堆一号墓木棺椁",
@@ -645,6 +759,8 @@ batch1 = [
         "museum":"湖南博物院",
         "image_url":"https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/png/DB5D78151C136DA4A2418C55C315467D.png",
         "baike_url":"https://baike.baidu.com/item/%E9%A9%AC%E7%8E%8B%E5%A0%86%E4%B8%80%E5%8F%B7%E5%A2%93%E6%9C%A8%E6%A3%BA%E6%A4%81",
+        "category": ["漆器"],
+        "period_order": 17,
     },
     {
         "name":"马王堆一号墓T型帛画",
@@ -656,6 +772,8 @@ batch1 = [
         "museum":"湖南博物院",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/T-shaped_Painting_on_Silk_-_Google_Art_Project.jpg/960px-T-shaped_Painting_on_Silk_-_Google_Art_Project.jpg",
         "baike_url":"https://baike.baidu.com/item/%E9%A9%AC%E7%8E%8B%E5%A0%86%E4%B8%80%E5%8F%B7%E6%B1%89%E5%A2%93T%E5%9E%8B%E5%B8%9B%E7%94%BB",
+        "category": ["绘画"],
+        "period_order": 17,
     },
     {
         "name":"红地云珠日天锦",
@@ -667,6 +785,8 @@ batch1 = [
         "museum":"青海省博物馆",
         "image_url":"https://www.zhongguoguwan.com/static/upload/image/20210401/21a942b2d4f7eab1f361564a7ad3b0a4.jpg",
         "baike_url":"https://baike.baidu.com/item/%E7%BA%A2%E5%9C%B0%E4%BA%91%E7%8F%A0%E6%97%A5%E5%A4%A9%E9%94%A6",
+        "category": ["织绣服饰"],
+        "period_order": 23,
     },
     {
         "name":"西夏文佛经《吉祥遍至口和本续》纸本",
@@ -678,6 +798,8 @@ batch1 = [
         "museum":"中国国家图书馆",
         "image_url":"https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/png/AD6B4D26817368DDA13C7FFADC7C5EA8.png",
         "baike_url":"https://baike.baidu.com/item/%E5%90%89%E7%A5%A5%E9%81%8D%E8%87%B3%E5%8F%A3%E5%92%8C%E6%9C%AC%E7%BB%AD",
+        "category": ["古籍简牍"],
+        "period_order": 29,
     },
     {
         "name":"青花釉里红瓷仓",
@@ -689,6 +811,8 @@ batch1 = [
         "museum":"江西省博物馆",
         "image_url":"https://img.banxian-w.com/KG_ALLinOne/2_object/life/%E6%B0%B8%E7%A6%81%E6%96%87%E7%89%A9%20195/%E9%99%84%E4%BB%B6/Pasted%20image%2020250904011241.png",
         "baike_url":"https://baike.baidu.com/item/%E9%9D%92%E8%8A%B1%E9%87%89%E9%87%8C%E7%BA%A2%E6%A5%BC%E9%98%81%E5%BC%8F%E8%B0%B7%E4%BB%93",
+        "category": ["瓷器"],
+        "period_order": 32,
     },
     {
         "name":"竹林七贤砖印模画",
@@ -700,6 +824,8 @@ batch1 = [
         "museum":"南京博物院",
         "image_url":"https://bkimg.cdn.bcebos.com/pic/a08b87d6277f9e2f070854439d68fe24b899a901557d",
         "baike_url":"https://baike.baidu.com/item/%E7%AB%B9%E6%9E%97%E4%B8%83%E8%B4%A4%E7%A0%96%E5%8D%B0%E6%A8%A1%E7%94%BB",
+        "category": ["石刻碑帖", "绘画"],
+        "period_order": 23,
     },
     {
         "name":"五星出东方护膊",
@@ -711,6 +837,8 @@ batch1 = [
         "museum":"新疆维吾尔自治区博物馆",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Five_Stars_Rising_in_the_East_Benefiting_for_the_Central_Plains_armband_%2820230921114337%29.jpg/960px-Five_Stars_Rising_in_the_East_Benefiting_for_the_Central_Plains_armband_%2820230921114337%29.jpg",
         "baike_url":"https://baike.baidu.com/item/%E4%BA%94%E6%98%9F%E5%87%BA%E4%B8%9C%E6%96%B9%E5%88%A9%E4%B8%AD%E5%9B%BD",
+        "category": ["织绣服饰"],
+        "period_order": 19,
     },
 ]
 
@@ -726,6 +854,8 @@ batch2 = [
         "museum":"故宫博物院",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/%E9%99%86%E6%9C%BA%E8%8D%89%E9%9A%B6%E5%B9%B3%E5%A4%8D%E5%B8%96%E5%8D%B7.png/960px-%E9%99%86%E6%9C%BA%E8%8D%89%E9%9A%B6%E5%B9%B3%E5%A4%8D%E5%B8%96%E5%8D%B7.png",
         "baike_url":"https://baike.baidu.com/item/%E5%B9%B3%E5%A4%8D%E5%B8%96",
+        "category": ["书法"],
+        "period_order": 21,
     },
     {
         "name":"王珣《伯远帖》卷",
@@ -737,6 +867,8 @@ batch2 = [
         "museum":"故宫博物院",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/The_Calligraphy_Model_Boyuan_by_Wang_Xun.jpg/1920px-The_Calligraphy_Model_Boyuan_by_Wang_Xun.jpg",
         "baike_url":"https://baike.baidu.com/item/%E4%BC%AF%E8%BF%9C%E5%B8%96",
+        "category": ["书法"],
+        "period_order": 22,
     },
     {
         "name":"冯承素摹王羲之《兰亭序》卷",
@@ -748,6 +880,8 @@ batch2 = [
         "museum":"故宫博物院",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Lanting_Xu_by_Feng_Chengsu.jpg/960px-Lanting_Xu_by_Feng_Chengsu.jpg",
         "baike_url":"https://baike.baidu.com/item/%E5%85%B0%E4%BA%AD%E5%BA%8F",
+        "category": ["书法"],
+        "period_order": 25,
     },
     {
         "name":"欧阳询《梦奠帖》卷",
@@ -759,6 +893,8 @@ batch2 = [
         "museum":"辽宁省博物馆",
         "image_url":"https://c.cidianwang.com/file/20193/1_2019033117013735.jpg",
         "baike_url":"https://baike.baidu.com/item/%E6%A2%A6%E5%A5%A0%E5%B8%96",
+        "category": ["书法"],
+        "period_order": 25,
     },
     {
         "name":"国诠书《善见律》卷",
@@ -770,6 +906,8 @@ batch2 = [
         "museum":"故宫博物院",
         "image_url":"https://www.zhongguoguwan.com/static/upload/image/20210401/19d03f8011c827d9fb566bd52511cd1a.jpg",
         "baike_url":"https://baike.baidu.com/item/%E5%96%84%E8%A7%81%E5%BE%8B",
+        "category": ["书法"],
+        "period_order": 25,
     },
     {
         "name":"怀素《苦笋帖》卷",
@@ -781,6 +919,8 @@ batch2 = [
         "museum":"上海博物馆",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/5/50/%E6%80%80%E7%B4%A0_%E8%8B%A6%E7%AC%8B%E5%B8%96.jpg",
         "baike_url":"https://baike.baidu.com/item/%E8%8B%A6%E7%AC%8B%E5%B8%96",
+        "category": ["书法"],
+        "period_order": 25,
     },
     {
         "name":"杜牧《张好好诗》卷",
@@ -792,6 +932,8 @@ batch2 = [
         "museum":"故宫博物院",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/%E6%9D%9C%E7%89%A7%E8%A1%8C%E4%B9%A6%E5%BC%A0%E5%A5%BD%E5%A5%BD%E8%AF%97%E5%8D%B7.png/1920px-%E6%9D%9C%E7%89%A7%E8%A1%8C%E4%B9%A6%E5%BC%A0%E5%A5%BD%E5%A5%BD%E8%AF%97%E5%8D%B7.png",
         "baike_url":"https://baike.baidu.com/item/%E5%BC%A0%E5%A5%BD%E5%A5%BD%E8%AF%97",
+        "category": ["书法"],
+        "period_order": 25,
     },
     {
         "name":"唐人《摹王羲之一门书翰》卷",
@@ -803,6 +945,8 @@ batch2 = [
         "museum":"辽宁省博物馆",
         "image_url":"https://c.cidianwang.com/file/20192/0_2019022717240383.jpg",
         "baike_url":"https://baike.baidu.com/item/%E6%91%B9%E7%8E%8B%E7%BE%B2%E4%B9%8B%E4%B8%80%E9%97%A8%E4%B9%A6%E7%BF%B0",
+        "category": ["书法"],
+        "period_order": 25,
     },
     {
         "name":"杨凝式《神仙起居法帖》卷",
@@ -814,6 +958,8 @@ batch2 = [
         "museum":"故宫博物院",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/%E6%9D%A8%E5%87%9D%E5%BC%8F%E4%B9%A6%E7%A5%9E%E4%BB%99%E8%B5%B7%E5%B1%85%E6%B3%95%E5%8D%B7.png/960px-%E6%9D%A8%E5%87%9D%E5%BC%8F%E4%B9%A6%E7%A5%9E%E4%BB%99%E8%B5%B7%E5%B1%85%E6%B3%95%E5%8D%B7.png",
         "baike_url":"https://baike.baidu.com/item/%E7%A5%9E%E4%BB%99%E8%B5%B7%E5%B1%85%E6%B3%95%E5%B8%96",
+        "category": ["书法"],
+        "period_order": 26,
     },
     {
         "name":"林逋《自书诗》卷",
@@ -825,6 +971,8 @@ batch2 = [
         "museum":"故宫博物院",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/%E6%9E%97%E9%80%8B%E8%A1%8C%E4%B9%A6%E8%87%AA%E4%B9%A6%E8%AF%97%E5%8D%B7.png/1920px-%E6%9E%97%E9%80%8B%E8%A1%8C%E4%B9%A6%E8%87%AA%E4%B9%A6%E8%AF%97%E5%8D%B7.png",
         "baike_url":"https://baike.baidu.com/item/%E6%9E%97%E9%80%8B%E8%87%AA%E4%B9%A6%E8%AF%97%E5%8D%B7",
+        "category": ["书法"],
+        "period_order": 28,
     },
     {
         "name":"蔡襄《自书诗》卷",
@@ -836,6 +984,8 @@ batch2 = [
         "museum":"故宫博物院",
         "image_url":"https://c.cidianwang.com/file/20193/1_2019033115412950.jpg",
         "baike_url":"https://baike.baidu.com/item/%E8%94%A1%E8%A5%84%E8%87%AA%E4%B9%A6%E8%AF%97",
+        "category": ["书法"],
+        "period_order": 28,
     },
     {
         "name":"文彦博《三帖卷》",
@@ -847,6 +997,8 @@ batch2 = [
         "museum":"故宫博物院",
         "image_url":"https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/png/0DA0C9BFEC029FEC9095AC303FA8C260.png",
         "baike_url":"https://baike.baidu.com/item/%E6%96%87%E5%BD%A6%E5%8D%9A%E8%A1%8C%E4%B9%A6%E4%B8%89%E5%B8%96%E5%8D%B7",
+        "category": ["书法"],
+        "period_order": 28,
     },
     {
         "name":"韩琦《行楷信札卷》",
@@ -858,6 +1010,8 @@ batch2 = [
         "museum":"贵州省博物馆",
         "image_url":"http://www.yamoke.com/uploads/image/20221121/1669014929908353.jpg",
         "baike_url":"https://baike.baidu.com/item/%E8%A1%8C%E6%A5%B7%E4%BF%A1%E6%9C%AD%E5%8D%B7",
+        "category": ["书法"],
+        "period_order": 28,
     },
     {
         "name":"王安石《楞严经旨要》卷",
@@ -869,6 +1023,8 @@ batch2 = [
         "museum":"上海博物馆",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/%E7%8E%8B%E5%AE%89%E7%9F%B3_%E8%A1%8C%E4%B9%A6%E6%A5%9E%E4%B8%A5%E7%BB%8F%E6%97%A8%E8%A6%81%E5%8D%B7.jpg/1920px-%E7%8E%8B%E5%AE%89%E7%9F%B3_%E8%A1%8C%E4%B9%A6%E6%A5%9E%E4%B8%A5%E7%BB%8F%E6%97%A8%E8%A6%81%E5%8D%B7.jpg",
         "baike_url":"https://baike.baidu.com/item/%E6%A5%9E%E4%B8%A5%E7%BB%8F%E6%97%A8%E8%A6%81",
+        "category": ["书法"],
+        "period_order": 28,
     },
     {
         "name":"黄庭坚《诸上座》卷",
@@ -880,6 +1036,8 @@ batch2 = [
         "museum":"故宫博物院",
         "image_url":"https://shici.ltd/sfxs/6545_2012013025477161.jpg",
         "baike_url":"https://baike.baidu.com/item/%E8%AF%B8%E4%B8%8A%E5%BA%A7",
+        "category": ["书法"],
+        "period_order": 28,
     },
     {
         "name":"米芾《苕溪诗》卷",
@@ -891,6 +1049,8 @@ batch2 = [
         "museum":"故宫博物院",
         "image_url":"https://q3.itc.cn/q_70/images03/20240508/32e0fb0dfd6e4be09224296924ed7dc6.jpeg",
         "baike_url":"https://baike.baidu.com/item/%E8%8B%95%E6%BA%AA%E8%AF%97",
+        "category": ["书法"],
+        "period_order": 28,
     },
     {
         "name":"赵佶《草书千字文》卷",
@@ -902,6 +1062,8 @@ batch2 = [
         "museum":"辽宁省博物馆",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/4/45/Songhuizong9.jpg",
         "baike_url":"https://baike.baidu.com/item/%E8%8D%89%E4%B9%A6%E5%8D%83%E5%AD%97%E6%96%87",
+        "category": ["书法"],
+        "period_order": 28,
     },
     {
         "name":"展子虔《游春图》卷",
@@ -913,6 +1075,8 @@ batch2 = [
         "museum":"故宫博物院",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/%E5%B1%95%E5%AD%90%E8%99%94%E6%B8%B8%E6%98%A5%E5%9B%BE%E5%8D%B7.png/1920px-%E5%B1%95%E5%AD%90%E8%99%94%E6%B8%B8%E6%98%A5%E5%9B%BE%E5%8D%B7.png",
         "baike_url":"https://baike.baidu.com/item/%E6%B8%B8%E6%98%A5%E5%9B%BE",
+        "category": ["绘画"],
+        "period_order": 24,
     },
     {
         "name":"韩滉《五牛图》卷",
@@ -924,6 +1088,8 @@ batch2 = [
         "museum":"故宫博物院",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/%E9%9F%A9%E6%BB%89%E4%BA%94%E7%89%9B%E5%9B%BE%E5%8D%B7.png/1920px-%E9%9F%A9%E6%BB%89%E4%BA%94%E7%89%9B%E5%9B%BE%E5%8D%B7.png",
         "baike_url":"https://baike.baidu.com/item/%E4%BA%94%E7%89%9B%E5%9B%BE",
+        "category": ["绘画"],
+        "period_order": 25,
     },
     {
         "name":"周昉《挥扇仕女图》卷",
@@ -935,6 +1101,8 @@ batch2 = [
         "museum":"故宫博物院",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/%E5%91%A8%E6%98%89%E6%8C%A5%E6%89%87%E4%BB%95%E5%A5%B3%E5%9B%BE%E5%8D%B7.png/1920px-%E5%91%A8%E6%98%89%E6%8C%A5%E6%89%87%E4%BB%95%E5%A5%B3%E5%9B%BE%E5%8D%B7.png",
         "baike_url":"https://baike.baidu.com/item/%E6%8C%A5%E6%89%87%E4%BB%95%E5%A5%B3%E5%9B%BE",
+        "category": ["绘画"],
+        "period_order": 25,
     },
     {
         "name":"孙位《高逸图》卷",
@@ -946,6 +1114,8 @@ batch2 = [
         "museum":"上海博物馆",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/%E5%AD%99%E4%BD%8D_%E9%AB%98%E9%80%B8%E5%9B%BE%E5%8D%B7.jpg/960px-%E5%AD%99%E4%BD%8D_%E9%AB%98%E9%80%B8%E5%9B%BE%E5%8D%B7.jpg",
         "baike_url":"https://baike.baidu.com/item/%E9%AB%98%E9%80%B8%E5%9B%BE",
+        "category": ["绘画"],
+        "period_order": 25,
     },
     {
         "name":"王齐翰《勘书图》卷",
@@ -957,6 +1127,8 @@ batch2 = [
         "museum":"故宫博物院",
         "image_url":"https://shici.ltd/sfxs/14910_2018072959665705.jpg",
         "baike_url":"https://baike.baidu.com/item/%E5%8B%98%E4%B9%A6%E5%9B%BE",
+        "category": ["绘画"],
+        "period_order": 26,
     },
     {
         "name":"周文矩《重屏会棋图》卷",
@@ -968,6 +1140,8 @@ batch2 = [
         "museum":"故宫博物院",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/%E5%91%A8%E6%96%87%E7%9F%A9%E9%87%8D%E5%B1%8F%E4%BC%9A%E6%A3%8B%E5%9B%BE%E5%8D%B7.png/1920px-%E5%91%A8%E6%96%87%E7%9F%A9%E9%87%8D%E5%B1%8F%E4%BC%9A%E6%A3%8B%E5%9B%BE%E5%8D%B7.png",
         "baike_url":"https://baike.baidu.com/item/%E9%87%8D%E5%B1%8F%E4%BC%9A%E6%A3%8B%E5%9B%BE",
+        "category": ["绘画"],
+        "period_order": 26,
     },
     {
         "name":"胡瓌《卓歇图》卷",
@@ -979,6 +1153,8 @@ batch2 = [
         "museum":"故宫博物院",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/%E8%83%A1%E7%93%8C%E5%8D%93%E6%AD%87%E5%9B%BE%E5%8D%B7.png/1920px-%E8%83%A1%E7%93%8C%E5%8D%93%E6%AD%87%E5%9B%BE%E5%8D%B7.png",
         "baike_url":"https://baike.baidu.com/item/%E5%8D%93%E6%AD%87%E5%9B%BE",
+        "category": ["绘画"],
+        "period_order": 26,
     },
     {
         "name":"顾闳中《韩熙载夜宴图》卷",
@@ -990,6 +1166,8 @@ batch2 = [
         "museum":"故宫博物院",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/%E9%9F%A9%E7%86%99%E8%BD%BD%E5%A4%9C%E5%AE%B4%E5%9B%BE.tif/lossy-page1-1920px-%E9%9F%A9%E7%86%99%E8%BD%BD%E5%A4%9C%E5%AE%B4%E5%9B%BE.tif.jpg",
         "baike_url":"https://baike.baidu.com/item/%E9%9F%A9%E7%86%99%E8%BD%BD%E5%A4%9C%E5%AE%B4%E5%9B%BE",
+        "category": ["绘画"],
+        "period_order": 26,
     },
     {
         "name":"卫贤《高士图》轴",
@@ -1001,6 +1179,8 @@ batch2 = [
         "museum":"故宫博物院",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/%E5%8D%AB%E8%B4%A4%E9%AB%98%E5%A3%AB%E5%9B%BE%E5%8D%B7.jpg/960px-%E5%8D%AB%E8%B4%A4%E9%AB%98%E5%A3%AB%E5%9B%BE%E5%8D%B7.jpg",
         "baike_url":"https://baike.baidu.com/item/%E9%AB%98%E5%A3%AB%E5%9B%BE",
+        "category": ["绘画"],
+        "period_order": 26,
     },
     {
         "name":"董源《山口待渡图》卷",
@@ -1012,6 +1192,8 @@ batch2 = [
         "museum":"辽宁省博物馆",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Dong_Yuan._Jiangnan_Summer_View._50%D1%85320%D1%81%D0%BC._Liaoning_Provincial_Museum.jpg/1920px-Dong_Yuan._Jiangnan_Summer_View._50%D1%85320%D1%81%D0%BC._Liaoning_Provincial_Museum.jpg",
         "baike_url":"https://baike.baidu.com/item/%E5%B1%B1%E5%8F%A3%E5%BE%85%E6%B8%A1%E5%9B%BE",
+        "category": ["绘画"],
+        "period_order": 26,
     },
     {
         "name":"黄筌《写生珍禽图》卷",
@@ -1023,6 +1205,8 @@ batch2 = [
         "museum":"故宫博物院",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/%E9%BB%84%E7%AD%8C%E5%86%99%E7%94%9F%E7%8F%8D%E7%A6%BD%E5%9B%BE%E5%8D%B7.png/1920px-%E9%BB%84%E7%AD%8C%E5%86%99%E7%94%9F%E7%8F%8D%E7%A6%BD%E5%9B%BE%E5%8D%B7.png",
         "baike_url":"https://baike.baidu.com/item/%E5%86%99%E7%94%9F%E7%8F%8D%E7%A6%BD%E5%9B%BE",
+        "category": ["绘画"],
+        "period_order": 26,
     },
     {
         "name":"王诜《渔村小雪图》卷",
@@ -1034,6 +1218,8 @@ batch2 = [
         "museum":"故宫博物院",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/%E7%8E%8B%E8%AF%9C%E6%B8%94%E6%9D%91%E5%B0%8F%E9%9B%AA%E5%9B%BE%E5%8D%B7.png/1920px-%E7%8E%8B%E8%AF%9C%E6%B8%94%E6%9D%91%E5%B0%8F%E9%9B%AA%E5%9B%BE%E5%8D%B7.png",
         "baike_url":"https://baike.baidu.com/item/%E6%B8%94%E6%9D%91%E5%B0%8F%E9%9B%AA%E5%9B%BE",
+        "category": ["绘画"],
+        "period_order": 28,
     },
     {
         "name":"梁师闵《芦汀密雪图》卷",
@@ -1045,6 +1231,8 @@ batch2 = [
         "museum":"故宫博物院",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/%E6%A2%81%E5%B8%88%E9%97%B5%E8%8A%A6%E6%B1%80%E5%AF%86%E9%9B%AA%E5%9B%BE%E5%8D%B7.png/1920px-%E6%A2%81%E5%B8%88%E9%97%B5%E8%8A%A6%E6%B1%80%E5%AF%86%E9%9B%AA%E5%9B%BE%E5%8D%B7.png",
         "baike_url":"https://baike.baidu.com/item/%E8%8A%A6%E6%B1%80%E5%AF%86%E9%9B%AA%E5%9B%BE",
+        "category": ["绘画"],
+        "period_order": 28,
     },
     {
         "name":"祁序《江山牧放图》卷",
@@ -1056,6 +1244,8 @@ batch2 = [
         "museum":"故宫博物院",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Qi_Xu%2C_Jiangshan_Mu_put_tu%2C_47.3cm_%D1%85115.6cm_Palace_Museum_Beijing.jpg/1920px-Qi_Xu%2C_Jiangshan_Mu_put_tu%2C_47.3cm_%D1%85115.6cm_Palace_Museum_Beijing.jpg",
         "baike_url":"https://baike.baidu.com/item/%E7%A5%81%E5%BA%8F",
+        "category": ["绘画"],
+        "period_order": 28,
     },
     {
         "name":"李公麟《摹韦偃牧放图》卷",
@@ -1067,6 +1257,8 @@ batch2 = [
         "museum":"故宫博物院",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/%E6%9D%8E%E5%85%AC%E9%BA%9F%E4%B8%B4%E9%9F%A6%E5%81%83%E7%89%A7%E6%94%BE%E5%9B%BE%E5%8D%B7.png/1920px-%E6%9D%8E%E5%85%AC%E9%BA%9F%E4%B8%B4%E9%9F%A6%E5%81%83%E7%89%A7%E6%94%BE%E5%9B%BE%E5%8D%B7.png",
         "baike_url":"https://baike.baidu.com/item/%E6%91%B9%E9%9F%A6%E5%81%83%E7%89%A7%E6%94%BE%E5%9B%BE",
+        "category": ["绘画"],
+        "period_order": 28,
     },
     {
         "name":"张择端《清明上河图》卷",
@@ -1078,6 +1270,8 @@ batch2 = [
         "museum":"故宫博物院",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Along_the_River_During_the_Qingming_Festival_%28Qing_Court_Version%29.jpg/1920px-Along_the_River_During_the_Qingming_Festival_%28Qing_Court_Version%29.jpg",
         "baike_url":"https://baike.baidu.com/item/%E6%B8%85%E6%98%8E%E4%B8%8A%E6%B2%B3%E5%9B%BE",
+        "category": ["绘画"],
+        "period_order": 28,
     },
     {
         "name":"王希孟《千里江山图》卷",
@@ -1089,6 +1283,8 @@ batch2 = [
         "museum":"故宫博物院",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Wang_Ximeng._A_Thousand_Li_of_Rivers_and_Mountains._%28Complete%2C_51%2C3x1191%2C5_cm%29._1113._Palace_museum%2C_Beijing.jpg/1920px-Wang_Ximeng._A_Thousand_Li_of_Rivers_and_Mountains._%28Complete%2C_51%2C3x1191%2C5_cm%29._1113._Palace_museum%2C_Beijing.jpg",
         "baike_url":"https://baike.baidu.com/item/%E5%8D%83%E9%87%8C%E6%B1%9F%E5%B1%B1%E5%9B%BE",
+        "category": ["绘画"],
+        "period_order": 28,
     },
     {
         "name":"马和之《后赤壁赋图》卷",
@@ -1100,6 +1296,8 @@ batch2 = [
         "museum":"故宫博物院",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/%E5%90%8E%E8%B5%A4%E5%A3%81%E5%9B%BE%E8%B5%B5%E6%9E%84%E4%B9%A6%E8%B5%8B%E5%8D%B7.png/1920px-%E5%90%8E%E8%B5%A4%E5%A3%81%E5%9B%BE%E8%B5%B5%E6%9E%84%E4%B9%A6%E8%B5%8B%E5%8D%B7.png",
         "baike_url":"https://baike.baidu.com/item/%E5%90%8E%E8%B5%A4%E5%A3%81%E8%B5%8B%E5%9B%BE",
+        "category": ["绘画"],
+        "period_order": 31,
     },
     {
         "name":"赵伯骕《万松金阙图》卷",
@@ -1111,6 +1309,8 @@ batch2 = [
         "museum":"故宫博物院",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/%E8%B5%B5%E4%BC%AF%E9%AA%95%E4%B8%87%E6%9D%BE%E9%87%91%E9%98%99%E5%9B%BE%E5%8D%B7.png/1920px-%E8%B5%B5%E4%BC%AF%E9%AA%95%E4%B8%87%E6%9D%BE%E9%87%91%E9%98%99%E5%9B%BE%E5%8D%B7.png",
         "baike_url":"https://baike.baidu.com/item/%E4%B8%87%E6%9D%BE%E9%87%91%E9%98%99%E5%9B%BE",
+        "category": ["绘画"],
+        "period_order": 31,
     },
     {
         "name":"宋人摹阎立本《步辇图》卷",
@@ -1122,6 +1322,8 @@ batch2 = [
         "museum":"故宫博物院",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Emperor_Taizong_gives_an_audience_to_the_ambassador_of_Tibet.jpg/1920px-Emperor_Taizong_gives_an_audience_to_the_ambassador_of_Tibet.jpg",
         "baike_url":"https://baike.baidu.com/item/%E6%AD%A5%E8%BE%87%E5%9B%BE",
+        "category": ["绘画"],
+        "period_order": 28,
     },
 ]
 
@@ -1137,6 +1339,8 @@ batch3 = [
         "museum":"中国国家博物馆",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/d/dc/Zilong_Ding.jpg",
         "baike_url":"https://baike.baidu.com/item/%E5%AD%90%E9%BE%99%E9%BC%8E",
+        "category": ["青铜器"],
+        "period_order": 12,
     },
     {
         "name":"四羊方尊",
@@ -1148,6 +1352,8 @@ batch3 = [
         "museum":"中国国家博物馆",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/a/ae/Square_zun_with_four_sheep_01.jpg",
         "baike_url":"https://baike.baidu.com/item/%E5%9B%9B%E7%BE%8A%E6%96%B9%E5%B0%8A",
+        "category": ["青铜器"],
+        "period_order": 12,
     },
     {
         "name":"龙纹兕觥",
@@ -1159,6 +1365,8 @@ batch3 = [
         "museum":"山西博物院",
         "image_url":"http://im.wenwuchina.com/upload/2014/06/09/20140609093710114.jpg",
         "baike_url":"https://baike.baidu.com/item/%E9%BE%99%E7%BA%B9%E5%85%95%E8%A7%A5",
+        "category": ["青铜器"],
+        "period_order": 12,
     },
     {
         "name":"大禾方鼎",
@@ -1170,6 +1378,8 @@ batch3 = [
         "museum":"湖南省博物馆",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Da_He_ding_side.jpg/960px-Da_He_ding_side.jpg",
         "baike_url":"https://baike.baidu.com/item/%E5%A4%A7%E7%A6%BE%E6%96%B9%E9%BC%8E",
+        "category": ["青铜器"],
+        "period_order": 12,
     },
     {
         "name":"铜立人像",
@@ -1181,6 +1391,8 @@ batch3 = [
         "museum":"三星堆博物馆",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/%E4%B8%89%E6%98%9F%E5%A0%86%E5%87%BA%E5%9C%9F%E9%9D%92%E9%93%9C%E5%A4%A7%E7%AB%8B%E4%BA%BA%E5%83%8F%2C_2017-09-17.jpg/1920px-%E4%B8%89%E6%98%9F%E5%A0%86%E5%87%BA%E5%9C%9F%E9%9D%92%E9%93%9C%E5%A4%A7%E7%AB%8B%E4%BA%BA%E5%83%8F%2C_2017-09-17.jpg",
         "baike_url":"https://baike.baidu.com/item/%E9%93%9C%E7%AB%8B%E4%BA%BA%E5%83%8F",
+        "category": ["青铜器", "雕塑造像"],
+        "period_order": 12,
     },
     {
         "name":"天亡簋",
@@ -1192,6 +1404,8 @@ batch3 = [
         "museum":"中国国家博物馆",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Tianwang_Gui%2C_2016-09-09_01.jpg/1920px-Tianwang_Gui%2C_2016-09-09_01.jpg",
         "baike_url":"https://baike.baidu.com/item/%E5%A4%A7%E4%B8%B0%E7%B0%8B",
+        "category": ["青铜器"],
+        "period_order": 13,
     },
     {
         "name":"伯矩鬲",
@@ -1203,6 +1417,8 @@ batch3 = [
         "museum":"首都博物馆",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/%E4%BC%AF%E7%9F%A9%E9%AC%B2.jpg/960px-%E4%BC%AF%E7%9F%A9%E9%AC%B2.jpg",
         "baike_url":"https://baike.baidu.com/item/%E4%BC%AF%E7%9F%A9%E9%AC%B2",
+        "category": ["青铜器"],
+        "period_order": 13,
     },
     {
         "name":"晋侯鸟尊",
@@ -1214,6 +1430,8 @@ batch3 = [
         "museum":"山西博物院",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/4/41/%E6%99%8B%E4%BE%AF%E9%B8%9F%E5%B0%8A.jpg",
         "baike_url":"https://baike.baidu.com/item/%E6%99%8B%E4%BE%AF%E9%B8%9F%E5%B0%8A",
+        "category": ["青铜器"],
+        "period_order": 13,
     },
     {
         "name":"㝬簋",
@@ -1225,6 +1443,8 @@ batch3 = [
         "museum":"宝鸡青铜器博物院",
         "image_url":"https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/png/11409247976E0E6D25A8F814BE90E748.png",
         "baike_url":"https://baike.baidu.com/item/%E3%9D%AC%E7%B0%8B",
+        "category": ["青铜器"],
+        "period_order": 13,
     },
     {
         "name":"逨盘",
@@ -1236,6 +1456,8 @@ batch3 = [
         "museum":"宝鸡青铜器博物院",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Lai_Pan.JPG/1920px-Lai_Pan.JPG",
         "baike_url":"https://baike.baidu.com/item/%E9%80%A8%E7%9B%98",
+        "category": ["青铜器"],
+        "period_order": 13,
     },
     {
         "name":"越王勾践剑",
@@ -1247,6 +1469,8 @@ batch3 = [
         "museum":"湖北省博物馆",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/20230208_Bronze_sword_used_by_King_Goujian_of_Yue_01.jpg/1920px-20230208_Bronze_sword_used_by_King_Goujian_of_Yue_01.jpg",
         "baike_url":"https://baike.baidu.com/item/%E8%B6%8A%E7%8E%8B%E5%8B%BE%E8%B7%B5%E5%89%91",
+        "category": ["青铜器"],
+        "period_order": 14,
     },
     {
         "name":"商鞅方升",
@@ -1258,6 +1482,8 @@ batch3 = [
         "museum":"上海博物馆",
         "image_url":"https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/png/DD6DD5275610B8055B3A526B1C81A0B9.png",
         "baike_url":"https://baike.baidu.com/item/%E5%95%86%E9%9E%85%E6%96%B9%E5%8D%87",
+        "category": ["青铜器"],
+        "period_order": 15,
     },
     {
         "name":"错金银镶嵌丝网套铜壶",
@@ -1269,6 +1495,8 @@ batch3 = [
         "museum":"南京博物院",
         "image_url":"https://b0.bdstatic.com/ugc/grv6WGuzq_ZYRcLgzcOo6Q089fa237485d4aa8b9e16e12438caf91.jpg",
         "baike_url":"https://baike.baidu.com/item/%E9%94%99%E9%87%91%E9%93%B6%E9%95%B6%E5%B5%8C%E4%B8%9D%E7%BD%91%E5%A5%97%E9%93%9C%E5%A3%B6",
+        "category": ["青铜器", "金银器"],
+        "period_order": 15,
     },
     {
         "name":"诅盟场面贮贝器",
@@ -1280,6 +1508,8 @@ batch3 = [
         "museum":"中国国家博物馆",
         "image_url":"https://www.chnmuseum.cn/zp/zpml/kgfjp/202110/P020221111403088635720.jpg",
         "baike_url":"https://baike.baidu.com/item/%E8%A5%BF%E6%B1%89%E8%AF%85%E7%9B%9F%E5%9C%BA%E9%9D%A2%E9%93%9C%E8%B4%AE%E8%B4%9D%E5%99%A8",
+        "category": ["青铜器"],
+        "period_order": 17,
     },
     {
         "name":"彩绘人物车马镜",
@@ -1291,6 +1521,8 @@ batch3 = [
         "museum":"西安博物院",
         "image_url":"https://www.news.cn/photo/2023-11/14/1129974040_16999307532621n.JPG",
         "baike_url":"https://baike.baidu.com/item/%E5%BD%A9%E7%BB%98%E4%BA%BA%E7%89%A9%E8%BD%A6%E9%A9%AC%E9%95%9C",
+        "category": ["青铜器", "绘画"],
+        "period_order": 17,
     },
     {
         "name":"杀人祭柱场面贮贝器",
@@ -1302,6 +1534,8 @@ batch3 = [
         "museum":"云南省博物馆",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/%E6%9D%80%E4%BA%BA%E7%A5%AD%E6%9F%B1%E9%93%9C%E8%B4%AE%E8%B4%9D%E5%99%A8.jpg/960px-%E6%9D%80%E4%BA%BA%E7%A5%AD%E6%9F%B1%E9%93%9C%E8%B4%AE%E8%B4%9D%E5%99%A8.jpg",
         "baike_url":"https://baike.baidu.com/item/%E8%A5%BF%E6%B1%89%E6%9D%80%E4%BA%BA%E7%A5%AD%E6%9F%B1%E5%9C%BA%E9%9D%A2%E8%B4%AE%E8%B4%9D%E5%99%A8",
+        "category": ["青铜器"],
+        "period_order": 17,
     },
     {
         "name":"仰韶文化彩陶人面鱼纹盆",
@@ -1313,6 +1547,8 @@ batch3 = [
         "museum":"中国国家博物馆",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/%E4%BA%BA%E9%9D%A2%E9%B1%BC%E7%BA%B9%E7%9B%86_1.jpg/1920px-%E4%BA%BA%E9%9D%A2%E9%B1%BC%E7%BA%B9%E7%9B%86_1.jpg",
         "baike_url":"https://baike.baidu.com/item/%E4%BA%BA%E9%9D%A2%E9%B1%BC%E7%BA%B9%E5%BD%A9%E9%99%B6%E7%9B%86",
+        "category": ["陶器"],
+        "period_order": 2,
     },
     {
         "name":"马家窑文化彩陶舞蹈纹盆",
@@ -1324,6 +1560,8 @@ batch3 = [
         "museum":"中国国家博物馆",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/%E8%88%9E%E8%B9%88%E7%BA%B9%E5%BD%A9%E9%99%B6%E7%9B%8608775.jpg/960px-%E8%88%9E%E8%B9%88%E7%BA%B9%E5%BD%A9%E9%99%B6%E7%9B%8608775.jpg",
         "baike_url":"https://baike.baidu.com/item/%E9%A9%AC%E5%AE%B6%E7%AA%91%E6%96%87%E5%8C%96%E5%BD%A9%E9%99%B6%E8%88%9E%E8%B9%88%E7%BA%B9%E7%9B%86",
+        "category": ["陶器"],
+        "period_order": 6,
     },
     {
         "name":"马家窑文化彩陶贴塑人纹双系壶",
@@ -1335,6 +1573,8 @@ batch3 = [
         "museum":"中国国家博物馆",
         "image_url":"https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/png/6A1645F3EA6B733B5CB58DF78F7F7166.png",
         "baike_url":"https://baike.baidu.com/item/%E9%A9%AC%E5%AE%B6%E7%AA%91%E6%96%87%E5%8C%96%E5%BD%A9%E9%99%B6%E8%B4%B4%E5%A1%91%E4%BA%BA%E7%BA%B9%E5%8F%8C%E7%B3%BB%E5%A3%B6",
+        "category": ["陶器"],
+        "period_order": 6,
     },
     {
         "name":"仰韶文化彩陶网纹船形壶",
@@ -1346,6 +1586,8 @@ batch3 = [
         "museum":"中国国家博物馆",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/%E8%88%B9%E5%BD%A2%E5%BD%A9%E9%99%B6%E5%A3%B608771.jpg/960px-%E8%88%B9%E5%BD%A2%E5%BD%A9%E9%99%B6%E5%A3%B608771.jpg",
         "baike_url":"https://baike.baidu.com/item/%E5%BD%A9%E9%99%B6%E7%BD%91%E7%BA%B9%E8%88%B9%E5%BD%A2%E5%A3%B6",
+        "category": ["陶器"],
+        "period_order": 2,
     },
     {
         "name":"龙山文化彩绘蟠龙纹陶盘",
@@ -1357,6 +1599,8 @@ batch3 = [
         "museum":"中国社会科学院考古研究所",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Painted_Pottery_Plate_with_Dragon_Design_Taosi_Culture%2C_Early_Period_%282%2C300%E2%80%942%2C100_BCE%29_Excavated_at_the_Taosi_Site%2C_Xiangfen_County%2C_Shanxi._Capital_Museum%2C_Beijing.jpg/1920px-thumbnail.jpg",
         "baike_url":"https://baike.baidu.com/item/%E5%BD%A9%E7%BB%98%E8%9F%A0%E9%BE%99%E7%BA%B9%E9%99%B6%E7%9B%98",
+        "category": ["陶器"],
+        "period_order": 9,
     },
     {
         "name":"仰韶文化彩陶人形双系瓶",
@@ -1368,6 +1612,8 @@ batch3 = [
         "museum":"甘肃省博物馆",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/%E4%BB%B0%E9%9F%B6%E6%96%87%E5%8C%96%E4%BA%BA%E5%A4%B4%E5%BD%A2%E5%99%A8%E5%8F%A3%E5%BD%A9%E9%99%B6%E7%93%B6.jpg/1920px-%E4%BB%B0%E9%9F%B6%E6%96%87%E5%8C%96%E4%BA%BA%E5%A4%B4%E5%BD%A2%E5%99%A8%E5%8F%A3%E5%BD%A9%E9%99%B6%E7%93%B6.jpg",
         "baike_url":"https://baike.baidu.com/item/%E4%BA%BA%E5%A4%B4%E5%BD%A2%E5%99%A8%E5%8F%A3%E5%BD%A9%E9%99%B6%E7%93%B6",
+        "category": ["陶器"],
+        "period_order": 2,
     },
     {
         "name":"大汶口文化彩陶八角星纹豆",
@@ -1379,6 +1625,8 @@ batch3 = [
         "museum":"山东博物馆",
         "image_url":"https://q6.itc.cn/q_70/images03/20251231/87b22e005d524f8aaeea839ac691e103.jpeg",
         "baike_url":"https://baike.baidu.com/item/%E5%85%AB%E8%A7%92%E6%98%9F%E7%BA%B9%E5%BD%A9%E9%99%B6%E8%B1%86",
+        "category": ["陶器"],
+        "period_order": 5,
     },
     {
         "name":"'永安三年'款青釉堆塑谷仓罐",
@@ -1390,6 +1638,8 @@ batch3 = [
         "museum":"故宫博物院",
         "image_url":"https://pics0.baidu.com/feed/0b55b319ebc4b74580bcf8734fb05e188a821502.jpeg",
         "baike_url":"https://baike.baidu.com/item/%E9%9D%92%E9%87%89%E5%A0%86%E5%A1%91%E8%B0%B7%E4%BB%93%E7%BD%90",
+        "category": ["瓷器"],
+        "period_order": 20,
     },
     {
         "name":"'赤乌十四年'款青釉虎子",
@@ -1401,6 +1651,8 @@ batch3 = [
         "museum":"中国国家博物馆",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Celadon_urine_bottle_251_CE._Nanjing%2C_China.jpg/1920px-Celadon_urine_bottle_251_CE._Nanjing%2C_China.jpg",
         "baike_url":"https://baike.baidu.com/item/%E9%9D%92%E9%87%89%E8%99%8E%E5%AD%90",
+        "category": ["瓷器"],
+        "period_order": 20,
     },
     {
         "name":"青釉褐彩羽人纹双系壶",
@@ -1412,6 +1664,8 @@ batch3 = [
         "museum":"南京市博物馆",
         "image_url":"https://www.njmuseumadmin.com/Public/Upload/default/2015/09/01/ab70d96832c45aadf53958801f4b3115.jpg",
         "baike_url":"https://baike.baidu.com/item/%E9%9D%92%E9%87%89%E8%A4%90%E5%BD%A9%E7%BE%BD%E4%BA%BA%E7%BA%B9%E5%8F%8C%E7%B3%BB%E5%A3%B6",
+        "category": ["瓷器"],
+        "period_order": 20,
     },
     {
         "name":"青釉神兽尊",
@@ -1423,6 +1677,8 @@ batch3 = [
         "museum":"南京博物院",
         "image_url":"https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/png/DE2F8B5A223B430E815FC2FF5BC8BA5B.png",
         "baike_url":"https://baike.baidu.com/item/%E9%9D%92%E9%87%89%E7%A5%9E%E5%85%BD%E5%B0%8A",
+        "category": ["瓷器"],
+        "period_order": 21,
     },
     {
         "name":"青釉仰覆莲花尊",
@@ -1434,6 +1690,8 @@ batch3 = [
         "museum":"中国国家博物馆",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Green_glazed_vase_covered_with_lotus_designs%2C_NMC.jpg/960px-Green_glazed_vase_covered_with_lotus_designs%2C_NMC.jpg",
         "baike_url":"https://baike.baidu.com/item/%E9%9D%92%E9%87%89%E4%BB%B0%E8%A6%86%E8%8E%B2%E8%8A%B1%E5%B0%8A",
+        "category": ["瓷器"],
+        "period_order": 23,
     },
     {
         "name":"白釉绿彩长颈瓶",
@@ -1445,6 +1703,8 @@ batch3 = [
         "museum":"河南博物院",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Northern_Qi_White-glazed_Porcelain_Vase_%2810369917793%29.jpg/960px-Northern_Qi_White-glazed_Porcelain_Vase_%2810369917793%29.jpg",
         "baike_url":"https://baike.baidu.com/item/%E7%99%BD%E9%87%89%E7%BB%BF%E5%BD%A9%E9%95%BF%E9%A2%88%E7%93%B6",
+        "category": ["瓷器"],
+        "period_order": 23,
     },
     {
         "name":"隋白釉龙柄双联传瓶",
@@ -1456,6 +1716,8 @@ batch3 = [
         "museum":"天津博物馆",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/1/12/%E7%99%BD%E9%87%89%E9%BE%99%E6%9F%84%E5%8F%8C%E8%81%94%E4%BC%A0%E7%93%B6.png",
         "baike_url":"https://baike.baidu.com/item/%E9%9A%8B%E7%99%BD%E9%87%89%E9%BE%99%E6%9F%84%E5%8F%8C%E8%81%94%E4%BC%A0%E7%93%B6",
+        "category": ["瓷器"],
+        "period_order": 24,
     },
     {
         "name":"青釉凤首龙柄壶",
@@ -1467,6 +1729,8 @@ batch3 = [
         "museum":"故宫博物院",
         "image_url":"https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/png/ADDC52FA8635E46C81F6165D5155CB21.png",
         "baike_url":"https://baike.baidu.com/item/%E9%9D%92%E9%87%89%E5%87%A4%E9%A6%96%E9%BE%99%E6%9F%84%E5%A3%B6",
+        "category": ["瓷器"],
+        "period_order": 25,
     },
     {
         "name":"鲁山窑黑釉蓝斑腰鼓",
@@ -1478,6 +1742,8 @@ batch3 = [
         "museum":"故宫博物院",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Speckle-glazed_Waist_Drum%2C_Lushan_Ware%2C_2016-09.jpg/960px-Speckle-glazed_Waist_Drum%2C_Lushan_Ware%2C_2016-09.jpg",
         "baike_url":"https://baike.baidu.com/item/%E5%94%90%E9%B2%81%E5%B1%B1%E7%AA%91%E9%BB%91%E9%87%89%E8%93%9D%E6%96%91%E8%85%B0%E9%BC%93",
+        "category": ["瓷器", "乐器"],
+        "period_order": 25,
     },
     {
         "name":"陶骆驼载乐舞三彩俑",
@@ -1489,6 +1755,8 @@ batch3 = [
         "museum":"中国国家博物馆",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/20251026_Sancai-glazed_Pottery_Musician_on_Camelback.jpg/960px-20251026_Sancai-glazed_Pottery_Musician_on_Camelback.jpg",
         "baike_url":"https://baike.baidu.com/item/%E5%94%90%E4%BB%A3%E9%99%B6%E9%AA%86%E9%A9%BC%E8%BD%BD%E4%B9%90%E8%88%9E%E4%B8%89%E5%BD%A9%E4%BF%91",
+        "category": ["陶器", "雕塑造像"],
+        "period_order": 25,
     },
     {
         "name":"长沙窑青釉褐蓝彩双系罐",
@@ -1500,6 +1768,8 @@ batch3 = [
         "museum":"扬州博物馆",
         "image_url":"https://inews.gtimg.com/om_bt/OfVBFNukqr2BZwCBWaega01bTP0r8fTcyqPrY9Y4gMLoYAA/0",
         "baike_url":"https://baike.baidu.com/item/%E9%95%BF%E6%B2%99%E7%AA%91%E9%9D%92%E9%87%89%E8%A4%90%E8%93%9D%E5%BD%A9%E5%8F%8C%E7%B3%BB%E7%BD%90",
+        "category": ["瓷器"],
+        "period_order": 25,
     },
     {
         "name":"越窑青釉褐彩云纹五足炉",
@@ -1511,6 +1781,8 @@ batch3 = [
         "museum":"临安博物馆",
         "image_url":"https://p5.itc.cn/q_70/images03/20211012/95f6ab66ce9a4e17864e9e621c7680f2.png",
         "baike_url":"https://baike.baidu.com/item/%E8%B6%8A%E7%AA%91%E9%9D%92%E9%87%89%E8%A4%90%E5%BD%A9%E4%BA%91%E7%BA%B9%E4%BA%94%E8%B6%B3%E7%82%89",
+        "category": ["瓷器"],
+        "period_order": 25,
     },
     {
         "name":"长沙窑青釉褐彩贴花人物纹壶",
@@ -1522,6 +1794,8 @@ batch3 = [
         "museum":"湖南省博物馆",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/%E9%95%BF%E6%B2%99%E7%AA%91%E9%9D%92%E9%87%89%E8%A4%90%E5%BD%A9%E8%B4%B4%E8%8A%B1%E4%BA%BA%E7%89%A9%E7%BA%B9%E5%A3%B6%2C_2018-09-28.jpg/960px-%E9%95%BF%E6%B2%99%E7%AA%91%E9%9D%92%E9%87%89%E8%A4%90%E5%BD%A9%E8%B4%B4%E8%8A%B1%E4%BA%BA%E7%89%A9%E7%BA%B9%E5%A3%B6%2C_2018-09-28.jpg",
         "baike_url":"https://baike.baidu.com/item/%E5%94%90%E9%95%BF%E6%B2%99%E7%AA%91%E9%9D%92%E9%87%89%E8%A4%90%E5%BD%A9%E8%B4%B4%E8%8A%B1%E4%BA%BA%E7%89%A9%E7%BA%B9%E5%A3%B6",
+        "category": ["瓷器"],
+        "period_order": 25,
     },
     {
         "name":"三彩骆驼载乐俑",
@@ -1533,6 +1807,8 @@ batch3 = [
         "museum":"陕西历史博物馆",
         "image_url":"https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/png/E94BC88EE8AA0044400E457B548AFDF7.png",
         "baike_url":"https://baike.baidu.com/item/%E5%94%90%E4%B8%89%E5%BD%A9%E9%AA%86%E9%A9%BC%E8%BD%BD%E4%B9%90%E4%BF%91",
+        "category": ["陶器", "雕塑造像"],
+        "period_order": 25,
     },
     {
         "name":"耀州窑摩羯形水盂",
@@ -1544,6 +1820,8 @@ batch3 = [
         "museum":"辽宁省博物馆",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/%E9%9D%92%E7%93%B7%E9%A3%9E%E9%B1%BC%E5%BD%A2%E6%B0%B4%E7%9B%8206267.jpg/960px-%E9%9D%92%E7%93%B7%E9%A3%9E%E9%B1%BC%E5%BD%A2%E6%B0%B4%E7%9B%8206267.jpg",
         "baike_url":"https://baike.baidu.com/item/%E8%80%80%E5%B7%9E%E7%AA%91%E6%91%A9%E7%BE%AF%E5%BD%A2%E6%B0%B4%E7%9B%82",
+        "category": ["瓷器"],
+        "period_order": 26,
     },
     {
         "name":"越窑莲花式托盏",
@@ -1555,6 +1833,8 @@ batch3 = [
         "museum":"苏州博物馆",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/%E8%99%8E%E4%B8%98%E5%87%BA%E5%9C%9F%E4%BA%94%E4%BB%A3%E8%B6%8A%E7%AA%91%E8%8E%B2%E8%8A%B1%E5%BC%8F%E6%89%98%E7%9B%8F.jpg/960px-%E8%99%8E%E4%B8%98%E5%87%BA%E5%9C%9F%E4%BA%94%E4%BB%A3%E8%B6%8A%E7%AA%91%E8%8E%B2%E8%8A%B1%E5%BC%8F%E6%89%98%E7%9B%8F.jpg",
         "baike_url":"https://baike.baidu.com/item/%E4%BA%94%E4%BB%A3%E8%B6%8A%E7%AA%91%E8%8E%B2%E8%8A%B1%E5%BC%8F%E6%89%98%E7%9B%8F",
+        "category": ["瓷器"],
+        "period_order": 26,
     },
     {
         "name":"耀州窑青釉刻花提梁倒流壶",
@@ -1566,6 +1846,8 @@ batch3 = [
         "museum":"陕西历史博物馆",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/%E9%9D%92%E9%87%89%E6%8F%90%E6%A2%81%E5%80%92%E6%B3%A8%E7%93%B7%E5%A3%B6_20140502.JPG/960px-%E9%9D%92%E9%87%89%E6%8F%90%E6%A2%81%E5%80%92%E6%B3%A8%E7%93%B7%E5%A3%B6_20140502.JPG",
         "baike_url":"https://baike.baidu.com/item/%E4%BA%94%E4%BB%A3%E8%80%80%E5%B7%9E%E7%AA%91%E9%9D%92%E9%87%89%E5%88%BB%E8%8A%B1%E6%8F%90%E6%A2%81%E5%80%92%E6%B5%81%E5%A3%B6",
+        "category": ["瓷器"],
+        "period_order": 26,
     },
     {
         "name":"汝窑天青釉弦纹樽",
@@ -1577,6 +1859,8 @@ batch3 = [
         "museum":"故宫博物院",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Tripod_vessel%2C_Ru_ware%2C_China%2C_Northern_Song_Dynasty%2C_late_11th_or_early_12_century%2C_stoneware_-_Cincinnati_Art_Museum_-_DSC03179.JPG/960px-Tripod_vessel%2C_Ru_ware%2C_China%2C_Northern_Song_Dynasty%2C_late_11th_or_early_12_century%2C_stoneware_-_Cincinnati_Art_Museum_-_DSC03179.JPG",
         "baike_url":"https://baike.baidu.com/item/%E6%B1%9D%E7%AA%91%E5%A4%A9%E9%9D%92%E9%87%89%E5%BC%A6%E7%BA%B9%E6%A8%BD",
+        "category": ["瓷器"],
+        "period_order": 28,
     },
     {
         "name":"官窑弦纹瓶",
@@ -1588,6 +1872,8 @@ batch3 = [
         "museum":"故宫博物院",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Celadon_Vase_with_Bowstring_Patterns%2C_Guan_Ware%2C_2016-09.jpg/960px-Celadon_Vase_with_Bowstring_Patterns%2C_Guan_Ware%2C_2016-09.jpg",
         "baike_url":"https://baike.baidu.com/item/%E5%AE%8B%E5%AE%98%E7%AA%91%E5%BC%A6%E7%BA%B9%E7%93%B6",
+        "category": ["瓷器"],
+        "period_order": 28,
     },
     {
         "name":"钧窑月白釉出戟尊",
@@ -1599,6 +1885,8 @@ batch3 = [
         "museum":"故宫博物院",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Moon-white_Glazed_Zun_Vessel_with_Vertical_Ridges%2C_Jun_Ware%2C_2016-09.jpg/960px-Moon-white_Glazed_Zun_Vessel_with_Vertical_Ridges%2C_Jun_Ware%2C_2016-09.jpg",
         "baike_url":"https://baike.baidu.com/item/%E9%92%A7%E7%AA%91%E6%9C%88%E7%99%BD%E9%87%89%E5%87%BA%E6%88%9F%E5%B0%8A",
+        "category": ["瓷器"],
+        "period_order": 28,
     },
     {
         "name":"定窑白釉刻莲花瓣纹龙首净瓶",
@@ -1610,6 +1898,8 @@ batch3 = [
         "museum":"定州市博物馆",
         "image_url":"https://zqb.cyol.com/images/2024-02/09/08/0808_b.jpg",
         "baike_url":"https://baike.baidu.com/item/%E5%8C%97%E5%AE%8B%E5%AE%9A%E7%AA%91%E7%99%BD%E9%87%89%E5%88%BB%E8%8E%B2%E8%8A%B1%E7%93%A3%E7%BA%B9%E9%BE%99%E9%A6%96%E5%87%80%E7%93%B6",
+        "category": ["瓷器"],
+        "period_order": 28,
     },
     {
         "name":"官窑贯耳尊",
@@ -1621,6 +1911,8 @@ batch3 = [
         "museum":"吉林省博物院",
         "image_url":"https://bkimg.cdn.bcebos.com/pic/f31fbe096b63f624a05162708944ebf81a4ca3b1?x-bce-process=image/resize,m_lfit,w_800,limit_1/quality,Q_80",
         "baike_url":"https://baike.baidu.com/item/%E5%AE%98%E7%AA%91%E8%B4%AF%E8%80%B3%E7%93%B6",
+        "category": ["瓷器"],
+        "period_order": 28,
     },
     {
         "name":"登封窑珍珠地划花虎豹纹瓶",
@@ -1632,6 +1924,8 @@ batch3 = [
         "museum":"故宫博物院",
         "image_url":"https://pics0.baidu.com/feed/6159252dd42a28348d308e10c056bbe414cebf0d.jpeg",
         "baike_url":"https://baike.baidu.com/item/%E5%8C%97%E5%AE%8B%E7%99%BB%E5%B0%81%E7%AA%91%E7%8F%8D%E7%8F%A0%E5%9C%B0%E5%88%92%E5%8F%8C%E8%99%8E%E7%BA%B9%E7%93%B6",
+        "category": ["瓷器"],
+        "period_order": 28,
     },
     {
         "name":"青花萧何月下追韩信图梅瓶",
@@ -1643,6 +1937,8 @@ batch3 = [
         "museum":"南京市博物馆",
         "image_url":"https://bkimg.cdn.bcebos.com/smart/10dfa9ec8a13632762d00743b3d3b7ec08fa513d6934-bkimg-process,v_1,rw_16,rh_9,maxl_640,pad_1",
         "baike_url":"https://baike.baidu.com/item/%E9%9D%92%E8%8A%B1%E8%90%A7%E4%BD%95%E6%9C%88%E4%B8%8B%E8%BF%BD%E9%9F%A9%E4%BF%A1%E5%9B%BE%E6%A2%85%E7%93%B6",
+        "category": ["瓷器"],
+        "period_order": 32,
     },
     {
         "name":"蓝釉白龙纹梅瓶",
@@ -1654,6 +1950,8 @@ batch3 = [
         "museum":"扬州博物馆",
         "image_url":"https://www.yzmuseum.com/static/image/1483954827_QBy.jpg",
         "baike_url":"https://baike.baidu.com/item/%E8%93%9D%E9%87%89%E7%99%BD%E9%BE%99%E7%BA%B9%E6%A2%85%E7%93%B6",
+        "category": ["瓷器"],
+        "period_order": 32,
     },
     {
         "name":"红山文化玉龙",
@@ -1665,6 +1963,8 @@ batch3 = [
         "museum":"中国国家博物馆",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/9/96/Neolithic_jade_dragon%2C_Hongshan_Culture%2C_Inner_Mongolia%2C_1971.jpg",
         "baike_url":"https://baike.baidu.com/item/%E7%BA%A2%E5%B1%B1%E6%96%87%E5%8C%96%E7%8E%89%E9%BE%99",
+        "category": ["玉器"],
+        "period_order": 4,
     },
     {
         "name":"良渚文化神人兽面纹玉钺",
@@ -1676,6 +1976,8 @@ batch3 = [
         "museum":"浙江省博物馆",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/%E8%89%AF%E6%B8%9A%E7%A5%9E%E4%BA%BA%E5%85%BD%E9%9D%A2%E7%BA%B9%E7%8E%89%E9%92%BA%2C_2023-09-26_01.jpg/960px-%E8%89%AF%E6%B8%9A%E7%A5%9E%E4%BA%BA%E5%85%BD%E9%9D%A2%E7%BA%B9%E7%8E%89%E9%92%BA%2C_2023-09-26_01.jpg",
         "baike_url":"https://baike.baidu.com/item/%E7%A5%9E%E4%BA%BA%E5%85%BD%E9%9D%A2%E7%BA%B9%E7%8E%89%E9%92%BA",
+        "category": ["玉器"],
+        "period_order": 8,
     },
     {
         "name":"七孔玉刀",
@@ -1687,6 +1989,8 @@ batch3 = [
         "museum":"洛阳博物馆",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/%E5%A4%8F%E4%B8%83%E5%AD%94%E7%8E%89%E5%88%80%2C_2015-09-23.jpg/960px-%E5%A4%8F%E4%B8%83%E5%AD%94%E7%8E%89%E5%88%80%2C_2015-09-23.jpg",
         "baike_url":"https://baike.baidu.com/item/%E4%B8%83%E5%AD%94%E7%8E%89%E5%88%80",
+        "category": ["玉器"],
+        "period_order": 11,
     },
     {
         "name":"晋侯夫人组玉佩",
@@ -1698,6 +2002,8 @@ batch3 = [
         "museum":"山西博物院",
         "image_url":"https://bkimg.cdn.bcebos.com/pic/e850352ac65c10380e740ee9bd119313b07e8997?x-bce-process=image/resize,m_lfit,w_800,limit_1/quality,Q_80",
         "baike_url":"https://baike.baidu.com/item/%E6%99%8B%E4%BE%AF%E5%A4%AB%E4%BA%BA%E7%BB%84%E7%8E%89%E4%BD%A9",
+        "category": ["玉器", "织绣服饰"],
+        "period_order": 13,
     },
     {
         "name":"多节活环套练玉佩",
@@ -1709,6 +2015,8 @@ batch3 = [
         "museum":"湖北省博物馆",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/%E5%8D%81%E5%85%AD%E8%8A%82%E9%BE%99%E5%87%A4%E7%8E%89%E6%8C%82%E9%A5%B0%EF%BC%8C2015-04-06_07.jpg/960px-%E5%8D%81%E5%85%AD%E8%8A%82%E9%BE%99%E5%87%A4%E7%8E%89%E6%8C%82%E9%A5%B0%EF%BC%8C2015-04-06_07.jpg",
         "baike_url":"https://baike.baidu.com/item/%E5%A4%9A%E8%8A%82%E6%B4%BB%E7%8E%AF%E5%A5%97%E7%BB%83%E7%8E%89%E4%BD%A9",
+        "category": ["玉器"],
+        "period_order": 15,
     },
     {
         "name":"'皇后之玺'玉玺",
@@ -1720,6 +2028,8 @@ batch3 = [
         "museum":"陕西历史博物馆",
         "image_url":"https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/png/1D651525CD34319A4DD4A3A1DB6E7B9A.png",
         "baike_url":"https://baike.baidu.com/item/西汉皇后之玺/3703513",
+        "category": ["玉器", "玺印符节"],
+        "period_order": 17,
     },
     {
         "name":"镂雕东王公西王母纹玉座屏",
@@ -1731,6 +2041,8 @@ batch3 = [
         "museum":"定州市博物馆",
         "image_url":"https://img.dingxinwen.cn/image/20250721/b0e8b1ad66b68cb2f810ef473e596fbb.jpg",
         "baike_url":"https://baike.baidu.com/item/%E4%B8%9C%E6%B1%89%E9%95%82%E9%9B%95%E4%B8%9C%E7%8E%8B%E5%85%AC%E8%A5%BF%E7%8E%8B%E6%AF%8D%E7%BA%B9%E7%8E%89%E5%BA%A7%E5%B1%8F",
+        "category": ["玉器", "雕塑造像"],
+        "period_order": 19,
     },
     {
         "name":"神兽纹玉樽",
@@ -1742,6 +2054,8 @@ batch3 = [
         "museum":"湖南省博物馆",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/%E7%A5%9E%E5%85%BD%E7%BA%B9%E7%8E%89%E6%A8%BD%2C_2018-09-28.jpg/960px-%E7%A5%9E%E5%85%BD%E7%BA%B9%E7%8E%89%E6%A8%BD%2C_2018-09-28.jpg",
         "baike_url":"https://baike.baidu.com/item/%E7%A5%9E%E5%85%BD%E7%BA%B9%E7%8E%89%E6%A8%BD",
+        "category": ["玉器"],
+        "period_order": 21,
     },
     {
         "name":"'统领释教大元国师之印'龙钮玉印",
@@ -1753,6 +2067,8 @@ batch3 = [
         "museum":"西藏博物馆",
         "image_url":"https://www.xzxw.com/pic/2015-03/21/W020150130736851970173.jpg",
         "baike_url":"https://baike.baidu.com/item/元“统领释教大元国师之印”龙钮玉印",
+        "category": ["玉器", "玺印符节"],
+        "period_order": 32,
     },
     {
         "name":"太阳神鸟金箔片",
@@ -1764,6 +2080,8 @@ batch3 = [
         "museum":"成都金沙遗址博物馆",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/%E5%A4%AA%E9%98%B3%E7%A5%9E%E9%B8%9F%E9%87%91%E9%A5%B0_Golden_Sun_Bird.png/960px-%E5%A4%AA%E9%98%B3%E7%A5%9E%E9%B8%9F%E9%87%91%E9%A5%B0_Golden_Sun_Bird.png",
         "baike_url":"https://baike.baidu.com/item/%E5%95%86%E5%91%A8%E5%A4%AA%E9%98%B3%E7%A5%9E%E9%B8%9F%E9%87%91%E9%A5%B0",
+        "category": ["金银器"],
+        "period_order": 12,
     },
     {
         "name":"金杖",
@@ -1775,6 +2093,8 @@ batch3 = [
         "museum":"三星堆博物馆",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Sanxingdui_Gold_Scepter_%289950984395%29.jpg/960px-Sanxingdui_Gold_Scepter_%289950984395%29.jpg",
         "baike_url":"https://baike.baidu.com/item/%E9%87%91%E6%9D%96",
+        "category": ["金银器"],
+        "period_order": 12,
     },
     {
         "name":"包金镶玉嵌琉璃银带钩",
@@ -1786,6 +2106,8 @@ batch3 = [
         "museum":"中国国家博物馆",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/%E9%95%B6%E9%87%91%E5%B5%8C%E7%8E%89%E9%95%B6%E7%90%89%E7%92%83%E9%93%B6%E5%B8%A6%E9%92%A903688.jpg/960px-%E9%95%B6%E9%87%91%E5%B5%8C%E7%8E%89%E9%95%B6%E7%90%89%E7%92%83%E9%93%B6%E5%B8%A6%E9%92%A903688.jpg",
         "baike_url":"https://baike.baidu.com/item/%E9%8E%8F%E9%87%91%E5%B5%8C%E7%8E%89%E9%95%B6%E7%90%89%E7%92%83%E9%93%B6%E5%B8%A6%E9%92%A9",
+        "category": ["金银器", "玉器", "玻璃水晶"],
+        "period_order": 15,
     },
     {
         "name":"'滇王之印'金印",
@@ -1797,6 +2119,8 @@ batch3 = [
         "museum":"中国国家博物馆",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/1/1e/Gold_Seal_for_King_of_Dian_Kingdom.jpg",
         "baike_url":"https://baike.baidu.com/item/%E6%BB%87%E7%8E%8B%E4%B9%8B%E5%8D%B0",
+        "category": ["金银器", "玺印符节"],
+        "period_order": 17,
     },
     {
         "name":"错金银镶松石狩猎纹铜伞铤",
@@ -1808,6 +2132,8 @@ batch3 = [
         "museum":"河北省文物研究所",
         "image_url":"https://bkimg.cdn.bcebos.com/pic/a6efce1b9d16fdfaa7817350b38f8c5495ee7b9a?x-bce-process=image/resize,m_lfit,w_800,limit_1/quality,Q_80",
         "baike_url":"https://baike.baidu.com/item/%E9%94%99%E9%87%91%E9%93%B6%E9%95%B6%E6%9D%BE%E7%9F%B3%E7%8B%A9%E7%8C%8E%E7%BA%B9%E9%93%9C%E4%BC%9E%E9%93%A4",
+        "category": ["青铜器", "金银器"],
+        "period_order": 17,
     },
     {
         "name":"龟负论语玉烛酒筹鎏金银筒",
@@ -1819,6 +2145,8 @@ batch3 = [
         "museum":"镇江博物馆",
         "image_url":"https://inews.gtimg.com/newsapp_bt/0/13422201502/641",
         "baike_url":"https://baike.baidu.com/item/%E9%BE%9F%E8%B4%9F%E8%AE%BA%E8%AF%AD%E7%8E%89%E7%83%9B%E9%85%92%E7%AD%B9%E9%8E%8F%E9%87%91%E9%93%B6%E7%AD%92",
+        "category": ["金银器"],
+        "period_order": 25,
     },
     {
         "name":"彩绘乐舞图鸳鸯形漆盒",
@@ -1830,6 +2158,8 @@ batch3 = [
         "museum":"湖北省博物馆",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/%E5%BD%A9%E7%BB%98%E4%B9%90%E8%88%9E%E5%9B%BE%E9%B8%B3%E9%B8%AF%E5%BD%A2%E6%BC%86%E7%9B%92%EF%BC%8C2015-04-06_05.jpg/960px-%E5%BD%A9%E7%BB%98%E4%B9%90%E8%88%9E%E5%9B%BE%E9%B8%B3%E9%B8%AF%E5%BD%A2%E6%BC%86%E7%9B%92%EF%BC%8C2015-04-06_05.jpg",
         "baike_url":"https://baike.baidu.com/item/%E5%BD%A9%E7%BB%98%E4%B9%90%E8%88%9E%E5%9B%BE%E9%B8%B3%E9%B8%AF%E5%BD%A2%E6%BC%86%E7%9B%92",
+        "category": ["漆器", "绘画"],
+        "period_order": 15,
     },
     {
         "name":"识文彩绘盝顶长方形漆奁",
@@ -1841,6 +2171,8 @@ batch3 = [
         "museum":"湖南省博物馆",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/%E8%AF%86%E6%96%87%E5%BD%A9%E7%BB%98%E7%9B%9D%E9%A1%B6%E9%95%BF%E6%96%B9%E5%BD%A2%E6%BC%86%E5%A5%81%2C_2018-09-28.jpg/960px-%E8%AF%86%E6%96%87%E5%BD%A9%E7%BB%98%E7%9B%9D%E9%A1%B6%E9%95%BF%E6%96%B9%E5%BD%A2%E6%BC%86%E5%A5%81%2C_2018-09-28.jpg",
         "baike_url":"https://baike.baidu.com/item/%E8%AF%86%E6%96%87%E5%BD%A9%E7%BB%98%E7%9B%9D%E9%A1%B6%E9%95%BF%E6%96%B9%E5%BD%A2%E6%BC%86%E5%A5%81",
+        "category": ["漆器"],
+        "period_order": 17,
     },
     {
         "name":"黑漆朱绘六博具",
@@ -1852,6 +2184,8 @@ batch3 = [
         "museum":"湖南省博物馆",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/%E9%BB%91%E6%BC%86%E6%9C%B1%E7%BB%98%E5%85%AD%E5%8D%9A%E5%85%B7%2C_2018-09-28.jpg/960px-%E9%BB%91%E6%BC%86%E6%9C%B1%E7%BB%98%E5%85%AD%E5%8D%9A%E5%85%B7%2C_2018-09-28.jpg",
         "baike_url":"https://baike.baidu.com/item/%E8%A5%BF%E6%B1%89%E9%BB%91%E6%BC%86%E6%9C%B1%E7%BB%98%E5%85%AD%E5%8D%9A%E5%85%B7",
+        "category": ["漆器"],
+        "period_order": 17,
     },
     {
         "name":"彩绘季札挂剑图漆盘",
@@ -1863,6 +2197,8 @@ batch3 = [
         "museum":"安徽省文物考古研究所",
         "image_url":"https://p2.itc.cn/images01/20230216/ffba5bf8ba6c4e389b9deea52c03f88f.jpeg",
         "baike_url":"https://baike.baidu.com/item/%E5%BD%A9%E7%BB%98%E5%AD%A3%E6%9C%AD%E6%8C%82%E5%89%91%E5%9B%BE%E6%BC%86%E7%9B%98",
+        "category": ["漆器", "绘画"],
+        "period_order": 20,
     },
     {
         "name":"皮胎犀皮漆鎏金铜扣耳杯（2件）",
@@ -1874,6 +2210,8 @@ batch3 = [
         "museum":"安徽省文物考古研究所",
         "image_url":"https://x0.ifengimg.com/ucms/2025_43/7D333F2AF77E2ADC0C0EDD8EB190AD2B6A73F042_size565_w1024_h576.png",
         "baike_url":"https://baike.baidu.com/item/%E5%90%B4%E7%9A%AE%E8%83%8E%E7%8A%80%E7%9A%AE%E6%B2%B3%E8%B1%9A%E9%8E%8F%E9%87%91%E9%93%9C%E6%89%A3%E8%80%B3%E6%9D%AF",
+        "category": ["漆器", "金银器"],
+        "period_order": 20,
     },
     {
         "name":"木雕真珠舍利宝幢（含木函）",
@@ -1885,6 +2223,8 @@ batch3 = [
         "museum":"苏州博物馆",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/%E7%91%9E%E5%85%89%E5%AF%BA%E5%A1%94%E5%87%BA%E5%9C%9F%E7%9C%9F%E7%8F%A0%E8%88%8D%E5%88%A9%E5%AE%9D%E5%B9%A2.jpg/960px-%E7%91%9E%E5%85%89%E5%AF%BA%E5%A1%94%E5%87%BA%E5%9C%9F%E7%9C%9F%E7%8F%A0%E8%88%8D%E5%88%A9%E5%AE%9D%E5%B9%A2.jpg",
         "baike_url":"https://baike.baidu.com/item/%E7%9C%9F%E7%8F%A0%E8%88%8D%E5%88%A9%E5%AE%9D%E5%B9%A2",
+        "category": ["竹木牙角", "佛家法器", "雕塑造像"],
+        "period_order": 28,
     },
     {
         "name":"大汶口文化象牙梳",
@@ -1896,6 +2236,8 @@ batch3 = [
         "museum":"山东省博物馆",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/%E9%95%82%E9%9B%95%E6%97%8B%E7%BA%B9%E8%B1%A1%E7%89%99%E6%A2%B3.jpg/960px-%E9%95%82%E9%9B%95%E6%97%8B%E7%BA%B9%E8%B1%A1%E7%89%99%E6%A2%B3.jpg",
         "baike_url":"https://baike.baidu.com/item/%E5%A4%A7%E6%B1%B6%E5%8F%A3%E6%96%87%E5%8C%96%E8%B1%A1%E7%89%99%E6%A2%B3",
+        "category": ["竹木牙角"],
+        "period_order": 5,
     },
     {
         "name":"河姆渡文化双鸟朝阳纹象牙雕刻器",
@@ -1907,6 +2249,8 @@ batch3 = [
         "museum":"浙江省博物馆",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/2023-03-18_%E6%B2%B3%E5%A7%86%E6%B8%A1%E9%81%97%E5%9D%80%E5%8D%9A%E7%89%A9%E9%A6%86%E5%B1%95%E5%93%81_28.jpg/960px-2023-03-18_%E6%B2%B3%E5%A7%86%E6%B8%A1%E9%81%97%E5%9D%80%E5%8D%9A%E7%89%A9%E9%A6%86%E5%B1%95%E5%93%81_28.jpg",
         "baike_url":"https://baike.baidu.com/item/%E5%8F%8C%E9%B8%9F%E6%9C%9D%E9%98%B3%E7%BA%B9%E7%89%99%E9%9B%95",
+        "category": ["竹木牙角"],
+        "period_order": 3,
     },
     {
         "name":"绿玻璃盖罐",
@@ -1918,6 +2262,8 @@ batch3 = [
         "museum":"中国国家博物馆",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/%E7%BB%BF%E7%8E%BB%E7%92%83%E7%9B%96%E7%BD%90.jpg/960px-%E7%BB%BF%E7%8E%BB%E7%92%83%E7%9B%96%E7%BD%90.jpg",
         "baike_url":"https://baike.baidu.com/item/%E9%9A%8B%E7%BB%BF%E7%8E%BB%E7%92%83%E7%9B%96%E7%BD%90",
+        "category": ["玻璃水晶"],
+        "period_order": 24,
     },
     {
         "name":"绿玻璃小瓶",
@@ -1929,6 +2275,8 @@ batch3 = [
         "museum":"中国国家博物馆",
         "image_url":"https://www.chnmuseum.cn/zp/zpml/kgfjp/202111/P020220303340202041779.jpg",
         "baike_url":"https://baike.baidu.com/item/%E9%9A%8B%E7%BB%BF%E7%8E%BB%E7%92%83%E5%B0%8F%E7%93%B6",
+        "category": ["玻璃水晶"],
+        "period_order": 24,
     },
     {
         "name":"红地对人兽树纹罽袍",
@@ -1940,6 +2288,8 @@ batch3 = [
         "museum":"新疆维吾尔自治区文物考古研究所",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/%E7%BA%A2%E5%9C%B0%E5%AF%B9%E4%BA%BA%E5%85%BD%E6%A0%91%E7%BA%B9%E7%BD%BD%E8%A2%8D.jpg/960px-%E7%BA%A2%E5%9C%B0%E5%AF%B9%E4%BA%BA%E5%85%BD%E6%A0%91%E7%BA%B9%E7%BD%BD%E8%A2%8D.jpg",
         "baike_url":"https://baike.baidu.com/item/%E7%BA%A2%E5%9C%B0%E5%AF%B9%E4%BA%BA%E5%85%BD%E6%A0%91%E7%BA%B9%E7%BD%BD%E8%A2%8D",
+        "category": ["织绣服饰"],
+        "period_order": 19,
     },
     {
         "name":"刺绣佛像供养人",
@@ -1951,6 +2301,8 @@ batch3 = [
         "museum":"敦煌研究院",
         "image_url":"https://pic2.zhimg.com/v2-c79a5f4601883e1e5032eaa34f867d95_1440w.jpg",
         "baike_url":"https://baike.baidu.com/item/%E5%88%BA%E7%BB%A3%E4%BD%9B%E5%83%8F%E4%BE%9B%E5%85%BB%E4%BA%BA",
+        "category": ["织绣服饰", "绘画"],
+        "period_order": 23,
     },
     {
         "name":"方格兽纹锦",
@@ -1962,6 +2314,8 @@ batch3 = [
         "museum":"新疆维吾尔自治区博物馆",
         "image_url":"https://p2.img.cctvpic.com/photoworkspace/contentimg/2025/10/10/2025101019534482324.png",
         "baike_url":"https://baike.baidu.com/item/%E6%96%B9%E6%A0%BC%E5%85%BD%E7%BA%B9%E9%94%A6",
+        "category": ["织绣服饰"],
+        "period_order": 23,
     },
     {
         "name":"灵鹫纹锦袍",
@@ -1973,6 +2327,8 @@ batch3 = [
         "museum":"故宫博物院",
         "image_url":"https://pic2.zhimg.com/v2-d72564168906a96910202f243cfdb83b_1440w.jpg",
         "baike_url":"https://baike.baidu.com/item/%E7%81%B5%E9%B9%AB%E7%BA%B9%E9%94%A6%E8%A2%8D",
+        "category": ["织绣服饰"],
+        "period_order": 28,
     },
     {
         "name":"石鼓（1组10只）",
@@ -1984,6 +2340,8 @@ batch3 = [
         "museum":"故宫博物院",
         "image_url":"https://img1.baidu.com/it/u=2894468131,2153055084&fm=253&fmt=auto&app=138&f=JPEG?w=751&h=500",
         "baike_url":"https://baike.baidu.com/item/%E7%9F%B3%E9%BC%93",
+        "category": ["石刻碑帖", "书法"],
+        "period_order": 15,
     },
     {
         "name":"昭陵六骏石刻（什伐赤、白蹄乌、特勒骠、青骓4幅）",
@@ -1995,6 +2353,8 @@ batch3 = [
         "museum":"西安碑林博物馆",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Six_Steeds_of_Zhao_Mausoleum_%289913066396%29.jpg/960px-Six_Steeds_of_Zhao_Mausoleum_%289913066396%29.jpg",
         "baike_url":"https://baike.baidu.com/item/%E6%98%AD%E9%99%B5%E5%85%AD%E9%AA%8F",
+        "category": ["石刻碑帖", "雕塑造像"],
+        "period_order": 25,
     },
     {
         "name":"拓西岳华山庙碑册（华阴本）",
@@ -2006,6 +2366,8 @@ batch3 = [
         "museum":"故宫博物院",
         "image_url":"https://pics7.baidu.com/feed/ac4bd11373f08202b27d2d1fff0a31e1aa641b25.jpeg",
         "baike_url":"https://baike.baidu.com/item/宋拓西岳华山庙碑册/19622482",
+        "category": ["石刻碑帖"],
+        "period_order": 31,
     },
     {
         "name":"曹全碑初拓本（'因'字不损本）",
@@ -2017,6 +2379,8 @@ batch3 = [
         "museum":"上海博物馆",
         "image_url":"https://pics3.baidu.com/feed/d009b3de9c82d158437e6643efa2b9d6be3e42fe.jpeg",
         "baike_url":"https://baike.baidu.com/item/曹全碑明初拓本/19622378",
+        "category": ["石刻碑帖"],
+        "period_order": 33,
     },
     {
         "name":"写本王仁煦《刊谬补缺切韵》",
@@ -2028,6 +2392,8 @@ batch3 = [
         "museum":"故宫博物院",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/6/62/%E5%88%8A%E8%B0%AC%E8%A1%A5%E7%BC%BA%E5%88%87%E9%9F%B5.jpg",
         "baike_url":"https://baike.baidu.com/item/%E5%88%8A%E8%B0%AC%E8%A1%A5%E7%BC%BA%E5%88%87%E9%9F%B5",
+        "category": ["古籍简牍"],
+        "period_order": 25,
     },
     {
         "name":"刻开宝藏本《阿惟越致经》（1卷）",
@@ -2039,6 +2405,8 @@ batch3 = [
         "museum":"中国国家图书馆",
         "image_url":"https://www.newton.com.tw/img/f/653/cGcq5yYmJmNwUTY5gzM5IWZyYjMlJzMhZGZ1I2YlJ2NlBDOiZ2MxITMwgzMv0WZ0l2LjlGcvU2apFmYv02bj5SdklWYi5yYyN3Ztl2LvoDc0RHa.jpg",
         "baike_url":"https://baike.baidu.com/item/%E5%8C%97%E5%AE%8B%E5%88%BB%E5%BC%80%E5%AE%9D%E8%97%8F%E6%9C%AC%E3%80%8A%E9%98%BF%E6%83%9F%E8%B6%8A%E8%87%B4%E7%BB%8F%E3%80%8B",
+        "category": ["古籍简牍", "佛家法器"],
+        "period_order": 28,
     },
     {
         "name":"北宋刻本《范仲淹文集》（30卷）",
@@ -2050,6 +2418,8 @@ batch3 = [
         "museum":"中国国家图书馆",
         "image_url":"https://pics6.baidu.com/feed/00e93901213fb80ec03a1d43965af53ebb3894d3.jpeg",
         "baike_url":"https://baike.baidu.com/item/%E8%8C%83%E6%96%87%E6%AD%A3%E5%85%AC%E6%96%87%E9%9B%86",
+        "category": ["古籍简牍"],
+        "period_order": 28,
     },
     {
         "name":"章怀太子墓壁画马球图（1组）",
@@ -2061,6 +2431,8 @@ batch3 = [
         "museum":"陕西历史博物馆",
         "image_url":"https://q7.itc.cn/q_70/images03/20250109/ec55129fbe67414dabf577315185943d.jpeg",
         "baike_url":"https://baike.baidu.com/item/%E7%AB%A0%E6%80%80%E5%A4%AA%E5%AD%90%E5%A2%93%E9%A9%AC%E7%90%83%E5%9B%BE",
+        "category": ["壁画"],
+        "period_order": 25,
     },
     {
         "name":"章怀太子墓壁画狩猎出行图（1组）",
@@ -2072,6 +2444,8 @@ batch3 = [
         "museum":"陕西历史博物馆",
         "image_url":"https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/png/87421245EFDEE68BE06F9B6B1F5E6D0E.png",
         "baike_url":"https://baike.baidu.com/item/%E7%AB%A0%E6%80%80%E5%A4%AA%E5%AD%90%E5%A2%93%E7%8B%A9%E7%8C%8E%E5%87%BA%E8%A1%8C%E5%9B%BE",
+        "category": ["壁画"],
+        "period_order": 25,
     },
     {
         "name":"懿德太子墓壁画阙楼图（1组）",
@@ -2083,6 +2457,8 @@ batch3 = [
         "museum":"陕西历史博物馆",
         "image_url":"https://pics6.baidu.com/feed/96dda144ad3459829b7208db2d947dbccaef8474.jpeg",
         "baike_url":"https://baike.baidu.com/item/%E6%87%BF%E5%BE%B7%E5%A4%AA%E5%AD%90%E5%A2%93%E9%98%99%E6%A5%BC%E5%9B%BE",
+        "category": ["壁画"],
+        "period_order": 25,
     },
     {
         "name":"永泰公主墓壁画宫女图（1组）",
@@ -2094,6 +2470,8 @@ batch3 = [
         "museum":"陕西历史博物馆",
         "image_url":"https://pics0.baidu.com/feed/cf1b9d16fdfaaf51478587f67ae127e1f11f7a5e.jpeg",
         "baike_url":"https://baike.baidu.com/item/%E6%B0%B8%E6%B3%B0%E5%85%AC%E4%B8%BB%E5%A2%93%E5%AE%AB%E5%A5%B3%E5%9B%BE",
+        "category": ["壁画"],
+        "period_order": 25,
     },
     {
         "name":"战国简《金縢》",
@@ -2105,6 +2483,8 @@ batch3 = [
         "museum":"清华大学",
         "image_url":"https://picx.zhimg.com/70/v2-fa2fdfc3e852dce0883343504b1f1468_1440w.avis",
         "baike_url":"https://baike.baidu.com/item/%E6%88%98%E5%9B%BD%E7%AE%80%E3%80%8A%E9%87%91%E7%B8%A2%E3%80%8B",
+        "category": ["古籍简牍"],
+        "period_order": 15,
     },
     {
         "name":"郭店楚简《老子（甲、乙、丙）》",
@@ -2116,6 +2496,8 @@ batch3 = [
         "museum":"荆门市博物馆",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/%E9%83%AD%E5%BA%97%E6%A5%9A%E7%AE%80%E3%80%8A%E8%80%81%E5%AD%90%E7%94%B2%E3%80%8B.jpg/960px-%E9%83%AD%E5%BA%97%E6%A5%9A%E7%AE%80%E3%80%8A%E8%80%81%E5%AD%90%E7%94%B2%E3%80%8B.jpg",
         "baike_url":"https://baike.baidu.com/item/%E9%83%AD%E5%BA%97%E6%A5%9A%E7%AE%80%E3%80%8A%E8%80%81%E5%AD%90%E3%80%8B",
+        "category": ["古籍简牍"],
+        "period_order": 15,
     },
     {
         "name":"楚简《孔子诗论》",
@@ -2127,6 +2509,8 @@ batch3 = [
         "museum":"上海博物馆",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/a/ac/K%C7%92ngz%C7%90_Sh%C4%ABl%C3%B9n_Manuscript_from_Shanghai_Museum_1.jpg",
         "baike_url":"https://baike.baidu.com/item/%E6%88%98%E5%9B%BD%E6%A5%9A%E7%AE%80%E3%80%8A%E5%AD%94%E5%AD%90%E8%AF%97%E8%AE%BA%E3%80%8B",
+        "category": ["古籍简牍"],
+        "period_order": 15,
     },
     {
         "name":"云梦睡虎地秦简《语书》",
@@ -2138,6 +2522,8 @@ batch3 = [
         "museum":"湖北省博物馆",
         "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Bamboo_Slips_of_Qin_Dynasty_Unearthed_from_Shuihudi_2013-01.JPG/960px-Bamboo_Slips_of_Qin_Dynasty_Unearthed_from_Shuihudi_2013-01.JPG",
         "baike_url":"https://baike.baidu.com/item/%E7%9D%A1%E8%99%8E%E5%9C%B0%E7%A7%A6%E5%A2%93%E7%AB%B9%E7%AE%80",
+        "category": ["古籍简牍"],
+        "period_order": 16,
     },
     {
         "name":"秦简《数》",
@@ -2149,6 +2535,8 @@ batch3 = [
         "museum":"湖南大学",
         "image_url":"https://pics5.baidu.com/feed/3801213fb80e7bec2737bca6cb5827289a506b0b.jpeg",
         "baike_url":"https://baike.baidu.com/item/数/2470274",
+        "category": ["古籍简牍"],
+        "period_order": 16,
     },
     {
         "name":"马王堆汉墓帛书《周易》",
@@ -2159,8 +2547,10 @@ batch3 = [
         "desc":"是迄今发现最早的《周易》写本之一，对研究《周易》的成书和流传具有重要价值。",
         "museum":"湖南省博物馆",
         "image_url":"https://pics7.baidu.com/feed/0824ab18972bd407ecf97580d63556410eb309da.jpeg",
-        "baike_url":"https://baike.baidu.com/item/%E9%A9%AC%E7%8E%8B%E5%A0%86%E5%B8%9B%E4%B9%A6%E5%91%A8%E6%98%93"
-    }
+        "baike_url":"https://baike.baidu.com/item/%E9%A9%AC%E7%8E%8B%E5%A0%86%E5%B8%9B%E4%B9%A6%E5%91%A8%E6%98%93",
+    "category": ["古籍简牍"],
+    "period_order": 17,
+  }
 ]
 
 # 合并所有批次
